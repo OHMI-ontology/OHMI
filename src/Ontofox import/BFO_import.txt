@@ -1,0 +1,30 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohmi/BFO_import.owl
+
+[Source ontology]
+BFO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000034 #function
+http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://purl.obolibrary.org/obo/BFO_0000019 #quality
+http://purl.obolibrary.org/obo/BFO_0000145 #relational quality
+http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/BFO_0000029 #site
+http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/BFO_0000030 #object
+http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/BFO_0000038 #one-dimensional temporal region
+http://purl.obolibrary.org/obo/BFO_0000148 #zero-dimensional temporal region
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

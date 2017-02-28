@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="BFO_import.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1487270004899" name="http://purl.obolibrary.org/obo/bfo.owl" uri="BFO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1487270004899" name="http://purl.obolibrary.org/obo/mimo/PCO_import.owl" uri="PCO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1487270004899" name="http://purl.obolibrary.org/obo/ohmi.owl" uri="ohmi.owl"/>
+    </group>
+</catalog>
