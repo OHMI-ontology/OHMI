@@ -57,8 +57,8 @@
     <owl:Class rdf:about="&obo;OHMI_0000001">
         <rdfs:label xml:lang="en">host-microbiome interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
-        <obo:IAO_0000117>YH, JZ</obo:IAO_0000117>
-        <obo:IAO_0000115>A process of the interaction between a host and a microbiome</obo:IAO_0000115>
+        <obo:IAO_0000115>A process of the interaction between a microbiome and its host</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -92,9 +92,10 @@
                 <owl:someValuesFrom rdf:resource="&obo;PCO_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A material entity consisting of a complex mixture of microorganisms that reside in a specific environmental niche.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2792171/</obo:IAO_0000119>
         <obo:IAO_0000118>microbiota</obo:IAO_0000118>
-        <obo:IAO_0000117>YH, JZ</obo:IAO_0000117>
-        <obo:IAO_0000115>A material entity consisting of a complex mixture of microorganisms that reside in a specific niche.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">WEB: https://en.wikipedia.org/wiki/Microbiota</obo:IAO_0000119>
     </owl:Class>
     
@@ -130,6 +131,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A microbiome that includes a collective population of bacterial organisms.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -211,7 +213,7 @@
     <owl:Class rdf:about="&obo;OHMI_0000011">
         <rdfs:label xml:lang="en">interaction between microbiome and host immune system</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000001"/>
-        <obo:IAO_0000117>YH, JZ</obo:IAO_0000117>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
         <obo:IAO_0000115>A host-microbiome interaction where the microbiome interacts with the host immune system</obo:IAO_0000115>
     </owl:Class>
     
@@ -224,7 +226,73 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000011"/>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27366226</obo:IAO_0000119>
         <obo:IAO_0000115>A interaction between microbiome and host immune system where the immune system is the host adaptive immune system</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, JZ</obo:IAO_0000117>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000013 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000013">
+        <rdfs:label xml:lang="en">microbiome in human lung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000014"/>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a human microbiome that is located in a human respiratory system</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000014 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000014">
+        <rdfs:label xml:lang="en">microbiome in human respiratory system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a human microbiome that is located in a human lung</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000015 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000015">
+        <rdfs:label xml:lang="en">microbiome in human oral</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000115>a human microbiome that is located in a human oral system</obo:IAO_0000115>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000016 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000016">
+        <rdfs:label xml:lang="en">microbiome in human gastrointestinal system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000115>a human microbiome that is located in a human gastrointestinal system</obo:IAO_0000115>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000017 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000017">
+        <rdfs:label xml:lang="en">microbiome in human cutaneous system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000115>a human microbiome that is located in a human cutaneous system</obo:IAO_0000115>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000018 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000018">
+        <rdfs:label xml:lang="en">microbiome in human urogenital system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a human microbiome that is located in a human urogenital system</obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
 
