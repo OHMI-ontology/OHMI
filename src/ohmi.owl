@@ -24,14 +24,16 @@
     <owl:Ontology rdf:about="&obo;ohmi.owl">
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Alexander Alekseyenko</dc:creator>
-        <dc:date xml:lang="en">02-27-2017</dc:date>
+        <dc:date xml:lang="en">03-20-2017</dc:date>
+        <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:creator>Jihad Obeid</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.01</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.11</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
+        <owl:imports rdf:resource="&obo;obi.owl"/>
         <owl:imports rdf:resource="&obo;bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="&obo;iao/2015-02-23/ontology-metadata.owl"/>
         <owl:imports rdf:resource="&obo;mimo/PCO_import.owl"/>
@@ -293,6 +295,33 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
         <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
         <obo:IAO_0000115>a human microbiome that is located in a human urogenital system</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000019 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000019">
+        <rdfs:label xml:lang="en">human-microbiome interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OBI_0000725"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A host-microbiome interaction where the host is human</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, HW</obo:IAO_0000117>
     </owl:Class>
 </rdf:RDF>
 

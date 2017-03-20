@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohmi/OBI_import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000725 #host role
+
+# http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
+# http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0000725 #host role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
