@@ -14,8 +14,8 @@
 ]>
 
 
-<rdf:RDF xmlns="&obo;ohmi_merged.owl#"
-     xml:base="&obo;ohmi_merged.owl"
+<rdf:RDF xmlns="&obo;ohmi.org#"
+     xml:base="&obo;ohmi.org"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -25,18 +25,66 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="&obo;ohmi_merged.owl">
+    <owl:Ontology rdf:about="&obo;ohmi.org">
+        <rdfs:comment rdf:datatype="&xsd;string">The Information Artifact Ontology (IAO) is licensed under the Creative Commons Attribution License (CC-BY) version 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. For more information see http://www.obofoundry.org/docs/Citation.html</rdfs:comment>
+        <protege:defaultLanguage rdf:datatype="&xsd;string">en</protege:defaultLanguage>
+        <dc:license rdf:datatype="&xsd;string">http://creativecommons.org/licenses/by/4.0/</dc:license>
+        <foaf:homepage rdf:datatype="&xsd;anyURI">https://github.com/oborel/obo-relations/wiki/ROCore</foaf:homepage>
+        <dc:contributor>David Osumi-Sutherland</dc:contributor>
+        <dc:contributor>Jie Zheng</dc:contributor>
+        <dc:contributor>Mathias Brochhausen</dc:contributor>
+        <dc:contributor>Chris Mungall</dc:contributor>
+        <obo:IAO_0000116>BFO 2 Reference: BFO does not claim to be a complete coverage of all entities. It seeks only to provide coverage of those entities studied by empirical science together with those entities which affect or are involved in human activities such as data processing and planning – coverage that is sufficiently broad to provide assistance to those engaged in building domain ontologies for purposes of data annotation [17</obo:IAO_0000116>
+        <dc:contributor>Bill Duncan</dc:contributor>
+        <dc:contributor>Mark Ressler</dc:contributor>
+        <dc:contributor>Randall Dipert</dc:contributor>
+        <obo:IAO_0000116>BFO 2 Reference: BFO’s treatment of continuants and occurrents – as also its treatment of regions, rests on a dichotomy between space and time, and on the view that there are two perspectives on reality – earlier called the ‘SNAP’ and ‘SPAN’ perspectives, both of which are essential to the non-reductionist representation of reality as we understand it from the best available science [30</obo:IAO_0000116>
+        <dc:contributor>Alan Ruttenberg</dc:contributor>
+        <dc:contributor>Ludger Jansen</dc:contributor>
+        <dc:contributor>Thomas Bittner</dc:contributor>
         <dc:creator>Jie Zheng</dc:creator>
+        <dc:contributor>Janna Hastings</dc:contributor>
+        <dc:contributor>Robert Rovetto</dc:contributor>
+        <dc:contributor>Jonathan Bona</dc:contributor>
+        <dc:date xml:lang="en">03-24-2017</dc:date>
         <dc:creator>Alexander Alekseyenko</dc:creator>
-        <dc:date xml:lang="en">02-27-2017</dc:date>
+        <dc:contributor>Fabian Neuhaus</dc:contributor>
+        <dc:contributor>Stefan Schulz</dc:contributor>
+        <dc:contributor>Ron Rudnicki</dc:contributor>
+        <dc:contributor>Bjoern Peters</dc:contributor>
+        <dc:contributor>Mauricio Almeida</dc:contributor>
         <dc:creator>Jihad Obeid</dc:creator>
+        <dc:contributor>Melanie Courtot</dc:contributor>
+        <obo:IAO_0000116>BFO 2 Reference: For both terms and relational expressions in BFO, we distinguish between primitive and defined. ‘Entity’ is an example of one such primitive term. Primitive terms in a highest-level ontology such as BFO are terms that are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms.</obo:IAO_0000116>
+        <dc:contributor>James A. Overton</dc:contributor>
+        <dc:contributor>Leonard Jacuzzo</dc:contributor>
+        <dc:contributor>Albert Goldfain</dc:contributor>
+        <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
-        <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.01</owl:versionInfo>
-        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>		
-		<dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
+        <rdfs:comment xml:lang="en">This is an early version of BFO version 2 and has not yet been extensively reviewed by the project team members. Please see the project site http://code.google.com/p/bfo/ , the bfo2 owl discussion group http://groups.google.com/group/bfo-owl-devel , the bfo2 discussion group http://groups.google.com/group/bfo-devel, the tracking google doc http://goo.gl/IlrEE, and the current version of the bfo2 reference http://purl.obolibrary.org/obo/bfo/dev/bfo2-reference.docx . This ontology is generated from a specification at http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/ and with the code that generates the OWL version in http://bfo.googlecode.com/svn/trunk/src/tools/. A very early version of BFO version 2 in CLIF is at http://purl.obolibrary.org/obo/bfo/dev/bfo.clif</rdfs:comment>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.12</owl:versionInfo>
+        <dc:contributor>Werner Ceusters</dc:contributor>
+        <dc:contributor>Barry Smith</dc:contributor>
+        <dc:contributor>Yongqun &quot;Oliver&quot; He</dc:contributor>
+        <dc:contributor>Pierre Grenon</dc:contributor>
+        <dc:contributor>Larry Hunter</dc:contributor>
+        <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
+        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/"/>
+        <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
+        <foaf:homepage rdf:resource="http://code.google.com/p/bfo/"/>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
+        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo/2012-07-20/Reference"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo/2014-05-03/ReleaseNotes"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo/dev/bfo.clif"/>
+        <rdfs:seeAlso rdf:resource="&obo;bfo/dev/owl"/>
+        <foaf:mbox rdf:resource="mailto:bfo-owl-devel@googlegroups.com"/>
     </owl:Ontology>
     
 
@@ -84,10 +132,15 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
+        <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
@@ -100,9 +153,11 @@
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000112">
         <rdfs:label xml:lang="en">example of usage</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">example</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </owl:AnnotationProperty>
@@ -138,6 +193,9 @@
 
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
         <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">textual definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <obo:IAO_0000116 xml:lang="en">2012-04-05: 
 Barry Smith
@@ -161,6 +219,7 @@ Personally, I am more comfortable weakening definition to documentation, with in
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
@@ -189,6 +248,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000117">
         <rdfs:label xml:lang="en">term editor</rdfs:label>
         <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
@@ -249,6 +309,34 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000233">
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+        <obo:IAO_0000115>An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
+        <obo:IAO_0000112>the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
+        <obo:IAO_0000119>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000111>term tracker item</obo:IAO_0000111>
+        <rdfs:comment>The &apos;tracker item&apos; can associate a tracker with a specific ontology term.</rdfs:comment>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000234">
+        <rdfs:label xml:lang="en">ontology term requester</rdfs:label>
+        <rdfs:comment>The &apos;term requester&apos; can credit the person, organization or project who request the ontology term.</rdfs:comment>
+        <obo:IAO_0000115>The name of the person, project, or organization that motivated inclusion of an ontology term by requesting its addition.</obo:IAO_0000115>
+        <obo:IAO_0000119>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </owl:AnnotationProperty>
     
 
@@ -514,9 +602,45 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/coverage -->
+
+    <owl:AnnotationProperty rdf:about="&dc;coverage"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="&dc;description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="&dc;format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="&dc;identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="&dc;language"/>
     
 
 
@@ -526,15 +650,39 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/relation -->
+
+    <owl:AnnotationProperty rdf:about="&dc;relation"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="&dc;rights"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="&dc;source"/>
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="&dc;subject"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="&dc;title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="&dc;type"/>
     
 
 
@@ -546,9 +694,17 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;isDefinedBy"/>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -673,12 +829,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <owl:inverseOf rdf:resource="&obo;BFO_0000067"/>
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000066"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000066"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
             <rdf:Description rdf:about="&obo;BFO_0000066"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -1602,8 +1758,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000122"/>
-                    <rdf:Description rdf:about="&obo;IAO_0000123"/>
                     <rdf:Description rdf:about="&obo;IAO_0000002"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000123"/>
                     <rdf:Description rdf:about="&obo;IAO_0000124"/>
                     <rdf:Description rdf:about="&obo;IAO_0000125"/>
                     <rdf:Description rdf:about="&obo;IAO_0000120"/>
@@ -2090,13 +2246,32 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000725 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000725">
+        <rdfs:label rdf:datatype="&xsd;string">host role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000119 rdf:datatype="&xsd;string">30 Mar09 submitted by vaccine community</obo:IAO_0000119>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">30Mar09 virus reproducing inside a cell; bacteria causing a disease, host can be harmed or not.  we want to avoid a cat sitting on my lap and an animal care technician; these are not examples or hosts; dental cares = on tooth, but part of outer layer of tooth, so covered by &quot;within&quot; in the definition</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">GROUP: Role Branch</obo:IAO_0000117>
+        <obo:IAO_0000112 rdf:datatype="&xsd;string">In biology, a host is an organism that harbors a virus or parasite, or a mutual or commensal symbiont, typically providing nourishment and shelter.  http://en.wikipedia.org/wiki/Host_(biology)  30 March 09</obo:IAO_0000112>
+        <obo:IAO_0000119 rdf:datatype="&xsd;string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">host role</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">host role is a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism within the organism playing the host role</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="&xsd;string">http://en.wikipedia.org/wiki/Host_(biology)</obo:IAO_0000119>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHMI_0000001 -->
 
     <owl:Class rdf:about="&obo;OHMI_0000001">
         <rdfs:label xml:lang="en">host-microbiome interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
-        <obo:IAO_0000117>YH, JZ</obo:IAO_0000117>
-        <obo:IAO_0000115>A process of the interaction between a host and a microbiome</obo:IAO_0000115>
+        <obo:IAO_0000115>A process of the interaction between a microbiome and its host</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2130,9 +2305,10 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                 <owl:someValuesFrom rdf:resource="&obo;PCO_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A material entity consisting of a complex mixture of microorganisms that reside in a specific environmental niche.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2792171/</obo:IAO_0000119>
         <obo:IAO_0000118>microbiota</obo:IAO_0000118>
-        <obo:IAO_0000117>YH, JZ</obo:IAO_0000117>
-        <obo:IAO_0000115>A material entity consisting of a complex mixture of microorganisms that reside in a specific niche.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">WEB: https://en.wikipedia.org/wiki/Microbiota</obo:IAO_0000119>
     </owl:Class>
     
@@ -2168,6 +2344,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A microbiome that includes a collective population of bacterial organisms.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2249,7 +2426,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="&obo;OHMI_0000011">
         <rdfs:label xml:lang="en">interaction between microbiome and host immune system</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000001"/>
-        <obo:IAO_0000117>YH, JZ</obo:IAO_0000117>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
         <obo:IAO_0000115>A host-microbiome interaction where the microbiome interacts with the host immune system</obo:IAO_0000115>
     </owl:Class>
     
@@ -2262,7 +2439,100 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000011"/>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27366226</obo:IAO_0000119>
         <obo:IAO_0000115>A interaction between microbiome and host immune system where the immune system is the host adaptive immune system</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, JZ</obo:IAO_0000117>
+        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000013 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000013">
+        <rdfs:label xml:lang="en">microbiome in human lung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000014"/>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a human microbiome that is located in a human respiratory system</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000014 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000014">
+        <rdfs:label xml:lang="en">microbiome in human respiratory system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a human microbiome that is located in a human lung</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000015 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000015">
+        <rdfs:label xml:lang="en">microbiome in human oral</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000115>a human microbiome that is located in a human oral system</obo:IAO_0000115>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000016 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000016">
+        <rdfs:label xml:lang="en">microbiome in human gastrointestinal system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000115>a human microbiome that is located in a human gastrointestinal system</obo:IAO_0000115>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000017 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000017">
+        <rdfs:label xml:lang="en">microbiome in human cutaneous system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000115>a human microbiome that is located in a human cutaneous system</obo:IAO_0000115>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000018 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000018">
+        <rdfs:label xml:lang="en">microbiome in human urogenital system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000002"/>
+        <obo:IAO_0000117>JO, AA, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a human microbiome that is located in a human urogenital system</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000019 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000019">
+        <rdfs:label xml:lang="en">human-microbiome interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OBI_0000725"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A host-microbiome interaction where the host is human</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, HW</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2291,14 +2561,14 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002351"/>
-                <owl:onClass rdf:resource="&obo;CARO_0001010"/>
-                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:allValuesFrom rdf:resource="&obo;CARO_0001010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002351"/>
-                <owl:allValuesFrom rdf:resource="&obo;CARO_0001010"/>
+                <owl:onClass rdf:resource="&obo;CARO_0001010"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minQualifiedCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>group of organism</obo:IAO_0000118>
@@ -2376,6 +2646,18 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002351"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002350"/>
+                        <owl:onClass rdf:resource="&obo;PCO_0000017"/>
+                        <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002351"/>
                 <owl:allValuesFrom rdf:resource="&obo;CARO_0001010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2384,18 +2666,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                 <owl:onProperty rdf:resource="&obo;RO_0002351"/>
                 <owl:onClass rdf:resource="&obo;CARO_0001010"/>
                 <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minQualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002351"/>
-                <owl:allValuesFrom>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0002350"/>
-                        <owl:onClass rdf:resource="&obo;PCO_0000017"/>
-                        <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
-                    </owl:Restriction>
-                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A material entity that has as parts two or more organisms, viruses, or viroids of the same species and no members of any other species.</obo:IAO_0000115>
@@ -2752,6 +3022,18 @@ binary, and takes no temporal argument.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/iao.owl -->
+
+    <owl:NamedIndividual rdf:about="&obo;iao.owl"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/obi.owl -->
+
+    <owl:NamedIndividual rdf:about="&obo;obi.owl"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2763,15 +3045,6 @@ binary, and takes no temporal argument.
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;IAO_0000226"/>
-            <rdf:Description rdf:about="&obo;IAO_0000227"/>
-            <rdf:Description rdf:about="&obo;IAO_0000228"/>
-            <rdf:Description rdf:about="&obo;IAO_0000229"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;IAO_0000120"/>
             <rdf:Description rdf:about="&obo;IAO_0000121"/>
             <rdf:Description rdf:about="&obo;IAO_0000122"/>
@@ -2780,6 +3053,15 @@ binary, and takes no temporal argument.
             <rdf:Description rdf:about="&obo;IAO_0000125"/>
             <rdf:Description rdf:about="&obo;IAO_0000423"/>
             <rdf:Description rdf:about="&obo;IAO_0000428"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;IAO_0000226"/>
+            <rdf:Description rdf:about="&obo;IAO_0000227"/>
+            <rdf:Description rdf:about="&obo;IAO_0000228"/>
+            <rdf:Description rdf:about="&obo;IAO_0000229"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>

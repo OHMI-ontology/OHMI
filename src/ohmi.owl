@@ -24,14 +24,14 @@
     <owl:Ontology rdf:about="&obo;ohmi.owl">
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Alexander Alekseyenko</dc:creator>
-        <dc:date xml:lang="en">03-20-2017</dc:date>
-        <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:creator>Jihad Obeid</dc:creator>
+        <dc:date xml:lang="en">03-24-2017</dc:date>
+        <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.11</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.12</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <owl:imports rdf:resource="&obo;obi.owl"/>
         <owl:imports rdf:resource="&obo;bfo/2.0/bfo.owl"/>
