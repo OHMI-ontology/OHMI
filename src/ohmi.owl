@@ -24,20 +24,21 @@
     <owl:Ontology rdf:about="&obo;ohmi.owl">
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Alexander Alekseyenko</dc:creator>
-        <dc:creator>Jihad Obeid</dc:creator>
-        <dc:date xml:lang="en">03-24-2017</dc:date>
+        <dc:date xml:lang="en">04-08-2017</dc:date>
         <dc:creator xml:lang="en">Haihe Wang</dc:creator>
+        <dc:creator>Jihad Obeid</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.12</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.14</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <owl:imports rdf:resource="&obo;obi.owl"/>
         <owl:imports rdf:resource="&obo;bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="&obo;iao/2015-02-23/ontology-metadata.owl"/>
         <owl:imports rdf:resource="&obo;mimo/PCO_import.owl"/>
         <owl:imports rdf:resource="&obo;obi/NCBITaxon_imports.owl"/>
+        <owl:imports rdf:resource="&obo;ohmi/UBERON_imports.owl"/>
         <owl:imports rdf:resource="&obo;ro/core.owl"/>
     </owl:Ontology>
     
@@ -59,6 +60,12 @@
     <owl:Class rdf:about="&obo;OHMI_0000001">
         <rdfs:label xml:lang="en">host-microbiome interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A process of the interaction between a microbiome and its host</obo:IAO_0000115>
         <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
     </owl:Class>
@@ -322,6 +329,110 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A host-microbiome interaction where the host is human</obo:IAO_0000115>
         <obo:IAO_0000117>YH, HW</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000020 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000020">
+        <rdfs:label xml:lang="en">human gut microbiome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000016"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>A microbiome located in a human gut.</obo:IAO_0000115>
+        <rdfs:comment>A human being&apos;s gut microbiota contains tens of trillions of microorganisms, including at least 1000 different species of known bacteria with more than 3 million genes (150 times more than human genes). Microbiota can, in total, weigh up to 2 kg. One third of our gut microbiota is common to most people, while two thirds are specific to each one of us. In other words, the microbiota in your intestine is like an individual identity card. URL: http://www.gutmicrobiotaforhealth.com/en/about-gut-microbiota-info/</rdfs:comment>
+        <obo:IAO_0000118>human gut microbiota</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000021 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000021">
+        <rdfs:label xml:lang="en">human-gut microbiome interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25864640</obo:IAO_0000119>
+        <obo:IAO_0000115>An interaction between human and gut microbiome.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000022 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000022">
+        <rdfs:label xml:lang="en">human-gut microbiome interaction in bowel syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>A human-gut microbiome interaction that is associated with bowel syndrome.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25864640</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000023 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000023">
+        <rdfs:label xml:lang="en">human-gut microbiome interaction in Crohn&apos;s disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25864640</obo:IAO_0000119>
+        <obo:IAO_0000115>A human-gut microbiome interaction that is associated with Crohn&apos;s disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000024 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000024">
+        <rdfs:label xml:lang="en">human-gut microbiome interaction in colon cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
+        <obo:IAO_0000115>A human-gut microbiome interaction that is associated with colon cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25864640</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000025 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000025">
+        <rdfs:label xml:lang="en">human gut microbiome and Clostridium difficile interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4892173/</obo:IAO_0000119>
+        <obo:IAO_0000115>A human-gut microbiome interaction that involves in Clostridium difficile</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000026 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000026">
+        <rdfs:label xml:lang="en">antibiotics reducing colonization resistance against C. diffifile in human gut</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000025"/>
+        <obo:IAO_0000115>A human-gut microbiome interaction where antibiotics have significant and long-lasting effects on the intestinal microbiota and consequently reduce colonization resistance against Clostridium difficile.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4892173/</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000027 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000027">
+        <rdfs:label xml:lang="en">restoring human gut microbiome resistance to C. diffifile infection by fecal microbiota transplantation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000025"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>A human-gut microbiome interaction where a fecal microbiota transplantation is used to restore a human gut microbiome to a state resistant to Clostridium difficile infection.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4328137/</obo:IAO_0000119>
+        <obo:IAO_0000118>restoring human gut microbiome resistance to CDI by FMT</obo:IAO_0000118>
     </owl:Class>
 </rdf:RDF>
 

@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohmi/UBERON_imports.owl
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0001988 #feces
+http://purl.obolibrary.org/obo/UBERON_0001007 #digestive system
+http://purl.obolibrary.org/obo/UBERON_0000160 #intestine
+http://purl.obolibrary.org/obo/UBERON_0000165 #mouth
+http://purl.obolibrary.org/obo/UBERON_0000945 #stomach
+http://purl.obolibrary.org/obo/UBERON_0000059 #large intestine
+http://purl.obolibrary.org/obo/UBERON_0002108 #small intestine
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
+
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties 
