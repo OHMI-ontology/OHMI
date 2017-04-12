@@ -117,6 +117,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1496">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clostridioides difficile</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clostridioides difficile</obo:IAO_0000111>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Clostridium] difficile</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_197562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_197562">

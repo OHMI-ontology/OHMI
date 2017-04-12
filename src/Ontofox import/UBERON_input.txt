@@ -16,6 +16,7 @@ http://purl.obolibrary.org/obo/UBERON_0002108 #small intestine
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 
 [Source term retrieval setting]

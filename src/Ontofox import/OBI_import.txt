@@ -6,6 +6,12 @@ OBI
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBI_0000725 #host role
+http://purl.obolibrary.org/obo/OBI_1110021 #infection process
+http://purl.obolibrary.org/obo/OBI_1110122 #pathologic process
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+
+
+
 
 # http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
 # http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
@@ -13,6 +19,9 @@ http://purl.obolibrary.org/obo/OBI_0000725 #host role
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0000725 #host role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+
+http://purl.obolibrary.org/obo/BFO_0000015 #process
+
 
 [Source term retrieval setting]
 includeNoIntermediates

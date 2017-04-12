@@ -167,6 +167,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000059">
@@ -491,6 +497,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010841</obo:hasDbXref>
         <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000000</obo:hasDbXref>
         <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000000</obo:hasDbXref>

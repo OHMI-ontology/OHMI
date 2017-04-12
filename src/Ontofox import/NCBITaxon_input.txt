@@ -29,6 +29,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_7742
 http://purl.obolibrary.org/obo/NCBITaxon_9989
 http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_4751 #fungi
+http://purl.obolibrary.org/obo/NCBITaxon_1496 #Clostridioides difficile
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2157
