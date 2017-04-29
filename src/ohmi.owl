@@ -24,14 +24,14 @@
     <owl:Ontology rdf:about="&obo;ohmi.owl">
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Alexander Alekseyenko</dc:creator>
-        <dc:date xml:lang="en">04-20-2017</dc:date>
-        <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:creator>Jihad Obeid</dc:creator>
+        <dc:date xml:lang="en">04-28-2017</dc:date>
+        <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.16</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.17</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator xml:lang="en">Yu Hong</dc:creator>
         <owl:imports rdf:resource="&obo;obi.owl"/>
@@ -42,6 +42,7 @@
         <owl:imports rdf:resource="&obo;obi/NCBITaxon_imports.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/UBERON_imports.owl"/>
         <owl:imports rdf:resource="&obo;ro/core.owl"/>
+        <owl:imports rdf:resource="&obo;ro/releases/2017-04-11/ro.owl"/>
     </owl:Ontology>
     
 
@@ -54,6 +55,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+    <rdf:Description rdf:about="&obo;HP_0000118">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+    </rdf:Description>
     
 
 
@@ -345,7 +354,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000021 -->
 
     <owl:Class rdf:about="&obo;OHMI_0000021">
-        <rdfs:label xml:lang="en">human-gut microbiome interaction</rdfs:label>
+        <rdfs:label xml:lang="en">human gut microbiome interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -363,7 +372,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000022 -->
 
     <owl:Class rdf:about="&obo;OHMI_0000022">
-        <rdfs:label xml:lang="en">human-gut microbiome interaction in bowel syndrome</rdfs:label>
+        <rdfs:label xml:lang="en">human gut microbiome interaction in bowel syndrome</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>A human-gut microbiome interaction that is associated with bowel syndrome.</obo:IAO_0000115>
@@ -375,7 +384,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000023 -->
 
     <owl:Class rdf:about="&obo;OHMI_0000023">
-        <rdfs:label xml:lang="en">human-gut microbiome interaction in Crohn&apos;s disease</rdfs:label>
+        <rdfs:label xml:lang="en">human gut microbiome interaction in Crohn&apos;s disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25864640</obo:IAO_0000119>
         <obo:IAO_0000115>A human-gut microbiome interaction that is associated with Crohn&apos;s disease.</obo:IAO_0000115>
@@ -387,7 +396,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000024 -->
 
     <owl:Class rdf:about="&obo;OHMI_0000024">
-        <rdfs:label xml:lang="en">human-gut microbiome interaction in colon cancer</rdfs:label>
+        <rdfs:label xml:lang="en">human gut microbiome interaction in colon cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
         <obo:IAO_0000115>A human-gut microbiome interaction that is associated with colon cancer.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
@@ -411,7 +420,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000026 -->
 
     <owl:Class rdf:about="&obo;OHMI_0000026">
-        <rdfs:label xml:lang="en">antibiotics reducing colonization resistance against C. diffifile in human gut</rdfs:label>
+        <rdfs:label xml:lang="en">antibiotics reducing colonization resistance against C. difficile in human gut</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000025"/>
         <obo:IAO_0000115>A human-gut microbiome interaction where antibiotics have significant and long-lasting effects on the intestinal microbiota and consequently reduce colonization resistance against Clostridium difficile.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
@@ -423,7 +432,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000027 -->
 
     <owl:Class rdf:about="&obo;OHMI_0000027">
-        <rdfs:label xml:lang="en">restoring human gut microbiome resistance to C. diffifile infection by fecal microbiota transplantation</rdfs:label>
+        <rdfs:label xml:lang="en">restoring human gut microbiome resistance to C. difficile infection by fecal microbiota transplantation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000025"/>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>A human-gut microbiome interaction where a fecal microbiota transplantation is used to restore a human gut microbiome to a state resistant to Clostridium difficile infection.</obo:IAO_0000115>
@@ -441,6 +450,54 @@
         <obo:IAO_0000115 xml:lang="en">An infection process that is caused by Clostridioides difficile.</obo:IAO_0000115>
         <obo:IAO_0000118>CDI</obo:IAO_0000118>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000029 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000029">
+        <rdfs:label xml:lang="en">association of human gut microbiota with rheumatoid arthritis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4840970/</obo:IAO_0000119>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>A human gut-microbiome interaction that is associated with rheumatoid arthritis (RA).</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000030 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000030">
+        <rdfs:label xml:lang="en">patient with RA having decreased gut microbial diversity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows a patient with RV  exhibits decreased gut microbial diversity</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4840970/</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000031 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000031">
+        <rdfs:label xml:lang="en">expansion of Actinobacteria in RA patient gut</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_201174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4840970/</obo:IAO_0000119>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa, Actinobacteria, in patients with RA compared with controls.</obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
 
