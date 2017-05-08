@@ -1,5 +1,5 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/obi/NCBITaxon_imports.owl
+http://purl.obolibrary.org/obo/ohmi/NCBITaxon_imports.owl
 
 [Source ontology]
 #comment here
@@ -29,212 +29,170 @@ http://purl.obolibrary.org/obo/NCBITaxon_7742
 http://purl.obolibrary.org/obo/NCBITaxon_9989
 http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_4751 #fungi
-http://purl.obolibrary.org/obo/NCBITaxon_1496 #Clostridioides difficile
-http://purl.obolibrary.org/obo/NCBITaxon_1502 #Clostridium perfringens 
-
-http://purl.obolibrary.org/obo/NCBITaxon_29523
-http://purl.obolibrary.org/obo/NCBITaxon_171552
-http://purl.obolibrary.org/obo/NCBITaxon_165179
-http://purl.obolibrary.org/obo/NCBITaxon_1314
-http://purl.obolibrary.org/obo/NCBITaxon_85004
-http://purl.obolibrary.org/obo/NCBITaxon_838
-http://purl.obolibrary.org/obo/NCBITaxon_816
-http://purl.obolibrary.org/obo/NCBITaxon_836
-http://purl.obolibrary.org/obo/NCBITaxon_817
-http://purl.obolibrary.org/obo/NCBITaxon_1532
-http://purl.obolibrary.org/obo/NCBITaxon_29465
-http://purl.obolibrary.org/obo/NCBITaxon_724
-http://purl.obolibrary.org/obo/NCBITaxon_573
-http://purl.obolibrary.org/obo/NCBITaxon_1681
-http://purl.obolibrary.org/obo/NCBITaxon_40545
-http://purl.obolibrary.org/obo/NCBITaxon_158847
-http://purl.obolibrary.org/obo/NCBITaxon_333367
-http://purl.obolibrary.org/obo/NCBITaxon_471189
-http://purl.obolibrary.org/obo/NCBITaxon_84112
-
-http://purl.obolibrary.org/obo/NCBITaxon_1689
-http://purl.obolibrary.org/obo/NCBITaxon_1591
-http://purl.obolibrary.org/obo/NCBITaxon_46228
-http://purl.obolibrary.org/obo/NCBITaxon_29523
-http://purl.obolibrary.org/obo/NCBITaxon_724
-http://purl.obolibrary.org/obo/NCBITaxon_416916
-http://purl.obolibrary.org/obo/NCBITaxon_2717
-http://purl.obolibrary.org/obo/NCBITaxon_538
-http://purl.obolibrary.org/obo/NCBITaxon_32257
-http://purl.obolibrary.org/obo/NCBITaxon_172042
-http://purl.obolibrary.org/obo/NCBITaxon_192066
-http://purl.obolibrary.org/obo/NCBITaxon_172042
-http://purl.obolibrary.org/obo/NCBITaxon_1624
-http://purl.obolibrary.org/obo/NCBITaxon_84163
-http://purl.obolibrary.org/obo/NCBITaxon_29465
 http://purl.obolibrary.org/obo/NCBITaxon_1654
-http://purl.obolibrary.org/obo/NCBITaxon_562
-http://purl.obolibrary.org/obo/NCBITaxon_584
-http://purl.obolibrary.org/obo/NCBITaxon_573
-http://purl.obolibrary.org/obo/NCBITaxon_2115
-http://purl.obolibrary.org/obo/NCBITaxon_837
-http://purl.obolibrary.org/obo/NCBITaxon_837
-http://purl.obolibrary.org/obo/NCBITaxon_28112
-http://purl.obolibrary.org/obo/NCBITaxon_28131
-http://purl.obolibrary.org/obo/NCBITaxon_216851
-http://purl.obolibrary.org/obo/NCBITaxon_74426
-http://purl.obolibrary.org/obo/NCBITaxon_448465
-http://purl.obolibrary.org/obo/NCBITaxon_1301
-http://purl.obolibrary.org/obo/NCBITaxon_1582
-http://purl.obolibrary.org/obo/NCBITaxon_630
-http://purl.obolibrary.org/obo/NCBITaxon_740
-http://purl.obolibrary.org/obo/NCBITaxon_1624
-http://purl.obolibrary.org/obo/NCBITaxon_59823
-http://purl.obolibrary.org/obo/NCBITaxon_816
-http://purl.obolibrary.org/obo/NCBITaxon_1760
-http://purl.obolibrary.org/obo/NCBITaxon_186801
-http://purl.obolibrary.org/obo/NCBITaxon_1502
-http://purl.obolibrary.org/obo/NCBITaxon_85004
-http://purl.obolibrary.org/obo/NCBITaxon_816
-http://purl.obolibrary.org/obo/NCBITaxon_836
 http://purl.obolibrary.org/obo/NCBITaxon_838
-http://purl.obolibrary.org/obo/NCBITaxon_407
-http://purl.obolibrary.org/obo/NCBITaxon_1269
-http://purl.obolibrary.org/obo/NCBITaxon_1847
-http://purl.obolibrary.org/obo/NCBITaxon_1654
-http://purl.obolibrary.org/obo/NCBITaxon_32008
-http://purl.obolibrary.org/obo/NCBITaxon_157
-http://purl.obolibrary.org/obo/NCBITaxon_838
-http://purl.obolibrary.org/obo/NCBITaxon_836
-http://purl.obolibrary.org/obo/NCBITaxon_201174 #Actinobacteria (Phylum) 
-http://purl.obolibrary.org/obo/NCBITaxon_84111
-http://purl.obolibrary.org/obo/NCBITaxon_191303
-http://purl.obolibrary.org/obo/NCBITaxon_1301
-http://purl.obolibrary.org/obo/NCBITaxon_216851
-http://purl.obolibrary.org/obo/NCBITaxon_165179
-http://purl.obolibrary.org/obo/NCBITaxon_573
-http://purl.obolibrary.org/obo/NCBITaxon_573
-http://purl.obolibrary.org/obo/NCBITaxon_837
-http://purl.obolibrary.org/obo/NCBITaxon_28131
-http://purl.obolibrary.org/obo/NCBITaxon_28112
-http://purl.obolibrary.org/obo/NCBITaxon_158
-http://purl.obolibrary.org/obo/NCBITaxon_541000
-http://purl.obolibrary.org/obo/NCBITaxon_171550
-http://purl.obolibrary.org/obo/NCBITaxon_28115
-http://purl.obolibrary.org/obo/NCBITaxon_186803
-http://purl.obolibrary.org/obo/NCBITaxon_815
-http://purl.obolibrary.org/obo/NCBITaxon_31977
-http://purl.obolibrary.org/obo/NCBITaxon_171552
-http://purl.obolibrary.org/obo/NCBITaxon_39948
-http://purl.obolibrary.org/obo/NCBITaxon_813
-http://purl.obolibrary.org/obo/NCBITaxon_59823
-http://purl.obolibrary.org/obo/NCBITaxon_171550
+http://purl.obolibrary.org/obo/NCBITaxon_104608
 http://purl.obolibrary.org/obo/NCBITaxon_821
-http://purl.obolibrary.org/obo/NCBITaxon_577309
-http://purl.obolibrary.org/obo/NCBITaxon_853
-http://purl.obolibrary.org/obo/NCBITaxon_239935
-http://purl.obolibrary.org/obo/NCBITaxon_194
-http://purl.obolibrary.org/obo/NCBITaxon_629
+http://purl.obolibrary.org/obo/NCBITaxon_548
+http://purl.obolibrary.org/obo/NCBITaxon_67825
 http://purl.obolibrary.org/obo/NCBITaxon_590
-http://purl.obolibrary.org/obo/NCBITaxon_1827
-http://purl.obolibrary.org/obo/NCBITaxon_84111
+http://purl.obolibrary.org/obo/NCBITaxon_87265
+http://purl.obolibrary.org/obo/NCBITaxon_1239
+http://purl.obolibrary.org/obo/NCBITaxon_976
+http://purl.obolibrary.org/obo/NCBITaxon_200643
+http://purl.obolibrary.org/obo/NCBITaxon_186801
+http://purl.obolibrary.org/obo/NCBITaxon_171549
+http://purl.obolibrary.org/obo/NCBITaxon_186802
+http://purl.obolibrary.org/obo/NCBITaxon_1257
+http://purl.obolibrary.org/obo/NCBITaxon_1354003
+http://purl.obolibrary.org/obo/NCBITaxon_815
+http://purl.obolibrary.org/obo/NCBITaxon_543
+http://purl.obolibrary.org/obo/NCBITaxon_81852
+http://purl.obolibrary.org/obo/NCBITaxon_171552
+http://purl.obolibrary.org/obo/NCBITaxon_816
+http://purl.obolibrary.org/obo/NCBITaxon_1350
 http://purl.obolibrary.org/obo/NCBITaxon_570
 http://purl.obolibrary.org/obo/NCBITaxon_838
-http://purl.obolibrary.org/obo/NCBITaxon_1730
-http://purl.obolibrary.org/obo/NCBITaxon_946234
-http://purl.obolibrary.org/obo/NCBITaxon_39948
-http://purl.obolibrary.org/obo/NCBITaxon_46205
-http://purl.obolibrary.org/obo/NCBITaxon_1578
-http://purl.obolibrary.org/obo/NCBITaxon_186803
-http://purl.obolibrary.org/obo/NCBITaxon_541000
-http://purl.obolibrary.org/obo/NCBITaxon_239759
-http://purl.obolibrary.org/obo/NCBITaxon_186802
-http://purl.obolibrary.org/obo/NCBITaxon_1300
-http://purl.obolibrary.org/obo/NCBITaxon_407975
-http://purl.obolibrary.org/obo/NCBITaxon_306
-http://purl.obolibrary.org/obo/NCBITaxon_51160
-http://purl.obolibrary.org/obo/NCBITaxon_1017
-http://purl.obolibrary.org/obo/NCBITaxon_186802
-http://purl.obolibrary.org/obo/NCBITaxon_1305
-http://purl.obolibrary.org/obo/NCBITaxon_729
-http://purl.obolibrary.org/obo/NCBITaxon_28136
-http://purl.obolibrary.org/obo/NCBITaxon_651822
-http://purl.obolibrary.org/obo/NCBITaxon_848
-http://purl.obolibrary.org/obo/NCBITaxon_838
-http://purl.obolibrary.org/obo/NCBITaxon_970
-http://purl.obolibrary.org/obo/NCBITaxon_157
-http://purl.obolibrary.org/obo/NCBITaxon_976
-http://purl.obolibrary.org/obo/NCBITaxon_816
-http://purl.obolibrary.org/obo/NCBITaxon_171549
-http://purl.obolibrary.org/obo/NCBITaxon_815
-http://purl.obolibrary.org/obo/NCBITaxon_171551
-http://purl.obolibrary.org/obo/NCBITaxon_200795
-http://purl.obolibrary.org/obo/NCBITaxon_292625
-http://purl.obolibrary.org/obo/NCBITaxon_292629
-http://purl.obolibrary.org/obo/NCBITaxon_292628
-http://purl.obolibrary.org/obo/NCBITaxon_85007
-http://purl.obolibrary.org/obo/NCBITaxon_85025
-http://purl.obolibrary.org/obo/NCBITaxon_1827
-http://purl.obolibrary.org/obo/NCBITaxon_909932
-http://purl.obolibrary.org/obo/NCBITaxon_909929
-http://purl.obolibrary.org/obo/NCBITaxon_641
-http://purl.obolibrary.org/obo/NCBITaxon_657
-http://purl.obolibrary.org/obo/NCBITaxon_662
-http://purl.obolibrary.org/obo/NCBITaxon_33042
-http://purl.obolibrary.org/obo/NCBITaxon_186803
-http://purl.obolibrary.org/obo/NCBITaxon_541000
-http://purl.obolibrary.org/obo/NCBITaxon_1505663
-http://purl.obolibrary.org/obo/NCBITaxon_766165
-http://purl.obolibrary.org/obo/NCBITaxon_697899
-http://purl.obolibrary.org/obo/NCBITaxon_397864
-http://purl.obolibrary.org/obo/NCBITaxon_115543
-http://purl.obolibrary.org/obo/NCBITaxon_577309
-http://purl.obolibrary.org/obo/NCBITaxon_244127
-http://purl.obolibrary.org/obo/NCBITaxon_46205
-http://purl.obolibrary.org/obo/NCBITaxon_47678
-http://purl.obolibrary.org/obo/NCBITaxon_29523
-http://purl.obolibrary.org/obo/NCBITaxon_657309
-http://purl.obolibrary.org/obo/NCBITaxon_61170
-http://purl.obolibrary.org/obo/NCBITaxon_258514
-http://purl.obolibrary.org/obo/NCBITaxon_116085
-http://purl.obolibrary.org/obo/NCBITaxon_853
-http://purl.obolibrary.org/obo/NCBITaxon_459786
-http://purl.obolibrary.org/obo/NCBITaxon_41978
-http://purl.obolibrary.org/obo/NCBITaxon_283168
-http://purl.obolibrary.org/obo/NCBITaxon_292632
-http://purl.obolibrary.org/obo/NCBITaxon_588605
-http://purl.obolibrary.org/obo/NCBITaxon_39948
-http://purl.obolibrary.org/obo/NCBITaxon_239759
-http://purl.obolibrary.org/obo/NCBITaxon_853
-http://purl.obolibrary.org/obo/NCBITaxon_816
-http://purl.obolibrary.org/obo/NCBITaxon_186803
-http://purl.obolibrary.org/obo/NCBITaxon_1678
-http://purl.obolibrary.org/obo/NCBITaxon_1150298
-http://purl.obolibrary.org/obo/NCBITaxon_1531
-http://purl.obolibrary.org/obo/NCBITaxon_239935
-http://purl.obolibrary.org/obo/NCBITaxon_816
-http://purl.obolibrary.org/obo/NCBITaxon_239935
-http://purl.obolibrary.org/obo/NCBITaxon_821
-http://purl.obolibrary.org/obo/NCBITaxon_1354003
-http://purl.obolibrary.org/obo/NCBITaxon_1678
-http://purl.obolibrary.org/obo/NCBITaxon_1182749
-http://purl.obolibrary.org/obo/NCBITaxon_1582
-http://purl.obolibrary.org/obo/NCBITaxon_1613
-http://purl.obolibrary.org/obo/NCBITaxon_1622
-http://purl.obolibrary.org/obo/NCBITaxon_1579
-http://purl.obolibrary.org/obo/NCBITaxon_562
-http://purl.obolibrary.org/obo/NCBITaxon_573
-http://purl.obolibrary.org/obo/NCBITaxon_630
-http://purl.obolibrary.org/obo/NCBITaxon_817
-http://purl.obolibrary.org/obo/NCBITaxon_33042
-http://purl.obolibrary.org/obo/NCBITaxon_239934
-http://purl.obolibrary.org/obo/NCBITaxon_1263
-http://purl.obolibrary.org/obo/NCBITaxon_46205
-http://purl.obolibrary.org/obo/NCBITaxon_74201
-http://purl.obolibrary.org/obo/NCBITaxon_375288
-http://purl.obolibrary.org/obo/NCBITaxon_100883
-http://purl.obolibrary.org/obo/NCBITaxon_1301
+http://purl.obolibrary.org/obo/NCBITaxon_1088106
+http://purl.obolibrary.org/obo/NCBITaxon_310297
+http://purl.obolibrary.org/obo/NCBITaxon_165179
+http://purl.obolibrary.org/obo/NCBITaxon_363265
+http://purl.obolibrary.org/obo/NCBITaxon_36470
+http://purl.obolibrary.org/obo/NCBITaxon_10407
+http://purl.obolibrary.org/obo/NCBITaxon_11103
+http://purl.obolibrary.org/obo/NCBITaxon_12721
 http://purl.obolibrary.org/obo/NCBITaxon_1743
+http://purl.obolibrary.org/obo/NCBITaxon_
+http://purl.obolibrary.org/obo/NCBITaxon_76775
+http://purl.obolibrary.org/obo/NCBITaxon_86731
+http://purl.obolibrary.org/obo/NCBITaxon_76777
+http://purl.obolibrary.org/obo/NCBITaxon_77020
+http://purl.obolibrary.org/obo/NCBITaxon_5476
+http://purl.obolibrary.org/obo/NCBITaxon_5481
+http://purl.obolibrary.org/obo/NCBITaxon_55194
+http://purl.obolibrary.org/obo/NCBITaxon_1239
+http://purl.obolibrary.org/obo/NCBITaxon_976
+http://purl.obolibrary.org/obo/NCBITaxon_201174
+http://purl.obolibrary.org/obo/NCBITaxon_1224
 
-#The three do not have match
-http://purl.obolibrary.org/obo/NCBITaxon_1872650
-http://purl.obolibrary.org/obo/NCBITaxon_372028
-http://purl.obolibrary.org/obo/NCBITaxon_1898203
+http://purl.obolibrary.org/obo/NCBITaxon_1496 #Clostridioides difficile RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1502 #Clostridium perfringens RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_29523 #Bacteroides species RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_171552 #Prevotellaceae RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_165179 #P. copri RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1314 #Streptococcus pyogenes RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_85004 #Bifidobacteriales RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_838 #Prevotella group RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_816 #Bacteroides RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_836 #Porphyromonas RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_817 #Bacteroides fragilis RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1532 #Blautia coccoides/Clostridium coccoides RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_29465 #Veillonella RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_724 #Haemophilus RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_573 #Klebsiella pneumoniae RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1681 #Bifidobacterium bifidum RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_40545 #Sutterella wadsworthensis RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_158847 #Megamonas hypermegale RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_333367 #Clostridium asparagiforme RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_471189 #Gordonibacter pamelaeae RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_84112 #Eggerthella lenta RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1898203 #Lachnospiraceae bacterium RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1689 #Bifidobacterium dentium RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1591 #Lactobacillus sp RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_46228 #Ruminococcus lactaris RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_29523 #Bacteroides sp RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_724 #haemophilus RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_416916 #aggragatibacter RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_2717 #cardiobacterium  RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_538 #eikenella RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_32257 #kingella RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_172042 #rothia aeria RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_192066 #nesseria spp RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_172042 #rothia aeria RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_1624 #lactobacillus salivarius RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_1872650 #atopobium spp RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_84163 #cryptobacterium curtum RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_29465 #veillonella RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_1654 #actinomycess sp RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_562 #Escherichia coli RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_584 #Proteus mirabilis RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_573 #Klebsiella pneumoniae RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_2115 #mycoplasma Fermentans RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_837 #Porphyromonas gingivalis RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_837 #Porphyromonas gingivalis RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_28112 #Tannerella forsythensis RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_28131 #Prevotella intermedia RA Oral
+http://purl.obolibrary.org/obo/NCBITaxon_216851 #Faecalibacterium RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_74426 #Collinsella aerofaciens RA faeces
+http://purl.obolibrary.org/obo/NCBITaxon_448465 #E. lenta RA faeces
+
+http://purl.obolibrary.org/obo/NCBITaxon_641 #Vibrionaceae Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_657 #Photobacterium Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_662 #Vibrio Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_33042 #Coprococcus
+
+
+
+http://purl.obolibrary.org/obo/NCBITaxon_186803 #Lachnospiraceae NC2004 
+http://purl.obolibrary.org/obo/NCBITaxon_541000 #Ruminococcaceae NK4A214 Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1505663 #Erysipelatoclostridium Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_766165 #Escherichia coli EPEC Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_697899 #Escherichia coli ETEC Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_397864 #Barnesiella Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_115543 #Parasporobacterium Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_577309 #Paraprevotella Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_244127 #Anaerotruncus Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_46205 #Pseudobutyrivibrio Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_47678 #Bacteroides caccae  Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_29523 #Bacteroides sp Gout faeces 
+http://purl.obolibrary.org/obo/NCBITaxon_657309 #Bacteroides xylanisolvens XB1A Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_61170 #Holdemania Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_258514 #Acetanaerobacterium Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_116085 #Coprococcus catus  Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_853 #Faecalibacterium prausnitzii Gout faeces 
+http://purl.obolibrary.org/obo/NCBITaxon_459786 #Oscillibacter Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_41978 #Ruminococcus sp Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_283168 #Odoribacter Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_292632 #Subdoligranulum Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_588605 #Robinsoniella Gout faeces
+
+
+http://purl.obolibrary.org/obo/NCBITaxon_39948 #Dialister Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_239759 #Alistipes Gout faeces
+http://purl.obolibrary.org/obo/NCBITaxon_816 #Bacteroides Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_186803 #Lachnospiraceae Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1678 #Bifidobacterium Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1150298 #Fusicatenibacter saccharivorans Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1531 #Clostridium clostridioforme Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_239935 #Akkermansia muciniphila Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_816 #Bacteroides Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_239935 #Akkermansia muciniphila Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_821 #Bacteroides vulgatus Arthritis  Rat faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1354003 #Escherichia coli Arthritis  Rat faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1678 #Bifidobacterium Arthritis  Rat faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1182749 #Propionibacterium acnes Arthritis  Rat faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1582 #Lactobacillus casei Arthritis  Rat faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1613 # L.fermentum Arthritis  Rat faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1622 #Lactobacillus murinus Arthritis  Rat faeces
+
+http://purl.obolibrary.org/obo/NCBITaxon_562 #Escherichia coli Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_573 #Klebsiella pneumonia Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_630 #Yersinia enterocolitica Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_817 #Bacteroides fragilis Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_33042 #Coprococcus spp psoriatic arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_239934 #Akkermansia psoriatic arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1263 #Ruminococcus psoriatic arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_46205 #Pseudobutyrivibrio psoriatic arthritis faeces 
+http://purl.obolibrary.org/obo/NCBITaxon_74201 #Verrucomicrobia psoriatic arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_375288 #Parabacteroides psoriatic arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_100883 #Coprobacillus psoriatic arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1301 #Streptococcus psoriatic arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1743 #Propionibacterium acnes psoriatic arthritis faeces
+
+
+http://purl.obolibrary.org/obo/NCBITaxon_853 #Faecalibacterium prausnitzii Arthritis faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1579 #Lactobacillus acidophilus Arthritis Rat faeces
+
 
 
 [Top level source term URIs and target direct superclass URIs]
