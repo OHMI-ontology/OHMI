@@ -640,6 +640,56 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004907">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower digestive tract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:49179</obo:hasDbXref>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA class was moved from here. See https://github.com/obophenotype/uberon/issues/509</obo:UBPROP_0000012>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The region of the digestive tract extending from the beginning of the intestines to the anus[GO - gut definition].</obo:IAO_0000115>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0004907</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0226875</obo:hasDbXref>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WP: small intestine, large intestine, anus. Anal canal not part of LGIT according to FMA, but anus is considered part of LGIT according to WP. Duodenum overlaps both U/L</obo:UBPROP_0000012>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:LowerGastrointestinalTract</obo:hasDbXref>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gut</obo:hasBroadSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower GI tract</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower gastrointestinal tract</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</obo:hasOBONamespace>
+        <obo:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Alimentary_canal#Upper_gastrointestinal_tract"/>
+        <obo:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0226875"/>
+        <obo:hasDbXref rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C33010"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <obo:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/279973004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004908">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper digestive tract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:49177</obo:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The region of the digestive tract extending from the mouth cavity through pharynx esophagus stomach and duodenum.</obo:IAO_0000115>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0004908</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0226874</obo:hasDbXref>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WP: small intestine, large intestine, anus. Anal canal not part of LGIT according to FMA, but anus is considered part of LGIT according to WP. Duodenum overlaps both U/L. In Galen, entire GI tract excludes esophagus</obo:UBPROP_0000012>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:UpperGastrointestinalTract</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper GI tract</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper gastrointestinal tract</obo:hasExactSynonym>
+        <obo:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Alimentary_canal#Upper_gastrointestinal_tract"/>
+        <obo:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0226874"/>
+        <obo:hasDbXref rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C33837"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <obo:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181244000"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0004921 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004921">
