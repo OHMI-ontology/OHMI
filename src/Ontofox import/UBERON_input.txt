@@ -14,6 +14,8 @@ http://purl.obolibrary.org/obo/UBERON_0000059 #large intestine
 http://purl.obolibrary.org/obo/UBERON_0002108 #small intestine
 http://purl.obolibrary.org/obo/UBERON_0004907 #lower digestive tract
 http://purl.obolibrary.org/obo/UBERON_0004908 #upper digestive tract
+http://purl.obolibrary.org/obo/UBERON_0001005 #respiratory airway
+http://purl.obolibrary.org/obo/UBERON_0000167 #oral cavity 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity

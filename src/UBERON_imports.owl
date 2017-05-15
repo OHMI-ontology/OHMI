@@ -250,6 +250,40 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that performs a specific function or group of functions [WP].</obo:IAO_0000115>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO v1 does not include a generic &#39;organ&#39; class, only simple and compound organ. CARO v2 may include organ, see https://github.com/obophenotype/caro/issues/4</obo:UBPROP_0000012>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0020004</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000634</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:35949</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:01000162</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67498</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0003001</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rv5XMb5wpEbGdrcN5Y29ycA</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rwP3iWpwpEbGdrcN5Y29ycA</obo:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions.</obo:UBPROP_0000001>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000062</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0178784</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0003760</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical unit</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body organ</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">element</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</obo:hasOBONamespace>
+        <obo:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Organ_(anatomy)"/>
+        <obo:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0178784"/>
+        <obo:hasDbXref rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#upper_level"/>
+        <obo:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_4"/>
+        <obo:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/272625005"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000160">
@@ -368,6 +402,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000167">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oral cavity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000053</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000960</obo:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cavity at the start of the digestive tract that that is enclosed by the mouth. The boundaries and contents vary depending on the species. In vertebrates, the boundaries are the oral opening, the cheeks, the palate and (if present) the palatoglossal arch - if this is not present then the mouth and pharynx form the oropharyngeal cavity. The buccal cavity contains the teeth, tongue and palate (when present)</obo:IAO_0000115>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cavity bounded anteriorly by the mouth and posteriorly by the derivatives of the branchial arches.[AAO]</obo:UBPROP_0000001>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSA:0000107</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-1315</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001975</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001324</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:6970</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17411</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:18399</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100057</obo:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinoderms, hemichordates, and chordates are called deuterostomes because the mouth arises not from the blastopore but from a second invagination at the anterior end of the larva that pushes in to connect with the archenteron.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:20292</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000669</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001027</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGMA:0000102</obo:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cavity of the mouth, bounded by the jaw bones and associated structures (muscles and mucosa). [TFD][VHOG]</obo:UBPROP_0000001>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000167</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0226896</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000188</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0005255</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000126</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001027</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bucca</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">buccal cavity</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cavity of mouth</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</obo:hasOBONamespace>
+        <obo:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0226896"/>
+        <obo:hasDbXref rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12421"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
+        <obo:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181220002"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
@@ -443,6 +521,27 @@
         <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
         <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/e/e0/Stomach_diagram.svg"/>
         <obo:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181246003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory airway</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An airway through which respiratory air passes in organisms.</obo:IAO_0000115>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:265130</obo:hasDbXref>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class generically groups trachea and analagous structures throughout metazoa. Consider renaming, as the term could be taken to mean lumen of tracheal system (e.g. in SNOMED). As a grouping class this is quite vague, as it is not clear where the airway begins and ends</obo:IAO_0000232>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001005</obo:id>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">airway</obo:hasBroadSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">airways</obo:hasBroadSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</obo:hasOBONamespace>
+        <obo:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Trachea"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#grouping_class"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <obo:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/361380005"/>
     </owl:Class>
     
 
@@ -732,7 +831,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013765">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive system element</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the organs or elements that are part of the digestive system. Examples: tongue, esophagus, spleen, crop, lunge feeding organ, tooth elements.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0013765</obo:id>
         <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestive organ</obo:hasExactSynonym>

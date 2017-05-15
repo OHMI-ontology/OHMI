@@ -6,6 +6,11 @@ DOID
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/DOID_7148 #rheumatoid arthritis
+http://purl.obolibrary.org/obo/DOID_7147 #ankylosing spondylitis
+http://purl.obolibrary.org/obo/DOID_9074 #System Lupus Erythematosus
+http://purl.obolibrary.org/obo/DOID_848 #arthritis
+http://purl.obolibrary.org/obo/DOID_9008 #psoriatic arthritis
+http://purl.obolibrary.org/obo/DOID_13189 #gout
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease

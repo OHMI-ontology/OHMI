@@ -7,8 +7,11 @@
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
     <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY doid "http://purl.obolibrary.org/obo/doid#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY subsets "http://purl.obolibrary.org/obo/ro/subsets#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
 ]>
 
 
@@ -16,22 +19,25 @@
      xml:base="&obo;ohmi.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doid="&obo;doid#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:subsets="&obo;ro/subsets#">
     <owl:Ontology rdf:about="&obo;ohmi.owl">
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Alexander Alekseyenko</dc:creator>
-        <dc:date xml:lang="en">05-10-2017</dc:date>
+        <dc:date xml:lang="en">05-15-2017</dc:date>
         <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:creator>Jihad Obeid</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.21</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.23</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator xml:lang="en">Yu Hong</dc:creator>
         <owl:imports rdf:resource="&obo;obi.owl"/>
@@ -496,7 +502,7 @@
 
     <owl:Class rdf:about="&obo;OHMI_0000030">
         <rdfs:label xml:lang="en">patient with RA having decreased gut microbial diversity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000041"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000057"/>
@@ -603,7 +609,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa, Actinobacteria, in patients with RA compared with healthy controls.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4840970/</obo:IAO_0000119>
-        <obo:IAO_0000117>YH, HW, YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -693,7 +699,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YH, HW, YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
         <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of K. pneumoniae in in patients with RA compared with healthy controls.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
     </owl:Class>
@@ -705,9 +711,1953 @@
     <owl:Class rdf:about="&obo;OHMI_0000035">
         <rdfs:label xml:lang="en">depleted organism quantity compared with healthy control</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
-        <obo:IAO_0000115>A quality with an increased quantity of a type of organism (e.g., bacteria inside human gut) compared with control.</obo:IAO_0000115>
+        <obo:IAO_0000115>A quality with a depleted quantity of a type of organism (e.g., bacteria inside human gut) compared with control.</obo:IAO_0000115>
         <obo:IAO_0000117>YH, HW, HY</obo:IAO_0000117>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000036 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000036">
+        <rdfs:label xml:lang="en">human oral cavity microbiome interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;UBERON_0000167"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/26214836/</obo:IAO_0000119>
+        <obo:IAO_0000115>An interaction between human and oral microbiome.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH WH YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000037 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000037">
+        <rdfs:label xml:lang="en">expansion of Gordonibacter pamelaeae in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_471189"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_471189"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC26214836/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa, Gordonibacter pamelaeae, in patients with RA compared with healthy controls.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000038 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000038">
+        <rdfs:label xml:lang="en">expansion of Prevotellaceae in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_171552"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_171552"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa,Prevotellaceae, in patients with chronic RA compared with healthy controls and new-onset rheumatoid arthritis(NORA).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMID:24192039/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000039 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000039">
+        <rdfs:label xml:lang="en">Bifidobacterium bifidum depletion in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1681"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1681"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of Haemophilus in patients with RA compared with healthy control.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000040 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000040">
+        <rdfs:label xml:lang="en">Veillonella depletion in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_29465"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_29465"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of Veillonellain patients with RA compared with healthy controls.</obo:IAO_0000115>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000041 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000041">
+        <rdfs:label xml:lang="en">Sutterella wadsworthensis depletion in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_40545"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_40545"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of Sutterella wadsworthensis patients with RA compared with healthy controls.</obo:IAO_0000115>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000042 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000042">
+        <rdfs:label xml:lang="en">Megamonas hypermegale depletion in RA patient gut&apos;</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_158847"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_158847"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of Megamonas hypermegale patients with RA compared with healthy controls.</obo:IAO_0000115>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000043 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000043">
+        <rdfs:label xml:lang="en">expansion of  [Clostridium] asparagiforme in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_333367"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_333367"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC26214836/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa, [Clostridium] asparagiforme, in patients with RA compared with healthy controls.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000044 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000044">
+        <rdfs:label xml:lang="en">Bifidobacteriales depletion in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1678"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1678"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of Bifidobacteriales in patients with RA compared withpatients with fibromyalgia (FM).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=18528968</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000045 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000045">
+        <rdfs:label xml:lang="en">expansion of  Eggerthella lenta in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_84112"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_84112"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC26214836/</obo:IAO_0000119>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa,Eggerthella lenta, in patients with RA compared with healthy controls.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000046 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000046">
+        <rdfs:label xml:lang="en">depleted organism quantity in acute disease patient compared with chronic disease control</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <obo:IAO_0000117>YH, HW, HY</obo:IAO_0000117>
+        <obo:IAO_0000115>A quality with a depleted quantity of a type of organism (e.g., bacteria inside human gut) in a patient with an acute disease compared with a patient control with the same disease but at a chronic stage.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000047 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000047">
+        <rdfs:label xml:lang="en">expansion of Lachnospiraceae bacterium in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_201174"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_201174"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC26214836/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa, Lachnospiraceae bacterium, in patients with RA compared with healthy controls.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000048 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000048">
+        <rdfs:label xml:lang="en">expansion of Bifidobacterium dentium in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1689"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1689"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa,Bifidobacterium dentium, in patients with RA compared with healthy controls.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC26214836/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000049 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000049">
+        <rdfs:label xml:lang="en">expansion of Lactobacillus sp in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1591"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1591"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC26214836/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa,Lactobacillus sp, in patients with RA compared with healthy controls.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000050 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000050">
+        <rdfs:label xml:lang="en">expansion of Ruminococcus lactaris in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_46228"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_46228"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa,Ruminococcus lactaris, in patients with RA compared with healthy controls.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC26214836/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000051 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000051">
+        <rdfs:label xml:lang="en">expansion of Bacteroides sp. in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_29523"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_29523"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC26214836/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa,Bacteroides sp., in patients with RA compared with healthy controls.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000052 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000052">
+        <rdfs:label xml:lang="en">depleted organism quantity compared with FM disease control</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <obo:IAO_0000117>YH, HW, HY</obo:IAO_0000117>
+        <obo:IAO_0000115>A quality with a depleted quantity of a type of organism (e.g., bacteria inside human gut) compared with a patient control with the fibromyalgia (FM) disease.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000083 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000083">
+        <rdfs:label xml:lang="en">association of human oral cavity microbiota with rheumatoid arthritis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4840970/</obo:IAO_0000119>
+        <obo:IAO_0000115>A human gut-microbiome interaction that is associated with rheumatoid arthritis (RA).</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000084 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000084">
+        <rdfs:label xml:lang="en">Haemophilus depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_724"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_724"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of Haemophilus in patients with RA compared with healthy control.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000086 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000086">
+        <rdfs:label xml:lang="en">Cardiobacterium  depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_2717"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_2717"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of Haemophilus in patients with RA compared with healthy control.</obo:IAO_0000115>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000087 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000087">
+        <rdfs:label xml:lang="en">Eikenella  depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_538"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_538"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of eikenella in patients with RA compared with healthy control.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000088 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000088">
+        <rdfs:label xml:lang="en">Kingella depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_32257"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_32257"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of kingella in patients with RA compared with healthy control.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000089 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000089">
+        <rdfs:label xml:lang="en">Rothia aeria depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_172042"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_172042"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of rothia aeria in patients with RA compared with healthy control.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000092 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000092">
+        <rdfs:label xml:lang="en">Lactobacillus salivarius depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1624"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_1624"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of lactobacillus salivarius in patients with RA compared with healthy control.</obo:IAO_0000115>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000093 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000093">
+        <rdfs:label xml:lang="en">Cryptobacterium curtum depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_84163"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_84163"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of cryptobacterium curtum in patients with RA compared with healthy control.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000094 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000094">
+        <rdfs:label xml:lang="en">Veillonella depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_29465"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_29465"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of veillonella in patients with RA compared with healthy control.</obo:IAO_0000115>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000095 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000095">
+        <rdfs:label xml:lang="en">Prevotella depletion in RA patient  oral cavity</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_838"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_838"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000035"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human oral cavity microbiota with rheumatoid arthritis (RA) that shows a depleted quantity of prevotella in patients with RA compared with healthy control.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=22576262</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000096 -->
+
+    <owl:Class rdf:about="&obo;OHMI_0000096">
+        <rdfs:label xml:lang="en">expansion of Escherichia coli in RA patient gut</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_562"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;NCBITaxon_562"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;RO_0000091"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000032"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC20360042/</obo:IAO_0000119>
+        <obo:IAO_0000117>Haihe W, Hong Y, Yongqun H</obo:IAO_0000117>
+        <obo:IAO_0000115>An association of human gut microbiota with rheumatoid arthritis (RA) that shows an expansion of rare taxa, Escherichia coli, in patients with RA compared with healthy controls.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004907 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0004907"/>
 </rdf:RDF>
 
 
