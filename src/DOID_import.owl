@@ -1,22 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid.owl#"
-     xml:base="http://purl.obolibrary.org/obo/doid.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ohmi/DOID_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ohmi/DOID_import.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:doid="http://purl.obolibrary.org/obo/doid#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid.owl">
-        <obo:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05:05:2017 10:30</obo:date>
-        <obo:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</obo:hasOBOFormatVersion>
-        <obo:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</obo:auto-generated-by>
-        <obo:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</obo:default-namespace>
-        <obo:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elvira</obo:saved-by>
-        <rdfs:comment>The Disease Ontology content is available via the Creative Commons Public Domain Dedication CC0 1.0 Universal license (https://creativecommons.org/publicdomain/zero/1.0/).</rdfs:comment>
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/doid/releases/2017-05-05/doid.owl"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohmi/DOID_import.owl"/>
     
 
 
@@ -28,59 +19,40 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim">
-        <rdfs:comment xml:lang="en">DO_FlyBase_slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasDbXref"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasRelatedSynonym"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasExactSynonym"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/inSubset"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subset_property</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/doid#DO_MGI_slim">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DO_MGI_slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasDbXref"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasOBONamespace"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasExactSynonym"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasAlternativeId"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/doid#DO_rare_slim">
-        <rdfs:comment>DO_rare_slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/inSubset"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
@@ -92,35 +64,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
-        <rdfs:label>located in</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002200 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
-        <rdfs:label>has phenotype</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:ObjectProperty>
     
 
 
@@ -145,17 +88,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060032">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune disease of musculoskeletal system</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_417"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002204"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease that is the abnormal functioning of the immune system that causes your immune system to produce antibodies or T cells against cells and/or tissues in the musculoskeletal system.</obo:IAO_0000115>
@@ -166,55 +98,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_0060056 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060056">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypersensitivity reaction disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immune system disease that has material basis in abnormal immune responses.</obo:IAO_0000115>
-        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060056</obo:id>
-        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</obo:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0080001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_65"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A connective tissue disease that affects the structure or development of bone or causes an impairment of normal bone function.</obo:IAO_0000115>
-        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080001</obo:id>
-        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1290</obo:hasAlternativeId>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:M89.9</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001847</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:156814002</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:203524000</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:268126004</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:274145000</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:308147009</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:76069003</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0005940</obo:hasDbXref>
-        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</obo:hasOBONamespace>
-        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal disease</obo:hasRelatedSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_13189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13189">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gout</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_848"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001369"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthritis that has_material_basis_in uric acid crystal deposits located_in joint.</obo:IAO_0000115>
         <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Articular gout</obo:hasExactSynonym>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13189</obo:id>
@@ -255,25 +143,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1575">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rheumatic disease</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_417"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060032"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_65"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hypersensitivity reaction type II disease that involves inflammation or pain in the muscles, joints, or fibrous tissue.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1575</obo:id>
         <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</obo:hasOBONamespace>
@@ -286,17 +157,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_17">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">musculoskeletal system disease</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002204"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity that occurs in the muscular and/or skeletal system.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:17</obo:id>
@@ -315,39 +175,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_225 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_225">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syndrome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease comprised of a group of signs and symptoms that occur together and characterize a particular abnormality.</obo:IAO_0000115>
-        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:225</obo:id>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D013577</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C28193</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:64572001</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0039082</obo:hasDbXref>
-        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</obo:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_2914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2914">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune system disease</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002405"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity that is located_in the immune system.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2914</obo:id>
@@ -372,7 +203,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3342">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone inflammation disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_65"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone disease that results_in inflammation of the located_in bone.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3342</obo:id>
         <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory disorder of bone</obo:hasExactSynonym>
@@ -411,7 +242,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_417">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypersensitivity reaction type II disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060056"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immune system disease that is an overactive immune response of the body against substances and tissues normally present in the body resulting from an abnormal functioning of the immune system that results in the production of antibodies or T cell directed against the host tissues.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:417</obo:id>
         <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:720</obo:hasDbXref>
@@ -429,17 +260,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_65">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connective tissue disease</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A musculoskeletal system disease that affects tissues such as skin, tendons, and cartilage.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:65</obo:id>
@@ -454,6 +274,54 @@
         <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</obo:hasOBONamespace>
         <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder of connective tissue</obo:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_676">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile rheumatoid arthritis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rheumatoid arthritis that involves an autoimmune disease onset in children under 16 which attacks the healthy cells and tissue of located_in joint.</obo:IAO_0000115>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10129</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1264</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:675</obo:hasAlternativeId>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:676</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:M08.4</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:M08.40</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:714.3</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:714.31</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:714.32</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:714.33</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C26979</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C61279</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:604302</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDO:92</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pauciarticular onset juvenile chronic arthritis</obo:hasExactSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:201798003</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:201799006</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:201803007</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:201809006</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:74391003</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:7441009</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:75822003</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:83793004</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0157916</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0157917</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0157918</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0409667</obo:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute juvenile rheumatoid arthritis</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile chronic polyarthritis</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile idiopathic arthritis</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monarticular juvenile rheumatoid arthritis</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pauciarticular juvenile arthritis</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic juvenile rheumatoid arthritis</obo:hasExactSynonym>
+        <obo:hasDbXref>MESH:D001171</obo:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
     </owl:Class>
     
 
@@ -508,18 +376,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7148">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rheumatoid arthritis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_848"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002960"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001369"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthritis that is an autoimmune disease which attacks healthy cells and tissue located_in joint.</obo:IAO_0000115>
         <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthritis or polyarthritis, rheumatic</obo:hasExactSynonym>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:7148</obo:id>
@@ -549,12 +405,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_848">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthritis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3342"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002829"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bone inflammation disease that involves a response to irritation or injury, characterized by joint pain, swelling, stiffness located_in joint and/or redness located_in skin over the joint.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:848</obo:id>
         <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:M19.90</obo:hasDbXref>
@@ -573,31 +423,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_8857 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8857">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lupus erythematosus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
-        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8857</obo:id>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:L93</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:L93.0</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:695.4</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C27153</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:200936003</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:200944003</obo:hasDbXref>
-        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0409974</obo:hasDbXref>
-        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</obo:hasOBONamespace>
-        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lupus</obo:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_9008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9008">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psoriatic arthritis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_225"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A syndrome that occurs in humans with psoriasis who also experience symptoms similar to arthritis.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9008</obo:id>
         <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0003778</obo:hasDbXref>
@@ -624,7 +454,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9074">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic lupus erythematosus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1575"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_8857"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lupus erythematosus that is an inflammation of connective tissue marked by skin rashes, joint pain and swelling, inflammation of the kidneys and inflammation of the tissue surrounding the heart.</obo:IAO_0000115>
         <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9074</obo:id>
         <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0002690</obo:hasDbXref>
@@ -665,209 +495,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotypic abnormality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000924 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000924">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of the skeletal system</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001367 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001367">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal joint morphology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001369 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001369">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthritis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001367"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002715 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002715">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of the immune system</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002829 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002829">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthralgia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001367"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002960 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002960">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmunity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010978"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0010978 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010978">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of immune system physiology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0011842 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011842">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of skeletal morphology</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000924"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000061 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000061">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000467 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000467">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical system</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000479 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000479">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002204 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002204">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">musculoskeletal system</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002384 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002384">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connective tissue</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002405 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002405">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune system</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0010000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular anatomical structure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
 </rdf:RDF>
 
 

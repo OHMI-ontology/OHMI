@@ -192,6 +192,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_1743 #Propionibacterium acnes psoriatic
 
 http://purl.obolibrary.org/obo/NCBITaxon_853 #Faecalibacterium prausnitzii Arthritis faeces
 http://purl.obolibrary.org/obo/NCBITaxon_1579 #Lactobacillus acidophilus Arthritis Rat faeces
+http://purl.obolibrary.org/obo/NCBITaxon_1717 #Corynebacterium diphtheriae
+http://purl.obolibrary.org/obo/NCBITaxon_85025 #Nocardiaceae
 
 
 

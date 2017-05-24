@@ -11,15 +11,19 @@ http://purl.obolibrary.org/obo/DOID_9074 #System Lupus Erythematosus
 http://purl.obolibrary.org/obo/DOID_848 #arthritis
 http://purl.obolibrary.org/obo/DOID_9008 #psoriatic arthritis
 http://purl.obolibrary.org/obo/DOID_13189 #gout
+http://purl.obolibrary.org/obo/DOID_676 #juvenile rheumatoid arthritis
+http://purl.obolibrary.org/obo/DOID_2914 #immune system disease
+http://purl.obolibrary.org/obo/DOID_7 #disease of anatomical entity
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties
 
 [Source annotation URIs to be excluded]
