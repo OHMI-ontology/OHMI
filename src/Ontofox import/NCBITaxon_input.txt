@@ -195,6 +195,9 @@ http://purl.obolibrary.org/obo/NCBITaxon_1579 #Lactobacillus acidophilus Arthrit
 http://purl.obolibrary.org/obo/NCBITaxon_1717 #Corynebacterium diphtheriae
 http://purl.obolibrary.org/obo/NCBITaxon_85025 #Nocardiaceae
 
+http://purl.obolibrary.org/obo/NCBITaxon_10114 #Rattus
+http://purl.obolibrary.org/obo/NCBITaxon_1300 #Streptococcaceae 
+http://purl.obolibrary.org/obo/NCBITaxon_810 #Chlamydia 
 
 
 [Top level source term URIs and target direct superclass URIs]
