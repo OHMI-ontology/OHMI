@@ -198,6 +198,26 @@ http://purl.obolibrary.org/obo/NCBITaxon_85025 #Nocardiaceae
 http://purl.obolibrary.org/obo/NCBITaxon_10114 #Rattus
 http://purl.obolibrary.org/obo/NCBITaxon_1300 #Streptococcaceae 
 http://purl.obolibrary.org/obo/NCBITaxon_810 #Chlamydia 
+http://purl.obolibrary.org/obo/NCBITaxon_292629 #Anaerolineales 
+http://purl.obolibrary.org/obo/NCBITaxon_119045 #Methylobacteriaceae
+http://purl.obolibrary.org/obo/NCBITaxon_1268 #Micrococcaceae
+http://purl.obolibrary.org/obo/NCBITaxon_2070 #Pseudonocardiaceae
+http://purl.obolibrary.org/obo/NCBITaxon_119060 #Burkholderiaceae
+http://purl.obolibrary.org/obo/NCBITaxon_137 #Spirochaetaceae
+http://purl.obolibrary.org/obo/NCBITaxon_157 #Treponema
+http://purl.obolibrary.org/obo/NCBITaxon_72294 #Campylobacteraceae
+http://purl.obolibrary.org/obo/NCBITaxon_186806 #Eubacteriaceae
+http://purl.obolibrary.org/obo/NCBITaxon_186813 #unclassified Clostridiales
+http://purl.obolibrary.org/obo/NCBITaxon_286 #Pseudomonas
+http://purl.obolibrary.org/obo/NCBITaxon_157 #Treponema
+http://purl.obolibrary.org/obo/NCBITaxon_1016 #Capnocytophaga
+http://purl.obolibrary.org/obo/NCBITaxon_1434006 #Fretibacterium
+http://purl.obolibrary.org/obo/NCBITaxon_203492 #Fusobacteriaceae
+http://purl.obolibrary.org/obo/NCBITaxon_1843491 #Selenomonadaceae
+http://purl.obolibrary.org/obo/NCBITaxon_137 #Spirochaetaceae
+http://purl.obolibrary.org/obo/NCBITaxon_194924 #Desulfovibrionaceae
+http://purl.obolibrary.org/obo/NCBITaxon_1903411 #Yersiniaceae
+
 
 
 [Top level source term URIs and target direct superclass URIs]
