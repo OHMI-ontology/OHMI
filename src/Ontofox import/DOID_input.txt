@@ -14,7 +14,15 @@ http://purl.obolibrary.org/obo/DOID_13189 #gout
 http://purl.obolibrary.org/obo/DOID_676 #juvenile rheumatoid arthritis
 http://purl.obolibrary.org/obo/DOID_2914 #immune system disease
 http://purl.obolibrary.org/obo/DOID_7 #disease of anatomical entity
-
+http://purl.obolibrary.org/obo/DOID_3083 #chronic obstructive pulmonary disease
+http://purl.obolibrary.org/obo/DOID_9256 #Colorectal cancer
+http://purl.obolibrary.org/obo/DOID_684 # hepatocellular carcinoma
+http://purl.obolibrary.org/obo/DOID_5517 #stomach carcinoma
+http://purl.obolibrary.org/obo/DOID_5041 #esophagus cancer
+http://purl.obolibrary.org/obo/DOID_9256 #colorectal cancer
+http://purl.obolibrary.org/obo/DOID_4606 #bile duct cancer
+http://purl.obolibrary.org/obo/DOID_1793 #pancreatic cancer
+http://purl.obolibrary.org/obo/DOID_162 #cancer
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease

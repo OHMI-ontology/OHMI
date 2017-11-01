@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0003156 #Caucasian
+http://www.ebi.ac.uk/efo/EFO_0003150 #African American
+http://www.ebi.ac.uk/efo/EFO_0003157 #Chinese
+http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0000181 #population
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

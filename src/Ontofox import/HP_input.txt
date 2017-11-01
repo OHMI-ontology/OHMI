@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0011227 #Elevated C-reactive protein level
+http://purl.obolibrary.org/obo/HP_0003565 #Elevated erythrocyte sedimentation rate
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000023 #Phenotype
+subClassOf http://purl.obolibrary.org/obo/CMO_0001531 #blood immunoglobulin measurement
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

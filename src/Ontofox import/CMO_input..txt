@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohmi/CMO_import.owl
+
+[Source ontology]
+CMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CMO_0002095 #serum immunoglobulin A level
+http://purl.obolibrary.org/obo/CMO_0002102 #serum immunoglobulin G level
+http://purl.obolibrary.org/obo/CMO_0002104 #serum immunoglobulin M level
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CMO_0000000 #clinical measurement
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement data
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

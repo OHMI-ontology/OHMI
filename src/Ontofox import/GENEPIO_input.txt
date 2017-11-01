@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+GENEPIO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GENEPIO_0000053 #16S rRNA sequencing
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GENEPIO_0001422 #laboratory sequencing datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
