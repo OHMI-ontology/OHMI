@@ -44,16 +44,13 @@
         <owl:versionInfo xml:lang="en">Vision Release: 1.0.37</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator xml:lang="en">Yu Hong</dc:creator>
-        <owl:imports rdf:resource="&obo;bfo/2.0/bfo.owl"/>
-        <owl:imports rdf:resource="&obo;iao/2015-02-23/ontology-metadata.owl"/>
-        <owl:imports rdf:resource="&obo;mimo/PCO_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohmi/PCO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/CMO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/DOID_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/NCBITaxon_imports.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/OBI_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/UBERON_imports.owl"/>
-        <owl:imports rdf:resource="&obo;ro/core.owl"/>
-        <owl:imports rdf:resource="&obo;ro/releases/2017-04-11/ro.owl"/>
+        <owl:imports rdf:resource="&obo;ohmi/RO_imports.owl"/>
     </owl:Ontology>
     
 

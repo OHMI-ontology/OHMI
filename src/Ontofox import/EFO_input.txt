@@ -1,5 +1,6 @@
 [URI of the OWL(RDF/XML) output file]
 
+http://purl.obolibrary.org/obo/ohmi/EFO_import.owl
 
 [Source ontology]
 EFO
