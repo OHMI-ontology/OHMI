@@ -49,7 +49,7 @@
         <owl:imports rdf:resource="&obo;ohmi/NCBITaxon_imports.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/OBI_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/PCO_import.owl"/>
-        <owl:imports rdf:resource="&obo;ohmi/RO_imports.owl"/>
+        <owl:imports rdf:resource="&obo;ohmi/RO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/UBERON_imports.owl"/>
     </owl:Ontology>
     

@@ -7,6 +7,11 @@ RO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/RO_0002233 #has input
 http://purl.obolibrary.org/obo/RO_0002234 #has output
+http://purl.obolibrary.org/obo/BFO_0000066 #occurs in
+http://purl.obolibrary.org/obo/RO_0001025 #located in
+http://purl.obolibrary.org/obo/RO_0000086 #has quality
+http://purl.obolibrary.org/obo/RO_0000087 #has role
+http://purl.obolibrary.org/obo/RO_0000091 #has disposition
 
 http://purl.obolibrary.org/obo/RO_0002222 #temporallly related to
 includeAllChildren
