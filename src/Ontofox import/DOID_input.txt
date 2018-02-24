@@ -23,6 +23,7 @@ http://purl.obolibrary.org/obo/DOID_9256 #colorectal cancer
 http://purl.obolibrary.org/obo/DOID_4606 #bile duct cancer
 http://purl.obolibrary.org/obo/DOID_1793 #pancreatic cancer
 http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_219 #colon cancer
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease
