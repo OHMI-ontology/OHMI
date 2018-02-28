@@ -32,16 +32,16 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:subsets="&obo;ro/subsets#">
     <owl:Ontology rdf:about="&obo;ohmi.owl">
-        <dc:date xml:lang="en">02-24-2018</dc:date>
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Alexander Alekseyenko</dc:creator>
+        <dc:date xml:lang="en">02-28-2018</dc:date>
         <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:creator>Jihad Obeid</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.41</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.43</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator xml:lang="en">Yu Hong</dc:creator>
         <owl:imports rdf:resource="&obo;ohmi/CMO_import.owl"/>
