@@ -13,7 +13,7 @@ Y. HE, H. Wang, H. Yu, J. Zheng, D. P. Beiting, A. M. Masci, T. Putman, B. Smith
 
 Jihad S. Obeid, Alexander V. Alekseyenko, Jie Zheng, Anna Maria Masci, Yongqun "Oliver" He. An Ontology for Host-Microbiome Interactions. 23rd International Scientific Symposium on Biometrics (BioStat 2017), Sibenik, Croatia, 7-10 June 2017. 
 
-Jihad Obeid. An Ontology for Host-Microbiome Interactions. 
+Jihad Obeid. An Ontology for Host-Microbiome Interactions. 2017 SCTR Scientific Retreat on the Human Microbiome. MUSC Bioengineering Auditorium, Room 110, Wednesday, May 3, 2017.  
 Web: http://academicdepartments.musc.edu/sctr/programs/retreats/2017_Microbiome/microbiome 
 
 See more details:  
