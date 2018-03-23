@@ -11,3 +11,5 @@ The development of the OHMI is a collaborative community effort, currently by on
 
 Y. HE, H. Wang, H. Yu, J. Zheng, D. P. Beiting, A. M. Masci, T. Putman, B. Smith, A. V. Alekseyenko, J. S. Obeid. <b>OHMI: the Community-Based Ontology of Host-Microbiome Interactions (Hmi) to Support Standardized Hmi Representation and Analysis</b>. ASM Microbe 2018. June 7-11, Atlanta, GA, USA. Accepted. 
 
+More: 
+https://github.com/OHMI-ontology/OHMI/wiki/News
