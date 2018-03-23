@@ -7,3 +7,7 @@ OHMI is aimed to ontologically represent various entities and relations related 
 
 The development of the OHMI is a collaborative community effort, currently by ontology developers from the University of Michigan, the University of Pennsylvania, and the Medical University of South Carolina.  
 
+# News:
+
+Y. HE, H. Wang, H. Yu, J. Zheng, D. P. Beiting, A. M. Masci, T. Putman, B. Smith, A. V. Alekseyenko, J. S. Obeid. <b>OHMI: the Community-Based Ontology of Host-Microbiome Interactions (Hmi) to Support Standardized Hmi Representation and Analysis</b>. ASM Microbe 2018. June 7-11, Atlanta, GA, USA. Accepted. 
+
