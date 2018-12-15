@@ -1,0 +1,18 @@
+#Goal: find diseases associated with E. coli in human gut
+
+PREFIX Escherichia: <http://purl.obolibrary.org/obo/NCBITaxon_561>
+PREFIX disease: <http://purl.obolibrary.org/obo/DOID_4>
+PREFIX microb_increased_in_human_gut_with_disease: <http://purl.obolibrary.org/obo/OHMI_0000059>
+SELECT distinct (STR(?microbe_label) AS ?microbe_label) (STR(?disease_label) AS ?disease_label) 
+FROM <http://purl.obolibrary.org/obo/merged/OHMI>
+WHERE
+{
+   ?microbe rdfs:label ?microbe_label .
+   ?disease rdfs:label ?disease_label .
+   ?microbe rdfs:subClassOf Escherichia: option (transitive) . 
+   ?disease rdfs:subClassOf disease: option (transitive) .
+   ?microbe rdfs:subClassOf ?microbe_restriction . 
+   ?microbe_restriction owl:onProperty microb_increased_in_human_gut_with_disease:; owl:someValuesFrom ?disease .
+}
+
+--
