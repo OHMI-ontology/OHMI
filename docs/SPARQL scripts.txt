@@ -16,3 +16,19 @@ WHERE
 }
 
 --
+#Goal: find all microbiome microbes associated with rheumatoid arthritis (RA) 
+PREFIX organism: <http://purl.obolibrary.org/obo/PCO_0000031>
+PREFIX RA: <http://purl.obolibrary.org/obo/DOID_7148>
+#PREFIX microb_increased_in_human_gut_with_disease: <http://purl.obolibrary.org/obo/OHMI_0000272>
+SELECT distinct ?microbe (STR(?microbe_label) AS ?microbe_label) ?relation_label (STR(?disease_label) AS ?disease_label) 
+#SELECT count(distinct ?microbe) 
+FROM <http://purl.obolibrary.org/obo/merged/OHMI>
+WHERE
+{
+   ?microbe rdfs:label ?microbe_label .
+   RA: rdfs:label ?disease_label .
+   ?relation rdfs:label ?relation_label .
+   ?microbe rdfs:subClassOf organism: option (transitive) . 
+   ?microbe rdfs:subClassOf ?microbe_restriction . 
+   ?microbe_restriction owl:onProperty ?relation; owl:someValuesFrom RA: .
+}
