@@ -408,6 +408,212 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000377 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000377">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in host with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000467"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000385 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000385">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in host with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000467"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000413 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000413">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in human with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000385"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000468"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000418 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000418">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in human with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000377"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000468"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000423 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000423">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in human gut with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000413"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000425 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000425">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in human gut with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000418"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000438 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000438">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in human oral cavity with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000418"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000452 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000452">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in human oral cavity with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000413"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000453 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000453">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in human respiratory airway with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000413"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000458 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000458">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in human respiratory airway with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000418"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000459 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000459">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in mouse with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000385"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000469"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000460 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000460">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in rat with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000385"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000470"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000461 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000461">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in mouse with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000377"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000469"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000462 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000462">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in rat with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000377"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000470"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000463 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000463">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in mouse gut with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000459"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000464 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000464">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in mouse gut with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000461"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000465 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000465">
+        <rdfs:label xml:lang="en">has microbial population susceptibly increased in rat gut with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000460"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000466 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000466">
+        <rdfs:label xml:lang="en">has microbial population susceptibly decreased in rat gut with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000462"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000467 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000467">
+        <rdfs:label xml:lang="en">has microbial population susceptibly in host with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000057"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000468 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000468">
+        <rdfs:label xml:lang="en">has microbial population susceptibly in human with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000467"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000469 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000469">
+        <rdfs:label xml:lang="en">has microbial population susceptibly in mouse with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000467"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000470 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OHMI_0000470">
+        <rdfs:label xml:lang="en">has microbial population susceptibly in rat with disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;OHMI_0000467"/>
+    </owl:ObjectProperty>
+    
+
+	
+	
+	
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
