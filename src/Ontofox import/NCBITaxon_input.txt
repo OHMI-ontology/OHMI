@@ -299,6 +299,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_970
 http://purl.obolibrary.org/obo/NCBITaxon_976
 http://purl.obolibrary.org/obo/NCBITaxon_9989
 
+http://purl.obolibrary.org/obo/NCBITaxon_472977 # Natronobacillus
+http://purl.obolibrary.org/obo/NCBITaxon_32045 # unclassified Proteobacteria 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2157
