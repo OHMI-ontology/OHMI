@@ -1,4 +1,4 @@
-[URI of the OWL(RDF/XML) output file]
+﻿[URI of the OWL(RDF/XML) output file]
 http://purl.obolibrary.org/obo/ohmi/DOID_import.owl
 
 [Source ontology]
@@ -24,6 +24,9 @@ http://purl.obolibrary.org/obo/DOID_4606 #bile duct cancer
 http://purl.obolibrary.org/obo/DOID_1793 #pancreatic cancer
 http://purl.obolibrary.org/obo/DOID_162 #cancer
 http://purl.obolibrary.org/obo/DOID_219 #colon cancer
+
+http://purl.obolibrary.org/obo/DOID_13250 #diarrhea
+http://purl.obolibrary.org/obo/DOID_0050589 #inflammatory bowel disease (IBD)
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease
