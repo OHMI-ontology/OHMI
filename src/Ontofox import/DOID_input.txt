@@ -10,6 +10,7 @@ http://purl.obolibrary.org/obo/DOID_7147 #ankylosing spondylitis
 http://purl.obolibrary.org/obo/DOID_9074 #System Lupus Erythematosus
 http://purl.obolibrary.org/obo/DOID_848 #arthritis
 http://purl.obolibrary.org/obo/DOID_9008 #psoriatic arthritis
+http://purl.obolibrary.org/obo/DOID_6196 #reactive arthritis
 http://purl.obolibrary.org/obo/DOID_13189 #gout
 http://purl.obolibrary.org/obo/DOID_676 #juvenile rheumatoid arthritis
 http://purl.obolibrary.org/obo/DOID_2914 #immune system disease
