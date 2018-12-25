@@ -16,8 +16,7 @@ WHERE
 }
 
 --
-#Goal: find host-microbiome interactions associated with E. coli in human gut
-
+    # Goal: find E. coli-associated human-microbiome interactions 
 PREFIX Escherichia: <http://purl.obolibrary.org/obo/NCBITaxon_561>
 PREFIX has_microb_susceptibly_expanded_in_diseaseed_host: <http://purl.obolibrary.org/obo/OHMI_0000423>
 PREFIX human_microbiome_interaction: <http://purl.obolibrary.org/obo/OHMI_0000019> 
