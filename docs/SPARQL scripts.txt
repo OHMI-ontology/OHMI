@@ -16,6 +16,24 @@ WHERE
 }
 
 --
+#Goal: find host-microbiome interactions associated with E. coli in human gut
+
+PREFIX Escherichia: <http://purl.obolibrary.org/obo/NCBITaxon_561>
+PREFIX has_microb_susceptibly_expanded_in_diseaseed_host: <http://purl.obolibrary.org/obo/OHMI_0000423>
+PREFIX human_gut_microbiome_interaction: <http://purl.obolibrary.org/obo/OHMI_0000021> 
+SELECT distinct (STR(?microbe_label) AS ?microbe_label) (STR(?interaction_label) AS ?interaction_label) 
+FROM <http://purl.obolibrary.org/obo/merged/OHMI>
+WHERE
+{
+   ?microbe rdfs:label ?microbe_label .
+   ?interaction rdfs:label ?interaction_label .
+   ?microbe rdfs:subClassOf Escherichia: option (transitive) . 
+   ?interaction rdfs:subClassOf human_gut_microbiome_interaction: option (transitive) .
+   ?interaction rdfs:subClassOf ?interaction_restriction . 
+   ?interaction_restriction owl:onProperty has_microb_susceptibly_expanded_in_diseaseed_host:; owl:someValuesFrom ?microbe .
+}
+
+--
 #Goal: find all microbiome microbes associated with rheumatoid arthritis (RA) 
 PREFIX organism: <http://purl.obolibrary.org/obo/PCO_0000031>
 PREFIX RA: <http://purl.obolibrary.org/obo/DOID_7148>
