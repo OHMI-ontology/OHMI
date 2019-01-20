@@ -7,6 +7,8 @@ ENVO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/ENVO_00000428 #biome
 http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/ENVO_01000739 #habitat
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000040 #material entity
@@ -15,6 +17,6 @@ http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties
 
 [Source annotation URIs to be excluded]
