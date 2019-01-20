@@ -8,6 +8,7 @@ PCO
 
 http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
 http://purl.obolibrary.org/obo/CARO_0001010 #organism or virus
+http://purl.obolibrary.org/obo/PCO_0000031 
 
 [Top level source term URIs and target direct superclass URIs]
 
