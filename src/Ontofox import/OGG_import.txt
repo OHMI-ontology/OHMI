@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohmi/OGG_import.owl
+
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGG_0000000002 #gene
+http://purl.obolibrary.org/obo/OGG_0000000001 #genome 
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
