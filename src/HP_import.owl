@@ -1,14 +1,27 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ohmi/HP_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/ohmi/HP_import.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ohmi/HP_import.owl#"
+     xml:base="&obo;ohmi/HP_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohmi/HP_import.owl"/>
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="&obo;ohmi/HP_import.owl"/>
     
 
 
@@ -20,48 +33,112 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId">
+        <rdfs:label rdf:datatype="&xsd;string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
     
 
 
@@ -76,100 +153,105 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000001</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Root of all terms in the Human Phenotype Ontology.</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0444868</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;BFO_0000019"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotypic abnormality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0001001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotypic abnormality.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000118</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ abnormality</oboInOwl:hasExactSynonym>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is the root of the phenotypic abnormality subontology of the HPO.</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4021819</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    <owl:Class rdf:about="&obo;HP_0000118">
+        <rdfs:label rdf:datatype="&xsd;string">Phenotypic abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UPHENO_0001002"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A phenotypic abnormality.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">HP:0000118</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Organ abnormality</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">This is the root of the phenotypic abnormality subontology of the HPO.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C4021819</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0001939 -->
+    <!-- http://purl.obolibrary.org/obo/HP_0001513 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001939">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of metabolism/homeostasis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001939</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002146</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory abnormality</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolism abnormality</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4021768</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    <owl:Class rdf:about="&obo;HP_0001513">
+        <rdfs:label rdf:datatype="&xsd;string">Obesity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">HP:0001513</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D009765</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Obesity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:414915002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:414916001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0028754</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>Having too much body fat</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Accumulation of substantial excess body fat.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0003565 -->
+    <!-- http://purl.obolibrary.org/obo/HP_0002014 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003565">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated erythrocyte sedimentation rate</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated sedimentation rate</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003565</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High erythrocyte sedimentation rate</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased erythrocyte sedimentation rate</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raised erythrocyte sedimentation rate</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:165468009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0151632</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115>An increased erythrocyte sedimentation rate (ESR). The ESR a test that measures the distance that erythrocytes have fallen after one hour in a vertical column of anticoagulated blood under the influence of gravity. The ESR is a nonspecific finding. An elevation may indicate inflammation or may be caused by any condition that elevates fibrinogen.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>High ESR</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    <owl:Class rdf:about="&obo;HP_0002014">
+        <rdfs:label rdf:datatype="&xsd;string">Diarrhea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Abnormally increased frequency of loose or watery bowel movements.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Diarrhea</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">HP:0002014</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D003967</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:267060006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:62315008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0011991</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>Diarrhoea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Watery stool</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0011227 -->
+    <!-- http://purl.obolibrary.org/obo/HP_0002028 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011227">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated C-reactive protein level</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-12-13T11:04:10Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal elevation of the C-reactive protein level in serum.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-reactive protein (CRP) is produced by the liver, and increases in concentration in response to inflammation.</rdfs:comment>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated CRP</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011227</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0742906</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4023452</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    <owl:Class rdf:about="&obo;HP_0002028">
+        <rdfs:label rdf:datatype="&xsd;string">Chronic diarrhea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0002014"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Chronic diarrhea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Diarrhea, recurrent</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">HP:0002028</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Recurrent diarrhea</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:236071009</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The presence of chronic diarrhea, which is usually taken to mean diarrhea that has persisted for over 4 weeks.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0401151</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UPHENO_0001001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UPHENO_0001001">
+    <owl:Class rdf:about="&obo;UPHENO_0001001">
         <rdfs:label xml:lang="en">Phenotype</rdfs:label>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UPHENO_0001002 -->
+
+    <owl:Class rdf:about="&obo;UPHENO_0001002">
+        <rdfs:label xml:lang="en">abnormal phenotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UPHENO_0001001"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 

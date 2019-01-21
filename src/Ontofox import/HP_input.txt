@@ -5,12 +5,15 @@ http://purl.obolibrary.org/obo/ohmi/HP_import.owl
 HP
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/HP_0011227 #Elevated C-reactive protein level
-http://purl.obolibrary.org/obo/HP_0003565 #Elevated erythrocyte sedimentation rate
+http://purl.obolibrary.org/obo/UPHENO_0001002
+http://purl.obolibrary.org/obo/HP_0001513 #obesity
+http://purl.obolibrary.org/obo/HP_0002014 #diarrhea
+http://purl.obolibrary.org/obo/HP_0002028 #Chronic diarrhea
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OGMS_0000023 #Phenotype
-subClassOf http://purl.obolibrary.org/obo/CMO_0001531 #blood immunoglobulin measurement
+
+http://purl.obolibrary.org/obo/UPHENO_0001001 # Phenotype
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality 
 
 [Source term retrieval setting]
 includeComputedIntermediates
