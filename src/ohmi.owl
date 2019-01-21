@@ -35,8 +35,8 @@
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:contributor>Barry Smith</dc:contributor>
+        <dc:date xml:lang="en">1-20-2019</dc:date>
         <dc:creator>Jihad Obeid</dc:creator>
-        <dc:date xml:lang="en">1-21-2019</dc:date>
         <dc:creator>Anna Maria Masci</dc:creator>
         <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
@@ -856,6 +856,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
 
     <rdf:Description rdf:about="&obo;NCBITaxon_2">
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0100026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000086"/>
@@ -1644,6 +1645,14 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_836"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0100026">
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0001010"/>
+    </rdf:Description>
     
 
 
