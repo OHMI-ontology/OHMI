@@ -15,6 +15,20 @@ http://purl.obolibrary.org/obo/BFO_0000015 #process
 http://purl.obolibrary.org/obo/OBI_0000725 #host role
 http://purl.obolibrary.org/obo/BFO_0000023 #role
 http://purl.obolibrary.org/obo/BFO_0000019 #quality
+http://purl.obolibrary.org/obo/OBI_0000968 #device
+
+http://purl.obolibrary.org/obo/OBI_0001271 #RNA-seq assay
+http://purl.obolibrary.org/obo/OBI_0002117 #whole genome sequencing assay
+
+http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+http://purl.obolibrary.org/obo/OBI_0000671 #sample from organism
+http://purl.obolibrary.org/obo/OBI_0000073 #sample preparation for assay
+http://purl.obolibrary.org/obo/OBI_0001902 #sample preparation for sequencing assay
+http://purl.obolibrary.org/obo/OBI_0600012 #environmental material collection process
+http://purl.obolibrary.org/obo/OBI_0600005 #collecting specimen from organism
+http://purl.obolibrary.org/obo/OBI_0000744 #material sampling process
+http://purl.obolibrary.org/obo/OBI_0001619 #specimen collection time measurement datum
+http://purl.obolibrary.org/obo/OBI_0001508 #sampling time measurement datum
 
 [Top level source term URIs and target direct superclass URIs]
 
