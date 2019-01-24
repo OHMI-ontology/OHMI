@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-        <uri name="http://purl.obolibrary.org/obo/ohmi-dev.owl" uri="ohmi-dev.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-dev.owl" uri="ohmi-dev.owl"/>
         <uri name="http://purl.obolibrary.org/obo/ohmi/BFO_import.owl" uri="Ontofox_outputs/BFO_import.owl"/>
         <uri name="http://purl.obolibrary.org/obo/ohmi/CMO_import.owl" uri="Ontofox_outputs/CMO_import.owl"/>
         <uri name="http://purl.obolibrary.org/obo/ohmi/DOID_import.owl" uri="Ontofox_outputs/DOID_import.owl"/>
