@@ -8,7 +8,7 @@ OBI
 http://purl.obolibrary.org/obo/OBI_0000725 #host role
 http://purl.obolibrary.org/obo/OBI_1110021 #infection process
 http://purl.obolibrary.org/obo/OBI_1110122 #pathologic process
-http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+# http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum 
 http://purl.obolibrary.org/obo/IAO_0000027 #data item
 http://purl.obolibrary.org/obo/BFO_0000015 #process

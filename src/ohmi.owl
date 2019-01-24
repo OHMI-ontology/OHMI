@@ -35,21 +35,22 @@
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:contributor>Barry Smith</dc:contributor>
+        <dc:date xml:lang="en">1-23-2019</dc:date>
         <dc:creator>Jihad Obeid</dc:creator>
-        <dc:date xml:lang="en">1-22-2019</dc:date>
         <dc:creator>Anna Maria Masci</dc:creator>
         <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.93</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.94</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator xml:lang="en">Yu Hong</dc:creator>
         <owl:imports rdf:resource="&obo;ohmi/CMO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/DOID_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/DrON_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/ENVO_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohmi/GO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/HP_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/MONDO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/NCBITaxon_imports.owl"/>
@@ -663,12 +664,6 @@
     <rdf:Description rdf:about="&obo;NCBITaxon_165179">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_9256"/>
             </owl:Restriction>
@@ -677,6 +672,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_676"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -694,13 +695,13 @@
     <rdf:Description rdf:about="&obo;NCBITaxon_1654">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000347"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000350"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000350"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000347"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -713,13 +714,13 @@
     <rdf:Description rdf:about="&obo;NCBITaxon_1681">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000453"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000453"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1002,13 +1003,13 @@
     <rdf:Description rdf:about="&obo;NCBITaxon_29465">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000354"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000354"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1022,13 +1023,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_13189"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_13189"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1253,14 +1254,14 @@
     <rdf:Description rdf:about="&obo;NCBITaxon_562">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000304"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_848"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000304"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_848"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1445,13 +1446,13 @@
     <rdf:Description rdf:about="&obo;NCBITaxon_816">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000453"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000453"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1521,38 +1522,38 @@
     <rdf:Description rdf:about="&obo;NCBITaxon_838">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000350"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_9074"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_9074"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000347"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OHMI_0000304"/>
                 <owl:someValuesFrom rdf:resource="&obo;DOID_7147"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000350"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_9074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000350"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_9256"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_9074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
+                <owl:someValuesFrom rdf:resource="&obo;MONDO_0019437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000272"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1563,14 +1564,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000350"/>
-                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_9256"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000059"/>
-                <owl:someValuesFrom rdf:resource="&obo;MONDO_0019437"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000347"/>
+                <owl:someValuesFrom rdf:resource="&obo;DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1676,7 +1677,13 @@
 
     <owl:Class rdf:about="&obo;OHMI_0000001">
         <rdfs:label xml:lang="en">host-microbiome interaction</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0051701"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000057"/>
@@ -1691,12 +1698,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A biological process of the interaction between a microbiome and its host</obo:IAO_0000115>
@@ -1965,6 +1966,22 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;UBERON_0004907"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1983,22 +2000,6 @@
                                         </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;UBERON_0004907"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -2119,6 +2120,12 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -2131,12 +2138,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
@@ -2243,14 +2244,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_573"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_573"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -2345,14 +2346,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_471189"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_471189"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -2409,14 +2410,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171552"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171552"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMID:24192039/</obo:IAO_0000119>
@@ -2473,14 +2474,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1681"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1681"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -2537,14 +2538,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_29465"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_29465"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
@@ -2665,14 +2666,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_158847"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_158847"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
@@ -2852,14 +2853,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_84112"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_84112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/26214836/</obo:IAO_0000119>
@@ -2954,14 +2955,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1689"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1689"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -3018,14 +3019,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1591"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1591"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/26214836/</obo:IAO_0000119>
@@ -3082,14 +3083,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_46228"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_46228"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/26214836/</obo:IAO_0000119>
@@ -3405,14 +3406,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_837"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_837"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/24873878/</obo:IAO_0000119>
@@ -3593,14 +3594,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_837"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_837"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27789760</obo:IAO_0000119>
@@ -3660,14 +3661,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_584"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_584"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/19895906/</obo:IAO_0000119>
@@ -3892,9 +3893,9 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human oral cavity  microbiome interaction that shows an expansion of Lactobacillus salivarius in patients with RA compared with healthy controls.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27789760</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/26214836</obo:IAO_0000119>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
         <obo:OHMI_0000031>https://www.ncbi.nlm.nih.gov/pubmed/26214836</obo:OHMI_0000031>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/26214836</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3946,14 +3947,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_186801"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_186801"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -4267,14 +4268,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_836"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_836"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human-gut microbiome interaction that shows an decrease of Porphyromonas in patients with RA compared to fibromyalgia patients</obo:IAO_0000115>
@@ -4450,14 +4451,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000078"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001005"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_836"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_836"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -4514,14 +4515,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000078"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_838"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001005"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>RA human respiratory airway microbiome interaction that shows an decrease of Prevotella in patients with RA compared with healthy controls.</obo:IAO_0000115>
@@ -4578,14 +4579,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_46205"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_46205"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27980687/</obo:IAO_0000119>
@@ -4696,14 +4697,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_724"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_724"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human oral cavity microbiome interaction that shows an decrease of Haemophilus in patients with RA compared with healthy controls.</obo:IAO_0000115>
@@ -4760,14 +4761,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_201174"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_201174"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/28376066/</obo:IAO_0000119>
@@ -4824,14 +4825,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_2717"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_2717"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26214836</obo:IAO_0000119>
@@ -4952,14 +4953,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_32257"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_32257"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -5290,14 +5291,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_29465"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_29465"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human oral cavity  microbiome interaction that shows an expansion of Veillonella in patients with RA compared with healthy controls.</obo:IAO_0000115>
@@ -5381,14 +5382,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_562"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_562"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human-gut microbiome interaction that shows an expansion of Escherichia coli in patients with RA compared with healthy controls.</obo:IAO_0000115>
@@ -5731,14 +5732,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000099"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_815"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_815"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an AS human-gut microbiome interaction that shows an expansion of Bacteroidaceae in patients with AS compared with healthy controls.</obo:IAO_0000115>
@@ -5795,14 +5796,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000099"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171552"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171552"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25417597/</obo:IAO_0000119>
@@ -5859,14 +5860,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000099"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_31977"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_31977"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25434931/</obo:IAO_0000119>
@@ -6080,14 +6081,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000106"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_28131"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_28131"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/26002454/</obo:IAO_0000119>
@@ -6236,14 +6237,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_838"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -6364,14 +6365,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_976"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_976"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -6455,14 +6456,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_976"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_976"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -6519,14 +6520,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_816"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_816"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/28270806/</obo:IAO_0000119>
@@ -6647,14 +6648,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171551"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171551"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -6711,14 +6712,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_815"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_815"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -6775,14 +6776,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_909932"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_909932"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a Gout human-gut microbiome interaction that shows an expansion of Negativicutes in patients with gout compared with healthy controls.</obo:IAO_0000115>
@@ -6893,14 +6894,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_641"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_641"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=28270806</obo:IAO_0000119>
@@ -7207,14 +7208,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_541000"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_541000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -7271,14 +7272,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1505663"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1505663"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a Gout human-gut microbiome interaction that shows an expansion of Erysipelatoclostridium in patients with gout compared with healthy controls.</obo:IAO_0000115>
@@ -7400,14 +7401,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_697899"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_697899"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/23811846/</obo:IAO_0000119>
@@ -7465,14 +7466,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_397864"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_397864"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -7725,14 +7726,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_46205"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_46205"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/26852926/</obo:IAO_0000119>
@@ -7790,14 +7791,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_47678"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_47678"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27941389/</obo:IAO_0000119>
@@ -7920,14 +7921,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_657309"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_657309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -8050,14 +8051,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_258514"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_258514"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -8115,14 +8116,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_116085"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_116085"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26852926</obo:IAO_0000119>
@@ -8180,14 +8181,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_853"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_853"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -8245,14 +8246,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_459786"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_459786"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a Gout human-gut microbiome interaction that shows an decrease of Oscillibacter in patients with gout compared with healthy controls.</obo:IAO_0000115>
@@ -8375,14 +8376,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_283168"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_283168"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -8570,14 +8571,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_39948"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_39948"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=26852926</obo:IAO_0000119>
@@ -8700,14 +8701,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1182749"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1182749"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human skin microbiome interaction that shows an decrease of Propionibacterium acnes 17B in patients with  PsA compared with healthy controls.</obo:IAO_0000115>
@@ -8791,14 +8792,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_239934"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_239934"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human-gut microbiome interaction that shows an decrease of Akkermansia in patients with PsA compared with healthy controls.</obo:IAO_0000115>
@@ -8855,14 +8856,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1263"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1263"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human-gut microbiome interaction that shows an decrease of Ruminococcus in patients with PsA compared with healthy controls.</obo:IAO_0000115>
@@ -9047,14 +9048,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_375288"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_375288"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human-gut microbiome interaction that shows an decrease of Parabacteroides in patients with PsA compared with healthy controls.</obo:IAO_0000115>
@@ -9111,14 +9112,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_100883"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_100883"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=25319745</obo:IAO_0000119>
@@ -9239,14 +9240,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1743"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1743"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human skin microbiome interaction that shows an decrease of Propionibacterium in patients with  PsA compared with healthy controls.</obo:IAO_0000115>
@@ -9304,14 +9305,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_201174"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_201174"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human skin microbiome interaction that shows an decrease of Actinobacteria &lt;phylum&gt; in patients with  PsA compared with healthy controls.</obo:IAO_0000115>
@@ -9370,14 +9371,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1224"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1224"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>https://www.ncbi.nlm.nih.gov/pubmed/?term=3750937</rdfs:comment>
@@ -9436,14 +9437,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1239"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1239"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/23750937/</obo:IAO_0000119>
@@ -9502,14 +9503,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_976"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_976"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human skin microbiome interaction that shows an expansion of Bacteroidetes in patients with PsA compared with healthy controls.</obo:IAO_0000115>
@@ -9659,14 +9660,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000166"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_5476"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_5476"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/11413927/</obo:IAO_0000119>
@@ -9787,14 +9788,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_76777"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_76777"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human skin microbiome interaction that shows an decrease of Malassezia sympodialis in patients with  PsA compared with healthy controls.</obo:IAO_0000115>
@@ -9851,14 +9852,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_77020"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000014"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_77020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>https://www.ncbi.nlm.nih.gov/pubmed/?term= 116891514</rdfs:comment>
@@ -10067,14 +10068,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_416916"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_416916"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human oral cavity microbiome interaction that shows an decrease of Aggregatibacter in patients with RA compared with healthy controls.</obo:IAO_0000115>
@@ -10371,14 +10372,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1654"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1654"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human oral cavity  microbiome interaction that shows an expansion of Actinomyces in patients with RA compared with healthy controls.</obo:IAO_0000115>
@@ -10499,14 +10500,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_104608"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_104608"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -10563,14 +10564,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_28112"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_28112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/23902301</obo:IAO_0000119>
@@ -12549,14 +12550,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000099"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_39948"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_39948"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an AS human-gut microbiome interaction that shows an expansion of Dialister in patients with AS compared with healthy controls.</obo:IAO_0000115>
@@ -12701,14 +12702,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_200643"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_200643"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25271284/</obo:IAO_0000119>
@@ -12765,14 +12766,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171549"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171549"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -13099,14 +13100,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000078"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001005"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1654"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1654"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=27855721</obo:IAO_0000119>
@@ -13163,14 +13164,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000078"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001005"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1847"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1847"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27855721/</obo:IAO_0000119>
@@ -13501,14 +13502,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000099"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171550"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171550"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an AS human-gut microbiome interaction that shows an expansion of Rikenellaceae in patients with AS compared with healthy controls.</obo:IAO_0000115>
@@ -13566,14 +13567,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000099"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon__28115"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon__28115"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -13700,14 +13701,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000099"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_194"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_194"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/25417597/</obo:IAO_0000119>
@@ -14020,14 +14021,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_84111"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_84111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a SLE human-gut microbiome interaction that shows an expansion of Eggerthella in patients with SLE compared with healthy controls.</obo:IAO_0000115>
@@ -14084,14 +14085,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_407975"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_407975"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -14212,14 +14213,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_51160"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_51160"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -14276,14 +14277,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1017"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -14340,14 +14341,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1305"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1305"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=28320468</obo:IAO_0000119>
@@ -14404,14 +14405,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_729"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_729"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a SLE human oral cavity  microbiome interaction that shows a  depletion of Haemophilus parainfluenzae in patients with SLE compared with healthy controls.</obo:IAO_0000115>
@@ -14532,14 +14533,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_651822"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_651822"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -14596,14 +14597,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_848"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_848"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/28320468</obo:IAO_0000119>
@@ -14660,14 +14661,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_970"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_970"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000167"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -14788,14 +14789,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_200795"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_200795"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/28270806/</obo:IAO_0000119>
@@ -14916,14 +14917,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_292629"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_292629"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/28270806/</obo:IAO_0000119>
@@ -15172,14 +15173,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000114"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1827"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1827"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a Gout human-gut microbiome interaction that shows an expansion of Rhodococcus in patients with gout compared with healthy controls.</obo:IAO_0000115>
@@ -15415,14 +15416,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_815"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_815"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27861762</obo:IAO_0000119>
@@ -15479,14 +15480,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_543"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_543"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an ERA human-gut microbiome interaction that shows an expansion of Enterobacteriaceae in patients with ERA compared with healthy controls.</obo:IAO_0000115>
@@ -15607,14 +15608,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_816"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_816"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an ERA human-gut microbiome interaction that shows an expansion of Bacteroides in patients with ERA compared with healthy controls.</obo:IAO_0000115>
@@ -15800,14 +15801,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_838"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/27861762</obo:IAO_0000119>
@@ -15928,14 +15929,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_310297"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_310297"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an ERA human-gut microbiome interaction that shows an expansion of Bacteroides plebeius in patients with ERA compared with healthy controls.</obo:IAO_0000115>
@@ -15992,14 +15993,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171552"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_171552"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -16120,14 +16121,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_590"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_590"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an ERA human-gut microbiome interaction that shows an expansion of Salmonella in patients with ERA compared with healthy controls.</obo:IAO_0000115>
@@ -16312,14 +16313,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_186803"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_186803"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -16376,14 +16377,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1531"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1531"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=25434931</obo:IAO_0000119>
@@ -16504,14 +16505,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_239935"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_239935"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -16568,14 +16569,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_33042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_33042"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=25319745</obo:IAO_0000119>
@@ -16691,14 +16692,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_5481"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_5481"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a PsA human-gut microbiome interaction that shows an expansion of Diutina rugosa in patients with PsA compared with healthy controls.</obo:IAO_0000115>
@@ -22076,14 +22077,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000345"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001088"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_584"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_584"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human-urine microbiome interaction that shows an expansion of Proteus mirabilis in patients with RA compared with healthy controls.</obo:IAO_0000115>
@@ -23745,14 +23746,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1532"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1532"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -24053,14 +24054,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_816"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_816"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -24407,14 +24408,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_817"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_817"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human-gut microbiome interaction that shows an decrease of Bacteroides fragilis in patients with RA compared with fibromyalgia patients.</obo:IAO_0000115>
@@ -25176,14 +25177,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1681"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_1681"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Haihe Wang, Hong Yu, Yongqun He</obo:IAO_0000117>
@@ -26005,14 +26006,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OHMI_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_740"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0004907"/>
+                <owl:onProperty rdf:resource="&obo;OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_740"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human gut microbiome interaction that shows an decrease of Haemophilus sp  in patients with RA compared with healthy controls.</obo:IAO_0000115>

@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohmi/GO_import.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0051701 #interaction with host
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process 
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
