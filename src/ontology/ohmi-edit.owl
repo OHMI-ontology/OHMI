@@ -53,14 +53,14 @@
         <owl:imports rdf:resource="&obo;ohmi/GO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/HP_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/MONDO_import.owl"/>
-        <owl:imports rdf:resource="&obo;ohmi/NCBITaxon_imports.owl"/>
+        <owl:imports rdf:resource="&obo;ohmi/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/OBI_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/OGG_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/PATO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/PCO_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/PR_import.owl"/>
         <owl:imports rdf:resource="&obo;ohmi/RO_import.owl"/>
-        <owl:imports rdf:resource="&obo;ohmi/UBERON_imports.owl"/>
+        <owl:imports rdf:resource="&obo;ohmi/UBERON_import.owl"/>
     </owl:Ontology>
     
 
