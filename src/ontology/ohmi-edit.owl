@@ -448,6 +448,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CARO_0001010 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0001010">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_6196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6196">
@@ -1650,9 +1658,7 @@
 
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001010"/>
-    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
     
 
 
