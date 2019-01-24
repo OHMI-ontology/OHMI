@@ -5,21 +5,19 @@ http://purl.obolibrary.org/obo/ohmi/PCO_import.owl
 PCO
 
 [Low level source term URIs]
-
 http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
 http://purl.obolibrary.org/obo/CARO_0001010 #organism or virus
 # http://purl.obolibrary.org/obo/PCO_0000031 #organismal entity
-
 http://purl.obolibrary.org/obo/PCO_0000004 #quality of an ecological community
 includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
-
 http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
-
 http://purl.obolibrary.org/obo/CARO_0001010 #organism or virus
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/PCO_0000004 #quality of an ecological community
+subClassOf http://purl.obolibrary.org/obo/PATO_0002003 #population quality
 
 [Source term retrieval setting]
 includeAllIntermediates

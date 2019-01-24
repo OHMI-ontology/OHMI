@@ -7,15 +7,16 @@ PATO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
 http://purl.obolibrary.org/obo/PATO_0000011 #age
-http://purl.obolibrary.org/obo/PATO_0001241 
-http://purl.obolibrary.org/obo/PATO_0001241
+http://purl.obolibrary.org/obo/PATO_0001241 #physical object property 
+http://purl.obolibrary.org/obo/PATO_0002003 #population quality
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001995 #organismal quality
 subClassOf  http://purl.obolibrary.org/obo/BFO_0000019
-
 http://purl.obolibrary.org/obo/PATO_0001241 #physical object property
 subClassOf  http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/PATO_0002003 #population quality
+subClassOf http://purl.obolibrary.org/obo/PATO_0001241 #physical object property 
 
 [Source term retrieval setting]
 includeComputedIntermediates
