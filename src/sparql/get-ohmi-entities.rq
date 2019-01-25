@@ -1,0 +1,8 @@
+# list all OHMI entities
+
+SELECT DISTINCT ?s
+WHERE {
+  ?s ?p ?o .
+  FILTER STRSTARTS(str(?s), "http://purl.obolibrary.org/obo/OHMI_")
+}
+ORDER BY ?s
