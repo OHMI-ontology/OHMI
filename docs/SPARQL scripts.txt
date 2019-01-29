@@ -34,7 +34,7 @@ WHERE
 
 --
     # Goal: find all microbiome microbes associated with rheumatoid arthritis (RA) 
-PREFIX organism: <http://purl.obolibrary.org/obo/PCO_0000031>
+PREFIX organism: <http://purl.obolibrary.org/obo/CARO_0001010>
 PREFIX RA: <http://purl.obolibrary.org/obo/DOID_7148>
 SELECT distinct ?microbe (STR(?microbe_label) AS ?microbe_label) ?relation_label (STR(?disease_label) AS ?disease_label) 
 # SELECT count(distinct ?microbe) 
