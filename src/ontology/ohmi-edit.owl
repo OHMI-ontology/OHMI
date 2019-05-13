@@ -43,7 +43,7 @@
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <dcterms:license>http://creativecommons.org/licenses/by/4.0/</dcterms:license>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.95</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.96</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1688,8 +1688,11 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A biological process of the interaction between a microbiome and its host</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
+        <obo:IAO_0000115>A biological interaction between a microbiome and its host</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jie Zheng, Jihad Obeid, Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000118>microbiome-host interaction</obo:IAO_0000118>
+        <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1669-4</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4644880/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">host-microbiome interaction</rdfs:label>
     </owl:Class>
     
