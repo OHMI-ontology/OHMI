@@ -1,34 +1,35 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ohmi.owl#"
      xml:base="http://purl.obolibrary.org/obo/ohmi.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohmi.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohmi/2019-01-24/ohmi.owl"/>
-        <dc:creator>Alexander Alekseyenko</dc:creator>
-        <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
-        <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohmi/2019-05-28/ohmi.owl"/>
         <dc:contributor>Barry Smith</dc:contributor>
-        <dc:creator xml:lang="en">Yu Hong</dc:creator>
+        <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:creator>Anna Maria Masci</dc:creator>
-        <dc:creator>Jihad Obeid</dc:creator>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-01-24</owl:versionInfo>
-        <dc:creator>Jie Zheng</dc:creator>
-        <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
-        <dc:format xml:lang="en">OWL-DL</dc:format>
-        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator xml:lang="en">Haihe Wang</dc:creator>
+        <dc:creator>Jie Zheng</dc:creator>
+        <dc:creator>Jihad Obeid</dc:creator>
+        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
+        <dc:creator xml:lang="en">Yu Hong</dc:creator>
+        <dc:date xml:lang="en">5-28-2019</dc:date>
+        <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
+        <dc:format xml:lang="en">OWL-DL</dc:format>
+        <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
+        <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
+        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-05-28</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -12388,8 +12389,11 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A biological process of the interaction between a microbiome and its host</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
+        <obo:IAO_0000115>A biological interaction between a microbiome and its host</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jie Zheng, Jihad Obeid, Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000118>microbiome-host interaction</obo:IAO_0000118>
+        <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1669-4</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4644880/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">host-microbiome interaction</rdfs:label>
     </owl:Class>
     
@@ -12420,14 +12424,12 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCO_0000000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000463"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A biome that consists of a complex mixture of microorganisms that reside in a specific environmental niche.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, JZ, JO, AA</obo:IAO_0000117>
-        <obo:IAO_0000118>microbiota</obo:IAO_0000118>
-        <obo:IAO_0000119 xml:lang="en">WEB: https://en.wikipedia.org/wiki/Microbiota</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/2792171/</obo:IAO_0000119>
+        <obo:IAO_0000115>A biome that consists of a collection of microorganisms (i.e., microbiota) and the surrounding environment where the microorganisms reside.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jie Zheng, Jihad Obeid, Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4520061/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">microbiome</rdfs:label>
     </owl:Class>
     
@@ -37140,8 +37142,9 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A collection of organisms where the organisms are microbes.</obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A collection of microbial organisms that reside in a particular environment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng, Oliver He, Anna Maria Masci, Jihad Obeid</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4520061/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">microbiota</rdfs:label>
     </owl:Class>
     
@@ -38612,25 +38615,10 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -38762,6 +38750,39 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -38771,12 +38792,6 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -38790,18 +38805,6 @@ This interpretation is *not* the same as an at-all-times relation
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
@@ -38826,14 +38829,14 @@ This interpretation is *not* the same as an at-all-times relation
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ro.owl">
         <dc:description xml:lang="en">The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies.</dc:description>
         <dc:title xml:lang="en">OBO Relations Ontology</dc:title>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-21)) [Axioms: 26 Logical Axioms: 0]</rdfs:comment>
         <dc:source rdf:resource="http://obofoundry.org/ro"/>
-        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> https://github.com/oborel/obo-relations/</foaf:homepage>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-21)) [Axioms: 32 Logical Axioms: 0]</rdfs:comment>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> https://github.com/oborel/obo-relations/</foaf:homepage>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-21)) [Axioms: 26 Logical Axioms: 0]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.2.0) https://github.com/owlcs/owlapi -->
 
