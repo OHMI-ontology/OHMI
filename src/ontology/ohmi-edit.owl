@@ -20,6 +20,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/ENVO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/GO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/HP_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/INO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/MONDO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/OBI_import.owl"/>
@@ -489,14 +490,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_9008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_848"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0051701 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051701">
-        <rdfs:comment>Oliver He Note: Currently, the term &amp;apos;host-microbiome interaction&amp;apos; is listed as a subclass of GO &amp;apos;interaction with host&amp;apos;. However, the GO term definition is not an exact fit since it focuses on two organisms rather than a host organism and a collection of microorganisms.</rdfs:comment>
     </rdf:Description>
     
 
@@ -1675,7 +1668,22 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051701"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/INO_0000002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000003"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000485"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/INO_0000002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
@@ -13589,15 +13597,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000225">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon__28115"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000032"/>
-                            </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                                 <owl:someValuesFrom>
