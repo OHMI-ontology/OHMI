@@ -33,16 +33,19 @@
         <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:creator>Anna Maria Masci</dc:creator>
         <dc:creator xml:lang="en">Haihe Wang</dc:creator>
+        <dc:creator>Jianmin Wu</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Jihad Obeid</dc:creator>
+        <dc:creator>Kaiyong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
-        <dc:creator xml:lang="en">Yu Hong</dc:creator>
-        <dc:date xml:lang="en">5-28-2019</dc:date>
+        <dc:creator>Yu Hong</dc:creator>
+        <dc:date xml:lang="en">9-10-2019</dc:date>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo xml:lang="en">2019-09-10</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -486,6 +489,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_9008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_848"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051701 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051701">
+        <rdfs:comment>Oliver He Note: Currently, the term &amp;apos;host-microbiome interaction&amp;apos; is listed as a subclass of GO &amp;apos;interaction with host&amp;apos;. However, the GO term definition is not an exact fit since it focuses on two organisms rather than a host organism and a collection of microorganisms.</rdfs:comment>
     </rdf:Description>
     
 
@@ -1680,17 +1691,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A biological interaction between a microbiome and its host</obo:IAO_0000115>
@@ -26624,6 +26625,67 @@
         <obo:IAO_0000115>A microbe that is differentially enriched in a microbiome host and can serve as a marker for a disease</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">differentially enriched microbial marker for disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000482">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000001"/>
+        <obo:IAO_0000115>An host-microbiome interaction that involves the interaction between enteric microbiota on the host and the host brain (esp. the central nervous system), which often leads to a specific nervous phenotype</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Kaiyong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>microbiome-gut-brain axis</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/21303428</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">microbiome-gut-brain interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000001"/>
+        <obo:IAO_0000115>An host-microbiome interaction that is associated with cancer</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jianmin Wu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">microbiome-cancer interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000484">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000483"/>
+        <obo:IAO_0000115>An interaction between microbiome and host immune system that is associated with cancer</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jianmin Wu</obo:IAO_0000117>
+        <obo:IAO_0000118>microbiome-immune-cancer axis</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.hindawi.com/journals/mi/2019/4107917/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">microbiome-immune-cancer interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000485">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organism that has &apos;host role&apos;, i.e., a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">host</rdfs:label>
     </owl:Class>
     
 
