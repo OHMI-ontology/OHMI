@@ -12378,17 +12378,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A biological interaction between a microbiome and its host</obo:IAO_0000115>
@@ -12396,6 +12386,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <obo:IAO_0000118>microbiome-host interaction</obo:IAO_0000118>
         <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1669-4</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4644880/</obo:IAO_0000119>
+        <rdfs:comment>Oliver He Note: Currently, the term &apos;host-microbiome interaction&apos; is listed as a subclass of GO &apos;interaction with host&apos;. However, the GO term definition is not an exact fit since it focuses on two organisms rather than a host organism and a collection of microorganisms.</rdfs:comment>
         <rdfs:label xml:lang="en">host-microbiome interaction</rdfs:label>
     </owl:Class>
     
@@ -37338,6 +37329,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000001"/>
         <obo:IAO_0000115>An host-microbiome interaction that involves the interaction between enteric microbiota on the host and the host brain (esp. the central nervous system), which often leads to a specific nervous phenotype</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Kaiyong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>microbiome-gut-brain axis</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/21303428</obo:IAO_0000119>
         <rdfs:label xml:lang="en">microbiome-gut-brain interaction</rdfs:label>
     </owl:Class>
@@ -37365,6 +37357,29 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <obo:IAO_0000118>microbiome-immune-cancer axis</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.hindawi.com/journals/mi/2019/4107917/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">microbiome-immune-cancer interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000485">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organism that has &apos;host role&apos;, i.e., a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">host</rdfs:label>
     </owl:Class>
     
 
