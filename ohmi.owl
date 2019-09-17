@@ -14,7 +14,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohmi.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohmi/2019-09-16/ohmi.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohmi/2019-09-17/ohmi.owl"/>
         <dc:contributor>Barry Smith</dc:contributor>
         <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:creator>Anna Maria Masci</dc:creator>
@@ -30,7 +30,7 @@
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-09-16</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-09-17</owl:versionInfo>
     </owl:Ontology>
     
 
