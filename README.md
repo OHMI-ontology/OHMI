@@ -7,6 +7,11 @@ OHMI is aimed to ontologically represent various entities and relations related 
 
 The development of the OHMI is a collaborative community effort, currently by ontology developers from the University of Michigan, the University of Pennsylvania, and the Medical University of South Carolina.  
 
+# Citation:
+
+He Y, Wang H, Zheng J, Beiting DP, Masci AM, Yu H, Liu K, Wu J, Curtis JL, Smith B, Alekseyenko AV, Obeid JS. OHMI: the ontology of host-microbiome interactions. J Biomed Semantics. 2019 Dec 30;10(1):25. PMID: 31888755. PMCID: PMC6937947.
+URL: https://www.ncbi.nlm.nih.gov/pubmed/31888755 
+
 # News:
 
 He Y, Wang H, Zheng J, Beiting DP, Masci AM, Yu H, Liu K, Wu J, Curtis JL, Smith B, Alekseyenko AV, Obeid JS. OHMI: the ontology of host-microbiome interactions. J Biomed Semantics. 2019 Dec 30;10(1):25. PMID: 31888755. PMCID: PMC6937947.
