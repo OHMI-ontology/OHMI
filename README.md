@@ -14,13 +14,13 @@ URL: https://www.ncbi.nlm.nih.gov/pubmed/31888755
 
 # News:
 
-He Y, Wang H, Zheng J, Beiting DP, Masci AM, Yu H, Liu K, Wu J, Curtis JL, Smith B, Alekseyenko AV, Obeid JS. OHMI: the ontology of host-microbiome interactions. J Biomed Semantics. 2019 Dec 30;10(1):25. PMID: 31888755. PMCID: PMC6937947.
+He Y, Wang H, Zheng J, Beiting DP, Masci AM, Yu H, Liu K, Wu J, Curtis JL, Smith B, Alekseyenko AV, Obeid JS. <b>OHMI: the ontology of host-microbiome interactions</b>. J Biomed Semantics. 2019 Dec 30;10(1):25. PMID: 31888755. PMCID: PMC6937947.
 
 Y. HE, H. Wang, H. Yu, J. Zheng, D. P. Beiting, A. M. Masci, T. Putman, B. Smith, A. V. Alekseyenko, J. S. Obeid. <b>OHMI: the Community-Based Ontology of Host-Microbiome Interactions (Hmi) to Support Standardized Hmi Representation and Analysis</b>. ASM Microbe 2018. June 7-11, Atlanta, GA, USA. Accepted. 
 
-Jihad S. Obeid, Alexander V. Alekseyenko, Jie Zheng, Anna Maria Masci, Yongqun "Oliver" He. An Ontology for Host-Microbiome Interactions. 23rd International Scientific Symposium on Biometrics (BioStat 2017), Sibenik, Croatia, 7-10 June 2017. 
+Jihad S. Obeid, Alexander V. Alekseyenko, Jie Zheng, Anna Maria Masci, Yongqun "Oliver" He. <b>An Ontology for Host-Microbiome Interactions</b>. 23rd International Scientific Symposium on Biometrics (BioStat 2017), Sibenik, Croatia, 7-10 June 2017. 
 
-Jihad Obeid. An Ontology for Host-Microbiome Interactions. 2017 SCTR Scientific Retreat on the Human Microbiome. MUSC Bioengineering Auditorium, Room 110, Wednesday, May 3, 2017.  
+Jihad Obeid. <b>An Ontology for Host-Microbiome Interactions</b>. 2017 SCTR Scientific Retreat on the Human Microbiome. MUSC Bioengineering Auditorium, Room 110, Wednesday, May 3, 2017.  
 Web: http://academicdepartments.musc.edu/sctr/programs/retreats/2017_Microbiome/microbiome 
 
 See more details:  
