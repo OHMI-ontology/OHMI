@@ -37,16 +37,17 @@
         <dc:creator>Jianmin Wu</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Jihad Obeid</dc:creator>
-        <dc:creator>Kaiyong Liu</dc:creator>
+        <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
+        <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Yu Hong</dc:creator>
-        <dc:date xml:lang="en">9-10-2019</dc:date>
+        <dc:date xml:lang="en">7-8-2020</dc:date>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo xml:lang="en">2019-09-10</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">2020-07-08</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -406,6 +407,29 @@
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>an object subproperty of &apos;has participant&apos; in which the participant is a host organism.</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has host</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000486 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000486">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000467"/>
+        <obo:IAO_0000112>A bacterium is expanded in gastric cancer patient compared to gastritis patient</obo:IAO_0000112>
+        <obo:IAO_0000115>an object property that represents the relation between a host-microbiome interaction and a microbe where the population of the microbe is expanded in a diseased host compared to a host with gastritis.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has microbe expanded compared to gastritis</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000487 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000487">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000486"/>
+        <obo:IAO_0000115>an object property that represents the relation between a host-microbiome interaction and a microbe where the population of the microbe is expanded in a diseased host compared to a host with superficial gastritis.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has microbe expanded compared to superficial gastritis</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -26792,6 +26816,17 @@
         <obo:IAO_0000115>An organism that has &apos;host role&apos;, i.e., a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">host</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000021"/>
+        <obo:IAO_0000115>A human gut-microbiome interaction where the gut is specifically stomach.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">human-stomach microbiome interaction</rdfs:label>
     </owl:Class>
     
 
