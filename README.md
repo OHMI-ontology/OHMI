@@ -16,8 +16,9 @@ The development of the OHMI is a collaborative community effort, currently by on
 - Hong Yu 
 - Yongqun Oliver He
 
-# Source code (License: http://creativecommons.org/licenses/by/4.0/): 
+# Source code 
 http://purl.obolibrary.org/obo/ohmi.owl
+(License: http://creativecommons.org/licenses/by/4.0/)
 
 # Visualization:
 Ontobee: http://www.ontobee.org/ontology/OHMI 
