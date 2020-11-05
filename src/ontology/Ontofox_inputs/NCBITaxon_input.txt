@@ -298,11 +298,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_9606
 http://purl.obolibrary.org/obo/NCBITaxon_970
 http://purl.obolibrary.org/obo/NCBITaxon_976
 http://purl.obolibrary.org/obo/NCBITaxon_9989
-
 http://purl.obolibrary.org/obo/NCBITaxon_1898203 #Lachnospiraceae bacterium
-
 http://purl.obolibrary.org/obo/NCBITaxon_472977 # Natronobacillus
 http://purl.obolibrary.org/obo/NCBITaxon_32045 # unclassified Proteobacteria 
+
+# Added by Rena
+http://purl.obolibrary.org/obo/NCBITaxon_727
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2157
