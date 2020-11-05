@@ -38,16 +38,17 @@
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Jihad Obeid</dc:creator>
         <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
+        <dc:creator>Yang Rena Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Yu Hong</dc:creator>
-        <dc:date xml:lang="en">7-8-2020</dc:date>
+        <dc:date xml:lang="en">11-5-2020</dc:date>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo xml:lang="en">2020-07-08</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">2020-11-05</owl:versionInfo>
     </owl:Ontology>
     
 
