@@ -1,54 +1,54 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#"
      xml:base="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/CMO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/DOID_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/GO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/DrON_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/ENVO_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/RO_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/GO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/HP_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/INO_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/PCO_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/PR_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/PATO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/MONDO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/NCBITaxon_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/OGG_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/OBI_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/OGG_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/PATO_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/PCO_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/PR_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/RO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/UBERON_import.owl"/>
-        <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dc:creator>Alexander Alekseyenko</dc:creator>
-        <dc:creator>Yang (Rena) Wang</dc:creator>
-        <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
-        <dc:creator>Yu Hong</dc:creator>
-        <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
-        <owl:versionInfo xml:lang="en">2020-11-05</owl:versionInfo>
         <dc:contributor>Barry Smith</dc:contributor>
+        <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:creator>Anna Maria Masci</dc:creator>
+        <dc:creator xml:lang="en">Haihe Wang</dc:creator>
         <dc:creator>Jianmin Wu</dc:creator>
-        <dc:creator>Jihad Obeid</dc:creator>
-        <dc:date xml:lang="en">11-5-2020</dc:date>
         <dc:creator>Jie Zheng</dc:creator>
-        <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
-        <dc:format xml:lang="en">OWL-DL</dc:format>
+        <dc:creator>Jihad Obeid</dc:creator>
+        <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
+        <dc:creator>Yang (Rena) Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
-        <dc:creator xml:lang="en">Haihe Wang</dc:creator>
+        <dc:creator>Yu Hong</dc:creator>
+        <dc:date xml:lang="en">11-11-2020</dc:date>
+        <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
+        <dc:format xml:lang="en">OWL-DL</dc:format>
+        <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
+        <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo xml:lang="en">2020-11-11</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4386,6 +4386,22 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001005"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -26832,6 +26848,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000489">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000077"/>
+        <obo:IAO_0000115>A human respiratory airway microbiome interaction where he human is diseased with Chronic obstructive pulmonary disease (COPD)</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COPD human lung microbiome interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000489"/>
+        <rdfs:label xml:lang="en">expansion of bacteriumX in COPD human lung</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0004907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004907"/>
@@ -26848,5 +26884,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
