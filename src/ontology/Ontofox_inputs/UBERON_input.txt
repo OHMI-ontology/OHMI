@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/UBERON_0001005 #respiratory airway
 http://purl.obolibrary.org/obo/UBERON_0000167 #oral cavity 
 http://purl.obolibrary.org/obo/UBERON_0000014 #skin
 http://purl.obolibrary.org/obo/UBERON_0001088 #urine
+http://purl.obolibrary.org/obo/UBERON_0002048 #lung
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
