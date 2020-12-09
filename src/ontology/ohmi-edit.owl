@@ -26881,7 +26881,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000493">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000489"/>
-        <rdfs:label xml:lang="en">bacterial in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+        <rdfs:label xml:lang="en">bacterial change in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
     </owl:Class>
     
 
@@ -26903,7 +26903,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000494"/>
         <obo:IAO_0000115>expansion of bacteria X in the sputum of COPD human patient compared to healthy human sputum sample</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">bacterial in sputum of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label xml:lang="en">bacterial change in sputum of COPD patient compared to healthy human</rdfs:label>
     </owl:Class>
     
 
@@ -26912,7 +26912,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000497">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000494"/>
-        <rdfs:label xml:lang="en">bacterial in sputum of exacerbation COPD patient compared to stable COPD</rdfs:label>
+        <rdfs:label xml:lang="en">bacterial change in sputum of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -26945,7 +26945,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000494"/>
-        <rdfs:label xml:lang="en">bacterial in sputum of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+        <rdfs:label xml:lang="en">bacterial change in sputum of severe COPD patient compared to mild-moderate COPD</rdfs:label>
     </owl:Class>
     
 
@@ -26998,7 +26998,7 @@
     <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000489"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
         <rdfs:label xml:lang="en">bacterial in lung of exacerbatio in COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
@@ -27010,7 +27010,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000489"/>
         <obo:IAO_0000115>COPD human respiratory airway  microbiome interaction that shows an expansion of bacteria in patients with COPD compared with healthy controls.</obo:IAO_0000115>
         <obo:IAO_0000117>Yang Wang, Yongqun He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">bacterial in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label xml:lang="en">bacterial change in lung of COPD patient compared to healthy human</rdfs:label>
     </owl:Class>
     
 
