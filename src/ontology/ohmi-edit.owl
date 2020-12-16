@@ -27062,7 +27062,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000497"/>
-        <rdfs:label xml:lang="en">expansion of Bifidobacterium in COPD human respiratory airway</rdfs:label>
+        <obo:IAO_0000115>a COPD human oral cavity  microbiome interaction that shows an expansion of Bifidobacterium in sputum of exacerbation COPD patient compared to stable COPD</obo:IAO_0000115>
+        <obo:IAO_0000117>Yang Wang, Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">expansion of Bifidobacterium in sputum of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -27161,7 +27163,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000497"/>
-        <rdfs:label xml:lang="en">expansion of Dialister in COPD human respiratory airway</rdfs:label>
+        <obo:IAO_0000115>a COPD human oral cavity  microbiome interaction that shows an expansion of Dialister in sputum of exacerbation COPD patient compared to stable COPD</obo:IAO_0000115>
+        <obo:IAO_0000117>Yang Wang, Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">expansion of Dialister in sputum of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
