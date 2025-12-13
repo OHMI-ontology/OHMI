@@ -8,7 +8,7 @@ OHMI is aimed to ontologically represent various entities and relations related 
 The development of the OHMI is a collaborative community effort, currently by ontology developers from the University of Michigan, the University of Pennsylvania, and the Medical University of South Carolina.  
 
 # Developers 
-- Yang Wang
+- Yang Wang (Rena)
 - Jihad Obeid 
 - Jie Zheng
 - Anna Maria Masci
