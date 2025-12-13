@@ -39,16 +39,17 @@
         <dc:creator>Jihad Obeid</dc:creator>
         <dc:creator xml:lang="en">Kaiyong Liu</dc:creator>
         <dc:creator>Yang (Rena) Wang</dc:creator>
+        <dc:creator xml:lang="en">Yang Wang (Rena)</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Yu Hong</dc:creator>
-        <dc:date xml:lang="en">12-2-2020</dc:date>
+        <dc:date xml:lang="en">12-13-2025</dc:date>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo xml:lang="en">2020-12-02</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">2025-12-13</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -26868,6 +26869,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000021"/>
+        <rdfs:label xml:lang="en">COPD human gut microbiome intreraction</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHMI_0000492 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000492">
@@ -26905,6 +26915,15 @@
         <obo:IAO_0000115>A COPD human oral microbiome interaction that shows bacterial change in sputum of COPD patient compared to healthy human</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
         <rdfs:label xml:lang="en">bacterial change in sputum of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000491"/>
+        <rdfs:label xml:lang="en">bacterial change in gut of COPD patient compared to healthy human</rdfs:label>
     </owl:Class>
     
 
