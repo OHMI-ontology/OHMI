@@ -1685,12 +1685,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OHMI_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000001">
@@ -26860,29 +26854,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000490 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000490">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Proteobacteria in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OHMI_0000491 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000491">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000021"/>
         <rdfs:label xml:lang="en">COPD human gut microbiome intreraction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000492 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000492">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
-        <rdfs:label xml:lang="en">expansion of Haemophilus in lung of severe COPD patient compared to mild-moderateCOPD</rdfs:label>
     </owl:Class>
     
 
@@ -26951,15 +26927,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0004907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004907"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#Haemophilus -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#Haemophilus">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Neisseria flavescens in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
     
 
 
@@ -27035,26 +27002,6 @@
         <obo:IAO_0000115>COPD human respiratory airway  microbiome interaction that shows an change of bacteria in patients with COPD compared with healthy controls.</obo:IAO_0000115>
         <obo:IAO_0000117>Yang Wang, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">bacterial change in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
-        <rdfs:label xml:lang="en">depletion of Moraxellaceae in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <obo:IAO_0000115>COPD human respiratory airway  microbiome interaction that shows an expansion of Proteobacteria in patients with COPD compared with healthy controls.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yang Wang, Yongqun He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">expantion of Proteobacteria in lung of COPD patient compared to healthy human</rdfs:label>
     </owl:Class>
     
 
@@ -27237,347 +27184,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000497"/>
         <rdfs:label xml:lang="en">expansion of Catonella in COPD human respiratory airway</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Abiotrophia_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Abiotrophia_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_46123"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">expansion of Abiotrophia in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Actinomyces_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Actinomyces_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Actinomyces  in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Actinomycetaceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Actinomycetaceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Actinomycetaceae in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Aerococcaceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Aerococcaceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Aerococcaceae  in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Anaerosporobacter_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Anaerosporobacter_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Anaerosporobacter  in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Bifidobacterium_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Bifidobacterium_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Bifidobacterium in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Bulleidia_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Bulleidia_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Bulleidia in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Butyrivibrio_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Butyrivibrio_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Butyrivibrio in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Catonella_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Catonella_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Catonella in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Centipeda_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Centipeda_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Centipeda  in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Coribacteriales_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Coribacteriales_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Coribacteriales in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Coriobacteriaceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Coriobacteriaceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Coriobacteriaceae in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Cryptobacterium_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Cryptobacterium_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Cryptobacterium in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Dialister_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Dialister_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Dialister in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Erysipelotrichaceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Erysipelotrichaceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Erysipelotrichaceaein lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Erysipelotrichales_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Erysipelotrichales_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Erysipelotrichales in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Eubacteriaceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Eubacteriaceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Eubacteriaceae in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Eubacterium_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Eubacterium_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Eubacterium in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Haemophilus_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Haemophilus_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Haemophilus in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Lachnospiraceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Lachnospiraceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Lachnospiraceae in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Lactobacillales_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Lactobacillales_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Lactobacillales in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Micrococcaceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Micrococcaceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Micrococcaceae in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Nocardioides_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Nocardioides_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Nocardioides in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Oribacterium_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Oribacterium_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Oribacterium  in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Rothia_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Rothia_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Rothia in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Selenomonas_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Selenomonas_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Selenomonas  in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Solobacterium_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Solobacterium_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Solobacterium  in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Streptococcaceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Streptococcaceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Streptococcaceae  in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Streptococcus_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Streptococcus_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Streptococcus  in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Veillonella_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Veillonella_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Veillonella in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Veillonellaceae_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_Veillonellaceae_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Veillonellaceae in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_X1_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_X1_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Streptococcus pneumoniae  in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_X2_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_X2_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Pseudomonas aeruginosa in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_X3_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_X3_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Proteobacterial  in COPD patient compared to stable COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_X_in_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of_X_in_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <rdfs:label xml:lang="en">expansion of Haemophilus influenzae in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of__Atopobiumin_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of__Atopobiumin_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-        <rdfs:label xml:lang="en">expansion of Atopobium in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of__Olsenellain_COPD_human_respiratory_airway -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#expansion_of__Olsenellain_COPD_human_respiratory_airway">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
-        <obo:IAO_0000115>COPD human respiratory airway  microbiome interaction that shows an expansion of Olsenella in patients with COPD compared with healthy controls.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yang Wang, Yongqun He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">expansion of Olsenella in lung of COPD patient compared to healthy human</rdfs:label>
-    </owl:Class>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
@@ -27628,5 +27234,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
