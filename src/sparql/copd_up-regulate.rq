@@ -1,0 +1,17 @@
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX has_microbe_depleted: <http://purl.obolibrary.org/obo/OHMI_0000377>
+PREFIX has_microbe_expanded: <http://purl.obolibrary.org/obo/OHMI_0000423>
+
+SELECT distinct ?entity ?interaction_name ?microbe
+WHERE {
+	?organism rdfs:subClassOf* obo:NCBITaxon_1239 . #Bacillota
+	?entity rdfs:subClassOf* obo:OHMI_0000492 ; #bacterial change in lung of COPD patient compared to healthy human
+		rdfs:subClassOf ?interaction_restriction .
+   	?interaction_restriction owl:onProperty has_microbe_expanded:; 
+		owl:someValuesFrom ?organism .
+	?entity rdfs:label ?l .
+        ?organism rdfs:label ?microbe .
+	BIND (str(?l) AS ?interaction_name) .
+} 
