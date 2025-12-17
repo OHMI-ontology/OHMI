@@ -1,0 +1,4076 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_copd.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_copd.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_copd.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000377 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000423 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1129771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1129771"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_118747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_118747"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_123375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_123375"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1257"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1268"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1280"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_128827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_128827"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_133925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_133925"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_135624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_135624"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_13687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13687"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1380"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1485"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_156973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_156973"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1578"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1654"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1663"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1678"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_171552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_171552"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1730"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1743"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1839"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186650"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186801"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186803"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186806"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186817"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186824"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186826"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186827"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_194924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194924"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_195950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195950"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_200643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200643"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_201174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_203492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203492"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_203691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203691"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2049"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_213118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_213118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_213121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_213121"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_213849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_213849"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_216851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216851"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_265975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_265975"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2717"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_283"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_287"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_289201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_289201"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29465"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29547"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_31977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31977"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32067"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32257"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_328812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_328812"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39948"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_416916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_416916"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_43996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43996"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_46123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_46123"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_468"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_469"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_482"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_484"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_52228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_52228"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_526525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_526525"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_53460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_53460"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_538"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_539"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_543"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_543311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_543311"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_544"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_573"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_613"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_642"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_653683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_653683"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_661182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_661182"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_713"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_72294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_72294"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_726"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_729"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_735"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_815"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_82202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_82202"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_830"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_84107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_84107"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_84108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_84108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_84162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_84162"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_84642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_84642"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_848"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_84999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_84999"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85031"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_86331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_86331"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_88138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_88138"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_893"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_906"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_909930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_909930"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91061"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_943 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_943"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_95818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_95818"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_970"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_976"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteobacteria up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:20052417</obo:IAO_0000119>
+        <rdfs:label>expansion of Proteobacteria in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Haemophilus up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:20052417</obo:IAO_0000119>
+        <rdfs:label>expansion of Haemophilus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Haemophilus influenzae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:16474030</obo:IAO_0000119>
+        <rdfs:label>expansion of Haemophilus influenzae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_729"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Haemophilus parainfluenzae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:16474030</obo:IAO_0000119>
+        <rdfs:label>expansion of Haemophilus parainfluenzae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Staphylococcus aureus up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:16474030</obo:IAO_0000119>
+        <rdfs:label>expansion of Staphylococcus aureus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Streptococcus pneumoniae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:16474030</obo:IAO_0000119>
+        <rdfs:label>expansion of Streptococcus pneumoniae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000506">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_287"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Pseudomonas aeruginosa up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:16474030</obo:IAO_0000119>
+        <rdfs:label>expansion of Pseudomonas aeruginosa in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_484"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Neisseriaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>expansion of Neisseriaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Coribacteriales up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Coribacteriales in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Coriobacteriaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Coriobacteriaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Atopobium up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Atopobium in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Cryptobacterium up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Cryptobacterium in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_133925"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Olsenella up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Olsenella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1839"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Nocardioides up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Nocardioides in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Micrococcaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Micrococcaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Rothia up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Rothia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Actinomycetaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Actinomycetaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1654"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Actinomyces up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Actinomyces in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1678"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bifidobacterium up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Bifidobacterium in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186826"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Lactobacillales up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Lactobacillales in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Streptococcaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Streptococcaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Streptococcus up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Streptococcus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Aerococcaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Aerococcaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_46123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Abiotrophia up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Abiotrophia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000524">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_526525"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Erysipelotrichales up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Erysipelotrichales in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_128827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Erysipelotrichaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Erysipelotrichaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000526">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_118747"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bulleidia up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Bulleidia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000527">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_123375"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Solobacterium up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Solobacterium in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31977"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Veillonellaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Veillonellaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39948"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Dialister up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Dialister in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000530">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Veillonella up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Veillonella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000531">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_970"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Selenomonas up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Selenomonas in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_82202"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Centipeda up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Centipeda in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000533">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186803"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Lachnospiraceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Lachnospiraceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000534">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_43996"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Catonella up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Catonella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000535">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_265975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Oribacterium up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Oribacterium in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000536">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_830"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Butyrivibrio up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Butyrivibrio in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000537">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Eubacteriaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Eubacteriaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1730"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Eubacterium up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Eubacterium in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_653683"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Anaerosporobacter up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Anaerosporobacter in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1257"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Peptostreptococcus up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Peptostreptococcus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_543311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Parvimonas up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Parvimonas in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1129771"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Leptotrichiaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Leptotrichiaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Leptotrichia up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Leptotrichia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203492"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Fusobacteriaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Fusobacteriaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_848"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Fusobacterium up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Fusobacterium in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186650"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Balneimonas (Microvirga） up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Balneimonas (Microvirga） in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32257"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Kingella up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Kingella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_135624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Aeromonadales up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Aeromonadales in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84642"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Aeromonadaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Aeromonadaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_642"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Aeromonas up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Aeromonas in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Serratia up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Serratia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Desulfobacterales up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Desulfobacterales in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Desulfobulbaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Desulfobulbaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Desulfobulbus up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Desulfobulbus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29547"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>e-proteobacteria up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of e-proteobacteria in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Campylobacteriales up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Campylobacteriales in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72294"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Campylobacteriaceae up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Campylobacteriaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Campylobacter up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Campylobacter in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_156973"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Dysgonomonas up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Dysgonomonas in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_195950"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Tannerella up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Tannerella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Prevotella up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Prevotella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000562">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_52228"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Hallella up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Hallella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Capnocytophaga up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Capnocytophaga in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_726"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Haemophilus hemolyticus up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:16474030</obo:IAO_0000119>
+        <rdfs:label>expansion of Haemophilus hemolyticus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Firmicutes up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:28408748</obo:IAO_0000119>
+        <rdfs:label>expansion of Firmicutes in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1578"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Lactobacillus up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:28408748</obo:IAO_0000119>
+        <rdfs:label>expansion of Lactobacillus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Burkholderia up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22427533</obo:IAO_0000119>
+        <rdfs:label>expansion of Burkholderia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Pseudomonas up-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:27146202</obo:IAO_0000119>
+        <rdfs:label>expansion of Pseudomonas in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_976"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bacteroidetes down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:20052417</obo:IAO_0000119>
+        <rdfs:label>depletion of Bacteroidetes in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Prevotella down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:20052417</obo:IAO_0000119>
+        <rdfs:label>depletion of Prevotella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1663"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Arthrobacter down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Arthrobacter in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Geodermatophilaceae down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Geodermatophilaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Nakamurellaceae down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Nakamurellaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_88138"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Modestobacter down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Modestobacter in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53460"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Humicoccus down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Humicoccus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186824"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Thermoactinomycetaceae down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Thermoactinomycetaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Thermoactinomyces down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Thermoactinomyces in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1485"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Clostridium  down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Clostridium  in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Citrobacter down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>depletion of Citrobacter in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Prevotellaceae down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29992131</obo:IAO_0000119>
+        <rdfs:label>depletion of Prevotellaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_909930"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Acidaminococcaceae down-regulated in the lung of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29992131</obo:IAO_0000119>
+        <rdfs:label>depletion of Acidaminococcaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Acinetobacter up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>expansion of Acinetobacter in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_661182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Perlucidibaca up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>expansion of Perlucidibaca in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_713"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Actinobacillus up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>expansion of Actinobacillus in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_943"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Ehrlichia up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>expansion of Ehrlichia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13687"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Sphingomonas up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>expansion of Sphingomonas in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_283"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Comamonas up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>expansion of Comamonas in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_543"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Enterobacteriaceae up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>expansion of Enterobacteriaceae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Pseudomonas up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>expansion of Pseudomonas in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Moraxella up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:26917613</obo:IAO_0000119>
+        <rdfs:label>expansion of Moraxella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Haemophilus influenzae up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:15805181</obo:IAO_0000119>
+        <rdfs:label>expansion of Haemophilus influenzae in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Actinobacteria down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:28841671</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:29269441</obo:IAO_0000119>
+        <rdfs:label>depletion of Actinobacteria in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Clostridia down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>depletion of Clostridia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bacilli down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>depletion of Bacilli in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200643"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bacteroidia down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>depletion of Bacteroidia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Epsilonproteobacteria down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>depletion of Epsilonproteobacteria in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Moraxella  down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Moraxella  in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Campylobacter down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
+        <rdfs:label>depletion of Campylobacter in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203691"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Spirochaetota down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29386298</obo:IAO_0000119>
+        <rdfs:label>depletion of Spirochaetota in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_95818"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Cardiobacteria down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Cardiobacteria in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000601">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39948"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Dialister down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Dialister in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2717"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Slackia down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Slackia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86331"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Mogibacterium down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Mogibacterium in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Treponema down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Treponema in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_416916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Aggregatibacter down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Aggregatibacter in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_118747"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bulleidia down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Bulleidia in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_906"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Megasphaera down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Megasphaera in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Prevotella down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Prevotella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Veillonella down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Veillonella in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Firmicutes down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
+        <rdfs:label>depletion of Firmicutes in lung of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Prevotella upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:27428540</obo:IAO_0000119>
+        <rdfs:label>expansion of Prevotella in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Acinetobacter upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:27428540</obo:IAO_0000119>
+        <rdfs:label>expansion of Acinetobacter in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Haemophilus upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29386298</obo:IAO_0000119>
+        <rdfs:label>expansion of Haemophilus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteobacteria upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29386298</obo:IAO_0000119>
+        <rdfs:label>expansion of Proteobacteria in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1839"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Nocardioides upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Nocardioides in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_289201"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Pontibacillus upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Pontibacillus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1485"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Clostridium  upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Clostridium  in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186650"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Balneimonas  upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Balneimonas  in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_642"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Aeromonas upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Aeromonas in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000620">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Desulfobulbaceae upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Desulfobulbaceae in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Desulfobacterales upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Desulfobacterales in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_135624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Aeromonadales upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Aeromonadales in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84642"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Aeromonadaceae upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:23071781</obo:IAO_0000119>
+        <rdfs:label>expansion of Aeromonadaceae in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Prevotella down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29386298</obo:IAO_0000119>
+        <rdfs:label>depletion of Prevotella in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Veillonella down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29386298</obo:IAO_0000119>
+        <rdfs:label>depletion of Veillonella in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_976"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bacteroidetes down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29386298</obo:IAO_0000119>
+        <rdfs:label>depletion of Bacteroidetes in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_468"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Moraxellaceae down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Moraxellaceae in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_265975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Oribacterium down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Oribacterium in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Eikenella down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Eikenella in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Moraxella down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Moraxella in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_713"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Actinobacillus down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Actinobacillus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Firmicutes down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Firmicutes in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteobacteria down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Proteobacteria in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_735"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Haemophilus parahaemolyticus down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Haemophilus parahaemolyticus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_539"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteobacteria/Betaproteobacteria/Neisseriales/Neisseriaceae/Eikenella/E. corrodens down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Proteobacteria/Betaproteobacteria/Neisseriales/Neisseriaceae/Eikenella/E. corrodens in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_735"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteobacteria/Gammaproteobacteria/Pasteurellaceae/Actinobacillus/Haemophilus parahaemolyticus down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
+        <rdfs:label>depletion of Proteobacteria/Gammaproteobacteria/Pasteurellaceae/Actinobacillus/Haemophilus parahaemolyticus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteobacteria up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <rdfs:label>expansion of Proteobacteria in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Actinobacteria up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <rdfs:label>expansion of Actinobacteria in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Haemophilus up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:35983167</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:38778224</obo:IAO_0000119>
+        <rdfs:label>expansion of Haemophilus in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Moraxella up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:35983167</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:38778224</obo:IAO_0000119>
+        <rdfs:label>expansion of Moraxella in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Pseudomonas up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:35983167</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <rdfs:label>expansion of Pseudomonas in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_543"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Enterobacteriaceae up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <rdfs:label>expansion of Enterobacteriaceae in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Streptococcus up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:33208745</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:35983167</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:38778224</obo:IAO_0000119>
+        <rdfs:label>expansion of Streptococcus in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194924"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Desulfovibrionaceae up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:38331563</obo:IAO_0000119>
+        <rdfs:label>expansion of Desulfovibrionaceae in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203492"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Fusobacteriaceae up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <rdfs:label>expansion of Fusobacteriaceae in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Prevotellaceae up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <rdfs:label>expansion of Prevotellaceae in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_815"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bacteroidaceae up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <rdfs:label>expansion of Bacteroidaceae in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000648">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Rothia up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:33208745</obo:IAO_0000119>
+        <rdfs:label>expansion of Rothia in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000649">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_573"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Klebsiella up-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <rdfs:label>expansion of Klebsiella in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_976"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bacteroidetes down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:33687943</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <rdfs:label>depletion of Bacteroidetes in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Firmicutes down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:33687943</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <rdfs:label>depletion of Firmicutes in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Prevotella down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:38778224</obo:IAO_0000119>
+        <rdfs:label>depletion of Prevotella in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Veillonella down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <rdfs:label>depletion of Veillonella in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1678"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Bifidobacterium down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:35983167</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:38778224</obo:IAO_0000119>
+        <rdfs:label>depletion of Bifidobacterium in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216851"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Faecalibacterium down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37240974</obo:IAO_0000119>
+        <rdfs:label>depletion of Faecalibacterium in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_328812"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Parabacteroides goldsteinii down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:33687943</obo:IAO_0000119>
+        <rdfs:label>depletion of Parabacteroides goldsteinii in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186803"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Lachnospiraceae down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:33208745</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:36883945</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:38331563</obo:IAO_0000119>
+        <obo:IAO_0000119>​​PMID:35983167</obo:IAO_0000119>
+        <rdfs:label>depletion of Lachnospiraceae in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1485"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Clostridium down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:38778224</obo:IAO_0000119>
+        <rdfs:label>depletion of Clostridium in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1743"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Propionibacterium down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:38778224</obo:IAO_0000119>
+        <rdfs:label>depletion of Propionibacterium in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1578"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Lactobacillus down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <rdfs:label>depletion of Lactobacillus in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1378"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Gemella down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <rdfs:label>depletion of Gemella in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000662">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_482"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Neisseria down-regulated in the gut of COPD patient compared to healthy human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
+        <rdfs:label>depletion of Neisseria in gut of COPD patient compared to healthy human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+
