@@ -20,7 +20,6 @@ http://purl.obolibrary.org/obo/NCBITaxon_10407
 http://purl.obolibrary.org/obo/NCBITaxon_104608
 http://purl.obolibrary.org/obo/NCBITaxon_1088106
 http://purl.obolibrary.org/obo/NCBITaxon_109326
-http://purl.obolibrary.org/obo/NCBITaxon_11103
 http://purl.obolibrary.org/obo/NCBITaxon_1150298 
 http://purl.obolibrary.org/obo/NCBITaxon_115543 
 http://purl.obolibrary.org/obo/NCBITaxon_116085 
@@ -57,10 +56,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_1434006
 http://purl.obolibrary.org/obo/NCBITaxon_1496 
 http://purl.obolibrary.org/obo/NCBITaxon_1502 
 http://purl.obolibrary.org/obo/NCBITaxon_150247
-http://purl.obolibrary.org/obo/NCBITaxon_1505663 
 http://purl.obolibrary.org/obo/NCBITaxon_1531 
-http://purl.obolibrary.org/obo/NCBITaxon_1532 
-http://purl.obolibrary.org/obo/NCBITaxon_1535326
 http://purl.obolibrary.org/obo/NCBITaxon_155615
 http://purl.obolibrary.org/obo/NCBITaxon_157 
 http://purl.obolibrary.org/obo/NCBITaxon_1579
@@ -93,7 +89,6 @@ http://purl.obolibrary.org/obo/NCBITaxon_186802
 http://purl.obolibrary.org/obo/NCBITaxon_186803 
 http://purl.obolibrary.org/obo/NCBITaxon_186804
 http://purl.obolibrary.org/obo/NCBITaxon_186806 
-http://purl.obolibrary.org/obo/NCBITaxon_186813 
 http://purl.obolibrary.org/obo/NCBITaxon_1872650 
 http://purl.obolibrary.org/obo/NCBITaxon_1897022
 http://purl.obolibrary.org/obo/NCBITaxon_1898203 
@@ -198,7 +193,6 @@ http://purl.obolibrary.org/obo/NCBITaxon_4932
 http://purl.obolibrary.org/obo/NCBITaxon_5140 
 http://purl.obolibrary.org/obo/NCBITaxon_5204
 http://purl.obolibrary.org/obo/NCBITaxon_538 
-http://purl.obolibrary.org/obo/NCBITaxon_541000 
 http://purl.obolibrary.org/obo/NCBITaxon_543
 http://purl.obolibrary.org/obo/NCBITaxon_543311
 http://purl.obolibrary.org/obo/NCBITaxon_544
@@ -300,7 +294,16 @@ http://purl.obolibrary.org/obo/NCBITaxon_976
 http://purl.obolibrary.org/obo/NCBITaxon_9989
 http://purl.obolibrary.org/obo/NCBITaxon_1898203 #Lachnospiraceae bacterium
 http://purl.obolibrary.org/obo/NCBITaxon_472977 # Natronobacillus
-http://purl.obolibrary.org/obo/NCBITaxon_32045 # unclassified Proteobacteria 
+http://purl.obolibrary.org/obo/NCBITaxon_32045 # unclassified Proteobacteria
+
+# ID changed
+http://purl.obolibrary.org/obo/NCBITaxon_3052230 #NCBITaxon_11103
+http://purl.obolibrary.org/obo/NCBITaxon_3025755 #NCBITaxon_1505663 
+http://purl.obolibrary.org/obo/NCBITaxon_33035 #NCBITaxon_1532 
+http://purl.obolibrary.org/obo/NCBITaxon_5475 #NCBITaxon_1535326
+#http://purl.obolibrary.org/obo/NCBITaxon_186813 
+http://purl.obolibrary.org/obo/NCBITaxon_216572 #NCBITaxon_541000 
+
 
 # Added by Rena
 http://purl.obolibrary.org/obo/NCBITaxon_727
@@ -433,7 +436,14 @@ http://purl.obolibrary.org/obo/NCBITaxon_84642
 http://purl.obolibrary.org/obo/NCBITaxon_970
 http://purl.obolibrary.org/obo/NCBITaxon_1268 
 http://purl.obolibrary.org/obo/NCBITaxon_265975 
-http://purl.obolibrary.org/obo/NCBITaxon_613 
+http://purl.obolibrary.org/obo/NCBITaxon_613
+http://purl.obolibrary.org/obo/NCBITaxon_1268
+http://purl.obolibrary.org/obo/NCBITaxon_1378
+http://purl.obolibrary.org/obo/NCBITaxon_1743
+http://purl.obolibrary.org/obo/NCBITaxon_194924
+http://purl.obolibrary.org/obo/NCBITaxon_216851
+http://purl.obolibrary.org/obo/NCBITaxon_328812
+http://purl.obolibrary.org/obo/NCBITaxon_91061
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2157
