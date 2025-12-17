@@ -758,6 +758,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000492"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHMI_0000493 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000493"/>
@@ -770,10 +776,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000499"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHMI_0000500 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000500">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -793,7 +805,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000501 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000501">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -813,7 +825,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000502">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -833,7 +845,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000503 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000503">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -853,7 +865,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000504 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000504">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -873,7 +885,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000505">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -893,7 +905,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000506 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000506">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -913,7 +925,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000507 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000507">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -933,7 +945,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000508">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -953,7 +965,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000509 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000509">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -973,7 +985,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000510 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000510">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -993,7 +1005,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000511 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000511">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1013,7 +1025,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000512 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000512">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1033,7 +1045,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000513 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000513">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1053,7 +1065,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000514 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000514">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1073,7 +1085,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000515 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000515">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1093,7 +1105,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000516 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000516">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1113,7 +1125,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000517 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000517">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1133,7 +1145,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000518 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000518">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1153,7 +1165,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000519 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000519">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1173,7 +1185,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000520 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000520">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1193,7 +1205,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000521">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1213,7 +1225,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000522 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000522">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1233,7 +1245,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000523 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000523">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1253,7 +1265,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000524">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1273,7 +1285,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000525 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000525">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1293,7 +1305,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000526 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000526">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1313,7 +1325,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000527 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000527">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1333,7 +1345,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000528 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000528">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1353,7 +1365,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000529 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000529">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1373,7 +1385,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000530 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000530">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1393,7 +1405,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000531">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1413,7 +1425,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000532 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000532">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1433,7 +1445,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000533">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1453,7 +1465,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000534 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000534">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1473,7 +1485,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000535">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1493,7 +1505,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000536 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000536">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1513,7 +1525,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000537 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000537">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1533,7 +1545,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000538 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000538">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1553,7 +1565,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000539 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000539">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1573,7 +1585,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000540 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000540">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1593,7 +1605,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000541 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000541">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1613,7 +1625,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000542 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000542">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1633,7 +1645,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000543 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000543">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1653,7 +1665,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000544 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000544">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1673,7 +1685,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000545 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000545">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1693,7 +1705,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000546 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000546">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1713,7 +1725,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000547 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000547">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1733,7 +1745,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000548 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000548">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1753,7 +1765,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000549 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000549">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1773,7 +1785,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1793,7 +1805,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000551 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000551">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1813,7 +1825,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000552 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000552">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1833,7 +1845,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000553">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1853,7 +1865,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000554">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1873,7 +1885,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000555 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000555">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1893,7 +1905,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000556 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000556">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1913,7 +1925,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000557">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1933,7 +1945,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000558 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000558">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1953,7 +1965,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000559 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000559">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1973,7 +1985,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000560">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -1993,7 +2005,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000561">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -2013,7 +2025,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000562">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -2033,7 +2045,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000563">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -2053,7 +2065,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000564">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -2073,7 +2085,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000565">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -2093,7 +2105,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000566">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -2113,7 +2125,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000567">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -2133,7 +2145,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000568">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
@@ -2153,7 +2165,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000569 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000569">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2173,7 +2185,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000570">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2193,7 +2205,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000571">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2213,7 +2225,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000572">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2233,7 +2245,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000573 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000573">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2253,7 +2265,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000574 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000574">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2273,7 +2285,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000575 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000575">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2293,7 +2305,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000576 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000576">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2313,7 +2325,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000577 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000577">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2333,7 +2345,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000578 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000578">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2353,7 +2365,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000579 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000579">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2373,7 +2385,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000580 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000580">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2393,7 +2405,7 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000581 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000581">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
@@ -2413,19 +2425,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000582 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000582">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Acinetobacter up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Acinetobacter up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>expansion of Acinetobacter in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Acinetobacter in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2433,19 +2445,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000583 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000583">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_661182"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Perlucidibaca up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Perlucidibaca up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>expansion of Perlucidibaca in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Perlucidibaca in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2453,19 +2465,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000584 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000584">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_713"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Actinobacillus up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Actinobacillus up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>expansion of Actinobacillus in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Actinobacillus in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2473,19 +2485,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000585 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000585">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_943"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Ehrlichia up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Ehrlichia up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>expansion of Ehrlichia in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Ehrlichia in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2493,19 +2505,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000586 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000586">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13687"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Sphingomonas up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Sphingomonas up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>expansion of Sphingomonas in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Sphingomonas in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2513,19 +2525,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000587">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_283"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Comamonas up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Comamonas up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>expansion of Comamonas in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Comamonas in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2533,19 +2545,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000588 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000588">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_543"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Enterobacteriaceae up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Enterobacteriaceae up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>expansion of Enterobacteriaceae in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Enterobacteriaceae in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2553,19 +2565,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000589 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000589">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Pseudomonas up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Pseudomonas up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>expansion of Pseudomonas in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Pseudomonas in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2573,19 +2585,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000590">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Moraxella up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Moraxella up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:26917613</obo:IAO_0000119>
-        <rdfs:label>expansion of Moraxella in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Moraxella in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2593,19 +2605,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000591">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Haemophilus influenzae up-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Haemophilus influenzae up-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:15805181</obo:IAO_0000119>
-        <rdfs:label>expansion of Haemophilus influenzae in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>expansion of Haemophilus influenzae in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2613,21 +2625,21 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000592 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000592">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Actinobacteria down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Actinobacteria down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
         <obo:IAO_0000119>PMID:28841671</obo:IAO_0000119>
         <obo:IAO_0000119>PMID:29269441</obo:IAO_0000119>
-        <rdfs:label>depletion of Actinobacteria in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Actinobacteria in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2635,19 +2647,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000593 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000593">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186801"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Clostridia down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Clostridia down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>depletion of Clostridia in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Clostridia in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2655,19 +2667,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000594">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91061"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Bacilli down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Bacilli down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>depletion of Bacilli in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Bacilli in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2675,19 +2687,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000595">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200643"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Bacteroidia down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Bacteroidia down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>depletion of Bacteroidia in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Bacteroidia in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2695,19 +2707,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000596 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000596">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186817"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Epsilonproteobacteria down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Epsilonproteobacteria down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>depletion of Epsilonproteobacteria in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Epsilonproteobacteria in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2715,20 +2727,20 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000597 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000597">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Moraxella  down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Moraxella  down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Moraxella  in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Moraxella  in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2736,19 +2748,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000598 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000598">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Campylobacter down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Campylobacter down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:24850358</obo:IAO_0000119>
-        <rdfs:label>depletion of Campylobacter in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Campylobacter in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2756,19 +2768,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000599 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000599">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203691"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Spirochaetota down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Spirochaetota down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:29386298</obo:IAO_0000119>
-        <rdfs:label>depletion of Spirochaetota in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Spirochaetota in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2776,19 +2788,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000600 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000600">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_95818"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Cardiobacteria down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Cardiobacteria down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Cardiobacteria in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Cardiobacteria in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2796,19 +2808,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000601 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000601">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39948"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Dialister down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Dialister down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Dialister in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Dialister in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2816,19 +2828,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000602 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000602">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2717"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Slackia down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Slackia down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Slackia in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Slackia in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2836,19 +2848,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000603 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000603">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86331"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Mogibacterium down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Mogibacterium down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Mogibacterium in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Mogibacterium in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2856,19 +2868,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000604 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000604">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Treponema down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Treponema down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Treponema in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Treponema in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2876,19 +2888,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000605 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000605">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_416916"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Aggregatibacter down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aggregatibacter down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Aggregatibacter in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Aggregatibacter in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2896,19 +2908,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_118747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Bulleidia down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Bulleidia down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Bulleidia in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Bulleidia in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2916,19 +2928,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000607 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000607">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_906"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Megasphaera down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Megasphaera down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Megasphaera in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Megasphaera in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2936,19 +2948,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000608">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Prevotella down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Prevotella down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Prevotella in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Prevotella in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2956,19 +2968,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000609 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000609">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29465"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Veillonella down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Veillonella down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Veillonella in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Veillonella in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -2976,19 +2988,19 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000610 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000610">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Firmicutes down-regulated in the lung of COPD patient compared to stable COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Firmicutes down-regulated in the lung of exacerbation COPD patient compared to stable COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:31234826</obo:IAO_0000119>
-        <rdfs:label>depletion of Firmicutes in lung of COPD patient compared to healthy human</rdfs:label>
+        <rdfs:label>depletion of Firmicutes in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
     </owl:Class>
     
 
@@ -4056,18 +4068,6 @@
         <obo:IAO_0000119>PMID:37029178</obo:IAO_0000119>
         <rdfs:label>depletion of Neisseria in gut of COPD patient compared to healthy human</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000007"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-edit.owl#OHMI_0000008"/>
 </rdf:RDF>
 
 
