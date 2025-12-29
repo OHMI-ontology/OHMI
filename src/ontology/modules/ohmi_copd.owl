@@ -530,12 +530,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_539 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_539"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_543 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_543"/>
@@ -3011,11 +3005,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Prevotella upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Prevotella up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3031,11 +3025,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Acinetobacter upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Acinetobacter up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3051,11 +3045,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Haemophilus upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Haemophilus up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3071,11 +3065,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Proteobacteria upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Proteobacteria up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3095,7 +3089,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1839"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nocardioides upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nocardioides up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3115,7 +3109,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_289201"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Pontibacillus upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Pontibacillus up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3135,7 +3129,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Clostridium  upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Clostridium  up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3155,7 +3149,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186650"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Balneimonas  upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Balneimonas  up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3175,7 +3169,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_642"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Aeromonas upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aeromonas up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3195,7 +3189,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Desulfobulbaceae upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Desulfobulbaceae up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3215,7 +3209,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Desulfobacterales upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Desulfobacterales up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3235,7 +3229,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_135624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Aeromonadales upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aeromonadales up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3255,7 +3249,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84642"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Aeromonadaceae upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aeromonadaceae up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -3271,7 +3265,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3291,7 +3285,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29465"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3311,7 +3305,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_976"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3331,7 +3325,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3481,46 +3475,6 @@
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
         <rdfs:label>depletion of Haemophilus parahaemolyticus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000635 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000635">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_539"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Proteobacteria/Betaproteobacteria/Neisseriales/Neisseriaceae/Eikenella/E. corrodens down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
-        <rdfs:label>depletion of Proteobacteria/Betaproteobacteria/Neisseriales/Neisseriaceae/Eikenella/E. corrodens in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000636 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000636">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_735"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Proteobacteria/Gammaproteobacteria/Pasteurellaceae/Actinobacillus/Haemophilus parahaemolyticus down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
-        <rdfs:label>depletion of Proteobacteria/Gammaproteobacteria/Pasteurellaceae/Actinobacillus/Haemophilus parahaemolyticus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
     </owl:Class>
     
 
