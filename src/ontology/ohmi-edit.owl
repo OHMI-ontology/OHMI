@@ -44,13 +44,12 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Yu Hong</dc:creator>
-        <dc:date xml:lang="en">12-13-2025</dc:date>
+        <dc:date xml:lang="en">12-28-2025</dc:date>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
         <dc:title xml:lang="en">OHMI: Ontology of Host-Microbiome Interactions</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo xml:lang="en">2025-12-13</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -605,25 +604,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3025755 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3025755"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33035">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000453"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_157">
@@ -933,6 +913,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_216572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_216851 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216851">
@@ -1063,6 +1049,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3025755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3025755"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_306 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_306">
@@ -1110,6 +1102,19 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33035">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000453"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -1247,12 +1252,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_216572 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
     
 
 
