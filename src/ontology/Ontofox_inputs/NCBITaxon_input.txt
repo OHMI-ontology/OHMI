@@ -295,13 +295,13 @@ http://purl.obolibrary.org/obo/NCBITaxon_9989
 http://purl.obolibrary.org/obo/NCBITaxon_1898203 #Lachnospiraceae bacterium
 http://purl.obolibrary.org/obo/NCBITaxon_472977 # Natronobacillus
 http://purl.obolibrary.org/obo/NCBITaxon_32045 # unclassified Proteobacteria
+http://purl.obolibrary.org/obo/NCBITaxon_946234 
 
 # ID changed
 http://purl.obolibrary.org/obo/NCBITaxon_3052230 #NCBITaxon_11103
 http://purl.obolibrary.org/obo/NCBITaxon_3025755 #NCBITaxon_1505663 
 http://purl.obolibrary.org/obo/NCBITaxon_33035 #NCBITaxon_1532 
 http://purl.obolibrary.org/obo/NCBITaxon_5475 #NCBITaxon_1535326
-#http://purl.obolibrary.org/obo/NCBITaxon_186813 
 http://purl.obolibrary.org/obo/NCBITaxon_216572 #NCBITaxon_541000 
 
 

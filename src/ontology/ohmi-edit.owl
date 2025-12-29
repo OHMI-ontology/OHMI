@@ -605,15 +605,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1505663 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3025755 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1505663"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3025755"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1532 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33035 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1532">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33035">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000453"/>
@@ -846,12 +846,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186813 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186813"/>
     
 
 
@@ -1256,9 +1250,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_541000 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_216572 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
     
 
 
@@ -1672,15 +1666,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_909929">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_909932"/>
         <rdfs:label xml:lang="en">Selenomonadales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_946234 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_946234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186813"/>
-        <rdfs:label xml:lang="en">Flavonifractor</rdfs:label>
     </owl:Class>
     
 
@@ -5656,7 +5641,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000032"/>
@@ -5700,7 +5685,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an AS human-gut microbiome interaction that shows an expansion of Ruminococcaceae in patients with AS compared with healthy controls.</obo:IAO_0000115>
@@ -7263,7 +7248,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000035"/>
@@ -7307,7 +7292,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a Gout human-gut microbiome interaction that shows an decrease of Ruminococcaceae in patients with gout compared with healthy controls.</obo:IAO_0000115>
@@ -7327,7 +7312,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1505663"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3025755"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000032"/>
@@ -7371,7 +7356,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1505663"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3025755"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a Gout human-gut microbiome interaction that shows an expansion of Erysipelatoclostridium in patients with gout compared with healthy controls.</obo:IAO_0000115>
@@ -11994,7 +11979,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <owl:Restriction>
@@ -12033,7 +12018,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <owl:Restriction>
@@ -21776,7 +21761,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000035"/>
@@ -21814,7 +21799,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A colorectal cancer human-gut microbiome interaction where Ruminococcaceae is decreased.</obo:IAO_0000115>
@@ -23865,7 +23850,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1532"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33035"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000052"/>
@@ -23909,7 +23894,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1532"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human-gut microbiome interaction that shows an decrease of Blautia coccoides in patients with RA compared with fibromyalgia patients.</obo:IAO_0000115>

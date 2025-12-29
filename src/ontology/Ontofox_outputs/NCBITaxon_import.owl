@@ -4733,6 +4733,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_946234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_946234">
+        <rdfs:label>Flavonifractor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
+        <obo:IAO_0000111>Flavonifractor</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_95818 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_95818">

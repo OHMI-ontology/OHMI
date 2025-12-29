@@ -6502,12 +6502,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1505663 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1505663"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1506553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1506553">
@@ -6526,19 +6520,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000111>Enterocloster clostridioformis</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label>Enterocloster clostridioformis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1532 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1532">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000453"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -7211,12 +7192,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label>Eubacteriaceae</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186813 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186813"/>
     
 
 
@@ -8543,6 +8518,12 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_572511"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000453"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000111>Blautia producta</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label>Blautia producta</rdfs:label>
@@ -9405,12 +9386,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label>Eikenella corrodens</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_541000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
     
 
 
@@ -11094,8 +11069,10 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_946234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_946234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186813"/>
-        <rdfs:label xml:lang="en">Flavonifractor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
+        <obo:IAO_0000111>Flavonifractor</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label>Flavonifractor</rdfs:label>
     </owl:Class>
     
 
@@ -17375,7 +17352,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000032"/>
@@ -17419,7 +17396,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an AS human-gut microbiome interaction that shows an expansion of Ruminococcaceae in patients with AS compared with healthy controls.</obo:IAO_0000115>
@@ -18982,7 +18959,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000035"/>
@@ -19026,7 +19003,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a Gout human-gut microbiome interaction that shows an decrease of Ruminococcaceae in patients with gout compared with healthy controls.</obo:IAO_0000115>
@@ -19046,7 +19023,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1505663"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3025755"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000032"/>
@@ -19090,7 +19067,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1505663"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3025755"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a Gout human-gut microbiome interaction that shows an expansion of Erysipelatoclostridium in patients with gout compared with healthy controls.</obo:IAO_0000115>
@@ -23713,7 +23690,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <owl:Restriction>
@@ -23752,7 +23729,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <owl:Restriction>
@@ -33495,7 +33472,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000035"/>
@@ -33533,7 +33510,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_541000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A colorectal cancer human-gut microbiome interaction where Ruminococcaceae is decreased.</obo:IAO_0000115>
@@ -35584,7 +35561,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1532"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33035"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000214"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000052"/>
@@ -35628,7 +35605,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1532"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a RA human-gut microbiome interaction that shows an decrease of Blautia coccoides in patients with RA compared with fibromyalgia patients.</obo:IAO_0000115>
@@ -40903,11 +40880,11 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Prevotella upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Prevotella up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -40923,11 +40900,11 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Acinetobacter upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Acinetobacter up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -40943,11 +40920,11 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Haemophilus upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Haemophilus up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -40963,11 +40940,11 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Proteobacteria upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Proteobacteria up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -40987,7 +40964,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1839"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nocardioides upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nocardioides up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41007,7 +40984,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_289201"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Pontibacillus upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Pontibacillus up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41027,7 +41004,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Clostridium  upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Clostridium  up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41047,7 +41024,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186650"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Balneimonas  upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Balneimonas  up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41067,7 +41044,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_642"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Aeromonas upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aeromonas up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41087,7 +41064,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Desulfobulbaceae upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Desulfobulbaceae up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41107,7 +41084,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Desulfobacterales upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Desulfobacterales up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41127,7 +41104,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_135624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Aeromonadales upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aeromonadales up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41147,7 +41124,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_84642"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Aeromonadaceae upd-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aeromonadaceae up-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -41163,7 +41140,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -41183,7 +41160,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29465"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -41203,7 +41180,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_976"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -41223,7 +41200,7 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000423"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -41373,46 +41350,6 @@ discussed on obi-dev call 9/28/2015, details see: https://sourceforge.net/p/obi/
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
         <rdfs:label>depletion of Haemophilus parahaemolyticus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000635 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000635">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_539"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Proteobacteria/Betaproteobacteria/Neisseriales/Neisseriaceae/Eikenella/E. corrodens down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
-        <rdfs:label>depletion of Proteobacteria/Betaproteobacteria/Neisseriales/Neisseriaceae/Eikenella/E. corrodens in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000636 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000636">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000493"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_735"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Proteobacteria/Gammaproteobacteria/Pasteurellaceae/Actinobacillus/Haemophilus parahaemolyticus down-regulated in the lung of severe COPD patient compared to mild-moderate COPD.</obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Yang Wang</obo:IAO_0000117>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000119>PMID:25253795</obo:IAO_0000119>
-        <rdfs:label>depletion of Proteobacteria/Gammaproteobacteria/Pasteurellaceae/Actinobacillus/Haemophilus parahaemolyticus in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
     </owl:Class>
     
 
