@@ -75,6 +75,12 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
     <!-- http://www.w3.org/2002/07/owl#minQualifiedCardinality -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#minQualifiedCardinality"/>
@@ -618,6 +624,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1578 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1578">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_158">
@@ -710,6 +729,19 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000350"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1678 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1678">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -928,6 +960,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -939,6 +977,32 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_239934 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_239934">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_239935 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_239935">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1610,6 +1674,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_841 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_841">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_84111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_84111">
@@ -1660,6 +1737,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_853 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_853">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_909929 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_909929">
@@ -1675,6 +1765,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1843491"/>
         <rdfs:label xml:lang="en">Selenomonas</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_976 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_976">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -27105,9 +27208,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000671">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:label xml:lang="en">SCFA-producing bacteria</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0004907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004907"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>An aliphatic monocarboxylic acid with a chain length of less than C&lt;small&gt;&lt;sub&gt;6&lt;/sub&gt;&lt;/small&gt;. If any non-hydrocarbon substituent is present, the compound is not normally regarded as a short-chain fatty acid.</obo:IAO_0000115>
+        <obo:IAO_0000118>SCFA</obo:IAO_0000118>
+        <obo:IAO_0000118>SCFAs</obo:IAO_0000118>
+        <obo:IAO_0000118>short-chain fatty acids</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>pubmed:16633129; pubmed:16870803; pubmed:20148677; pubmed:18203540</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">short-chain fatty acid</rdfs:label>
+    </owl:Class>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
