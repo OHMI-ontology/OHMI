@@ -44,7 +44,7 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Yu Hong</dc:creator>
-        <dc:date xml:lang="en">12-28-2025</dc:date>
+        <dc:date xml:lang="en">3-15-2026</dc:date>
         <dc:description xml:lang="en">OHMI is a biomedical ontology that represents the entities and relations in the domain of host-microbiome interactions.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">OHMI: A biomedical ontology in the domain of host-microbiome interactions.</dc:subject>
@@ -1685,6 +1685,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label xml:lang="en">Porphyromonas macacae</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
     
 
 
@@ -26857,6 +26863,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <obo:IAO_0000115>Severity provided by the Global Initiative for Chronic Obstructive Lung Disease (“GOLD”) for indicating different severity levels of COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://goldcopd.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">severity of COPD</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHMI_0000491 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000491">
@@ -26881,7 +26899,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000493">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000489"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHMI_0000664"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000663"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>COPD human respiratory airway  microbiome interaction that shows an change of bacteria in patients with severe COPD compared to mild-moderate COPD.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">bacterial change in lung of severe COPD patient compared to mild-moderate COPD</rdfs:label>
     </owl:Class>
     
@@ -26929,12 +26964,133 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000498">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000490"/>
+        <obo:IAO_0000115>GOLD Stage 1 (Mild) is the initial stage of Chronic Obstructive Pulmonary Disease (COPD), characterized by mild airflow limitation with an (Forced Expiratory Volume in 1 second) 80% of the predicted value. While lung function is only slightly reduced, patients may experience chronic cough, sputum production, or occasional breathlessness.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK580644/table/ch1.tab1/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.webmd.com/lung/copd/gold-criteria-for-copd</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">GOLD Stage 1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHMI_0000499 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000499">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000489"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHMI_0000664"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000668"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>COPD human respiratory airway  microbiome interaction that shows an change of bacteria in patients with exacerbation COPD compared to stable COPD.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">bacterial change in lung of exacerbation COPD patient compared to stable COPD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000490"/>
+        <obo:IAO_0000115>GOLD Stage 2 (or Grade 2) represents Moderate COPD, defined by a post-bronchodilator (Forced Expiratory Volume in 1 second) between 50% and 79% of the predicted value, indicating a moderate limitation in airflow. Patients often experience worsening shortness of breath, increased coughing, and mucus production, making it a common point for seeking medical advice.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK580644/table/ch1.tab1/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.webmd.com/lung/copd/gold-criteria-for-copd</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">GOLD Stage 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000490"/>
+        <obo:IAO_0000115>GOLD Stage 3 (Severe) COPD indicates a significant limitation in lung function, with between 30% and 49% of the predicted value. Patients typically experience worsening shortness of breath, frequent exacerbations (flare-ups), and reduced exercise tolerance, requiring targeted treatment such as pulmonary rehabilitation and inhaled medications.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK580644/table/ch1.tab1/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.webmd.com/lung/copd/gold-criteria-for-copd</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">GOLD Stage 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000490"/>
+        <obo:IAO_0000115>GOLD Stage 4 represents very severe, end-stage COPD, characterized by lung function (FEV1) less than 30% of predicted capacity. It involves chronic, debilitating breathing difficulties, frequent flare-ups, and often requires long-term oxygen therapy. Management focuses on improving quality of life, using medications, pulmonary rehab, and potentially lung-volume reduction surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK580644/table/ch1.tab1/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.webmd.com/lung/copd/gold-criteria-for-copd</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">GOLD Stage 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000664">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label xml:lang="en">patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000665">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <obo:IAO_0000115>A process quality in which a disease is in its stable stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">disease stable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <obo:IAO_0000115>A process quality in which a disease is in its stage of execerbation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">disease exacerbation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000667">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000665"/>
+        <obo:IAO_0000115>A process quality in which the CODP disease is in its stable stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COPD stable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000668">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000666"/>
+        <obo:IAO_0000115>A process quality in which the CODP disease is in its stage of execerbation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rena Wang, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COPD execerbation</rdfs:label>
     </owl:Class>
     
 
@@ -26965,5 +27121,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
