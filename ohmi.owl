@@ -14,7 +14,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohmi.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohmi/2026-03-15/ohmi.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohmi/releases/2026-03-15/ohmi.owl"/>
         <dc:contributor>Barry Smith</dc:contributor>
         <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:creator>Anna Maria Masci</dc:creator>
@@ -44162,8 +44162,8 @@ This interpretation is *not* the same as an at-all-times relation</obo:IAO_00001
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ro.owl">
         <owl:versionInfo>2025-12-17</owl:versionInfo>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <terms:description xml:lang="en">The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies.</terms:description>
         <terms:title xml:lang="en">OBO Relations Ontology</terms:title>
+        <terms:description xml:lang="en">The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies.</terms:description>
         <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> https://github.com/oborel/obo-relations/</foaf:homepage>
     </rdf:Description>
 </rdf:RDF>
