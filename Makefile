@@ -82,7 +82,7 @@ ohmi.owl: build/ohmi_merged.owl | build/robot.jar
 	--reasoner HermiT \
 	annotate \
 	--ontology-iri "$(OBO)/ohmi.owl" \
-	--version-iri "$(OBO)/ohmi/$(TODAY)/ohmi.owl" \
+	--version-iri "$(OBO)/ohmi/releases/$(TODAY)/ohmi.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@
 
