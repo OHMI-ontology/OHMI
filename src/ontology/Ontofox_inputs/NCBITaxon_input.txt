@@ -296,6 +296,9 @@ http://purl.obolibrary.org/obo/NCBITaxon_1898203 #Lachnospiraceae bacterium
 http://purl.obolibrary.org/obo/NCBITaxon_472977 # Natronobacillus
 http://purl.obolibrary.org/obo/NCBITaxon_32045 # unclassified Proteobacteria
 http://purl.obolibrary.org/obo/NCBITaxon_946234 
+http://purl.obolibrary.org/obo/NCBITaxon_33090 #Viridiplantae  (green plants)
+http://purl.obolibrary.org/obo/NCBITaxon_1236 #Gammaproteobacteria
+
 
 # ID changed
 http://purl.obolibrary.org/obo/NCBITaxon_3052230 #NCBITaxon_11103

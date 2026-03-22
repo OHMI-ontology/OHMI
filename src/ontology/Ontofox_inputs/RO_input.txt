@@ -14,6 +14,9 @@ http://purl.obolibrary.org/obo/RO_0000087 #has role
 http://purl.obolibrary.org/obo/RO_0000091 #has disposition
 http://purl.obolibrary.org/obo/RO_0002351 #has member
 http://purl.obolibrary.org/obo/RO_0003000 #produces
+http://purl.obolibrary.org/obo/RO_0016002 #has disease
+http://purl.obolibrary.org/obo/RO_0002200 #has phenotype
+http://purl.obolibrary.org/obo/RO_0002454 #has host
 
 http://purl.obolibrary.org/obo/RO_0002222 #temporallly related to
 includeAllChildren
