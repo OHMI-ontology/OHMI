@@ -719,7 +719,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1437183">
         <rdfs:label>Mesangiospermae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
         <obo:IAO_0000111>Mesangiospermae</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
@@ -2274,13 +2274,13 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3052230">
         <rdfs:label>Hepacivirus hominis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2559587"/>
+        <obo:IAO_0000118>hepatitis C virus HCV</obo:IAO_0000118>
         <obo:IAO_0000118>human hepatitis virus C HCV</obo:IAO_0000118>
         <obo:IAO_0000118>human hepatitis C virus</obo:IAO_0000118>
         <obo:IAO_0000118>post-transfusion hepatitis non A non B virus</obo:IAO_0000118>
         <obo:IAO_0000118>Hepacivirus C</obo:IAO_0000118>
-        <obo:IAO_0000118>Hepatitis C virus</obo:IAO_0000118>
-        <obo:IAO_0000118>hepatitis C virus HCV</obo:IAO_0000118>
         <obo:IAO_0000118>human hepatitis C virus HCV</obo:IAO_0000118>
+        <obo:IAO_0000118>Hepatitis C virus</obo:IAO_0000118>
         <obo:IAO_0000111>Hepacivirus hominis</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
@@ -2551,6 +2551,20 @@
         <rdfs:label>Coprococcus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186803"/>
         <obo:IAO_0000111>Coprococcus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33090">
+        <rdfs:label>Viridiplantae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <obo:IAO_0000118>green plants</obo:IAO_0000118>
+        <obo:IAO_0000118>Chlorophyta/Embryophyta group</obo:IAO_0000118>
+        <obo:IAO_0000111>Viridiplantae</obo:IAO_0000111>
+        <obo:IAO_0000118>chlorophyte/embryophyte group</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
     
