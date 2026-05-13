@@ -31,6 +31,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/RO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/UBERON_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_copd.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_mdd.owl"/>
         <dc:contributor>Barry Smith</dc:contributor>
         <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:creator>Anna Maria Masci</dc:creator>
@@ -109,7 +110,6 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000055">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000313"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000306"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <obo:IAO_0000115>An object property that represents the susceptible increase (compared to healthy control) of the population of a microbe in a host with a specific disease. This is a shortcut relation where the domain is microbe, and the range is a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -154,7 +154,6 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000209">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000313"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000339"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <obo:IAO_0000115>An object property that represents the susceptible decrease (compared to healthy control) of the population of a microbe in a host with a specific disease. The susceptibility is usually derived from peer-reviewed studies. This is a shortcut relation where the domain is microbe, and the range is a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -252,7 +251,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000306">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115>An object property that represents a disease in a host where the host has susceptibly increased population of a microbe. This is a shortcut relation where the domain is disease, and the range is a microbe.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">disease in host with susceptibly expanded microbe</rdfs:label>
@@ -263,7 +261,6 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000313 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000313">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <obo:IAO_0000115>An object property that represents the susceptible change (compared to healthy control) of the population of a microbe in a host with a specific disease. This is a shortcut relation where the domain is microbe, and the range is a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -276,7 +273,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000339">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115>An object property that represents a disease in a host where the host has susceptibly decreased population of a microbe. This is a shortcut relation where the domain is disease, and the range is a microbe.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">disease in host with susceptibly depleted microbe</rdfs:label>
@@ -501,14 +497,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0001010 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0001010">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_6196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6196">
@@ -637,7 +625,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Treponema</rdfs:label>
     </owl:Class>
     
 
@@ -802,7 +789,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_171550">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171549"/>
-        <rdfs:label xml:lang="en">Rikenellaceae</rdfs:label>
     </owl:Class>
     
 
@@ -837,7 +823,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1730">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186806"/>
-        <rdfs:label xml:lang="en">Eubacterium</rdfs:label>
     </owl:Class>
     
 
@@ -846,7 +831,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1827">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85025"/>
-        <rdfs:label xml:lang="en">Rhodococcus</rdfs:label>
     </owl:Class>
     
 
@@ -922,7 +906,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72294"/>
-        <rdfs:label xml:lang="en">Campylobacter</rdfs:label>
     </owl:Class>
     
 
@@ -930,7 +913,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -1141,7 +1123,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
-        <rdfs:label xml:lang="en">Pseudomonas sp.</rdfs:label>
     </owl:Class>
     
 
@@ -1156,7 +1137,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Burkholderia</rdfs:label>
     </owl:Class>
     
 
@@ -1469,7 +1449,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_729">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
-        <rdfs:label xml:lang="en">Haemophilus parainfluenzae</rdfs:label>
     </owl:Class>
     
 
@@ -1715,7 +1694,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Eggerthella</rdfs:label>
     </owl:Class>
     
 
@@ -1781,7 +1759,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_970">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1843491"/>
-        <rdfs:label xml:lang="en">Selenomonas</rdfs:label>
     </owl:Class>
     
 
@@ -2434,6 +2411,32 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHMI_0000003"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000167"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -4520,14 +4523,24 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001005"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHMI_0000003"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001005"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -7005,6 +7018,32 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHMI_0000003"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -26649,7 +26688,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0001010"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/COB_0000022"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000462"/>
@@ -26657,7 +26696,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001010"/>
         <obo:IAO_0000115>An organism or virus or viron that is too small to be viewed by the unaided eye.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Jie Zheng</obo:IAO_0000117>
         <rdfs:label xml:lang="en">microbe</rdfs:label>
@@ -26781,43 +26819,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000471 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000471">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000019"/>
-        <obo:IAO_0000115>the mean species diversity in sites or habitats at a local scale</obo:IAO_0000115>
-        <obo:IAO_0000118>α-diversity</obo:IAO_0000118>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alpha_diversity</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">alpha diversity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000472 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000472">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000019"/>
-        <obo:IAO_0000115>the ratio between regional and local species diversity</obo:IAO_0000115>
-        <obo:IAO_0000118>true beta diversity</obo:IAO_0000118>
-        <obo:IAO_0000118>β-diversity</obo:IAO_0000118>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Beta_diversity</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">beta diversity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000473 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000473">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000019"/>
-        <obo:IAO_0000115>the total species diversity in a landscape</obo:IAO_0000115>
-        <obo:IAO_0000118>γ-diversity</obo:IAO_0000118>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Gamma_diversity</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">gamma diversity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OHMI_0000474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000474">
@@ -26937,12 +26938,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000485">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/COB_0000022"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -27003,7 +27008,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000492">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHMI_0000489"/>
-        <obo:IAO_0000115>COPD human respiratory airway  microbiome interaction that shows an change of bacteria in patients with COPD compared with healthy controls.</obo:IAO_0000115>
+        <obo:IAO_0000115>COPD human respiratory airway microbiome interaction that shows an change of bacteria in patients with COPD compared with healthy controls.</obo:IAO_0000115>
         <obo:IAO_0000117>Yang Wang, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">bacterial change in lung of COPD patient compared to healthy human</rdfs:label>
     </owl:Class>
