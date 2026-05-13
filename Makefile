@@ -38,7 +38,7 @@ build:
 # download the most recent build of ROBOT
 build/robot.jar: | build
 	@echo "Getting ROBOT" && \
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.2.0/robot.jar
+	curl -L -o $@ "https://github.com/ontodev/robot/releases/latest/download/robot.jar"
 
 ROBOT = java -jar build/robot.jar
 
@@ -46,17 +46,43 @@ ROBOT = java -jar build/robot.jar
 ### Imports
 #
 # Use Ontofox to import various modules.
-#_build/import_%.owl: src/Ontofox-inputs/%_input.txt | build
-#_	curl -s -F file=@$< -o $@ http://ontofox.hegroup.org/service.php
+build/%_import.owl: src/ontology/Ontofox_inputs/%_input.txt | build/robot.jar build
+	curl -s -F file=@$< -o $@ https://ontofox.hegroup.org/service.php
 
-# Use ROBOT to ensure that serialization is consistent.
-#_src/ontology/Ontofox_outputs/%_import.owl: build/import_%.owl
-#_	$(ROBOT) convert -i build/$*_import.owl -o $@
+# Use ROBOT to remove external java axioms
+src/ontology/Ontofox_outputs/%_import.owl: build/%_import.owl
+	$(ROBOT) remove --input build/$*_import.owl \
+	--base-iri 'http://purl.obolibrary.org/obo/$*_' \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	--output $@ 
 
-#_IMPORT_FILES := $(wildcard src/ontology/import/import_*.owl)
+IMPORT_FILES := $(wildcard src/ontology/Ontofox_outputs/*_import.owl)
 
-#_.PHONY: imports
-#_imports: $(IMPORT_FILES)
+.PHONY: imports
+imports: $(IMPORT_FILES)
+
+### Templates
+#
+src/ontology/modules/%.owl: src/ontology/templates/%.csv | build/robot.jar
+	echo '' > $@
+	$(ROBOT) merge \
+	--input src/ontology/ohmi-edit.owl \
+	template \
+	--template $< \
+	--prefix "OHMI: http://purl.obolibrary.org/obo/OHMI_" \
+	--ontology-iri "http://purl.obolibrary.org/obo/ohmi/dev/$(notdir $@)" \
+	--output $@
+
+# Update all modules
+MODULE_NAMES := ohmi_copd\
+ ohmi_mdd
+
+MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/ontology/modules/$(x).owl)
+
+.PHONY: modules
+modules: $(MODULE_FILES)
 
 
 ### Build
