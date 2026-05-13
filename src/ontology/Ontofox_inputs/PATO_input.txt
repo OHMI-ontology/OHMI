@@ -10,6 +10,8 @@ http://purl.obolibrary.org/obo/PATO_0000011 #age
 http://purl.obolibrary.org/obo/PATO_0001241 #physical object property 
 http://purl.obolibrary.org/obo/PATO_0002003 #population quality
 http://purl.obolibrary.org/obo/PATO_0001236 #process quality
+http://purl.obolibrary.org/obo/PATO_0001019 #mass density
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001995 #organismal quality
@@ -18,6 +20,7 @@ http://purl.obolibrary.org/obo/PATO_0001241 #physical object property
 subClassOf  http://purl.obolibrary.org/obo/BFO_0000019
 http://purl.obolibrary.org/obo/PATO_0002003 #population quality
 subClassOf http://purl.obolibrary.org/obo/PATO_0001241 #physical object property 
+
 
 [Source term retrieval setting]
 includeComputedIntermediates
