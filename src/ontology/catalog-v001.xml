@@ -22,4 +22,5 @@
     <uri name="http://purl.obolibrary.org/obo/ohmi/RO_import.owl" uri="Ontofox_outputs/RO_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ohmi/UBERON_import.owl" uri="Ontofox_outputs/UBERON_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_copd.owl" uri="modules/ohmi_copd.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_mdd.owl" uri="modules/ohmi_mdd.owl"/>
 </catalog>
