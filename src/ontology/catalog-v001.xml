@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omo/releases/2026-03-16/omo.owl" uri="http://purl.obolibrary.org/obo/omo.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ohmi/INO_import.owl" uri="Ontofox_outputs/INO_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ohmi/dev/ohmi-dev.owl" uri="ohmi-dev.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ohmi/BFO_import.owl" uri="Ontofox_outputs/BFO_import.owl"/>

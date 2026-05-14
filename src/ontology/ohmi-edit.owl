@@ -32,6 +32,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/UBERON_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_copd.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/ohmi_mdd.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2026-03-16/omo.owl"/>
         <dc:contributor>Barry Smith</dc:contributor>
         <dc:creator>Alexander Alekseyenko</dc:creator>
         <dc:creator>Anna Maria Masci</dc:creator>
@@ -143,6 +144,8 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000060 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000060">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/RO_0016002</obo:IAO_0100001>
         <rdfs:label>obsolete has disease</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -186,6 +189,8 @@
     <!-- http://purl.obolibrary.org/obo/OHMI_0000252 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000252">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
         <rdfs:label>obsolete has phenotype</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -409,6 +414,8 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHMI_0000481">
         <obo:IAO_0000115>an object subproperty of &apos;has participant&apos; in which the participant is a host organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/RO_0002454"/>
         <rdfs:label>obsolete has host</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -494,6 +501,20 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>An aliphatic monocarboxylic acid with a chain length of less than C&lt;small&gt;&lt;sub&gt;6&lt;/sub&gt;&lt;/small&gt;. If any non-hydrocarbon substituent is present, the compound is not normally regarded as a short-chain fatty acid.</obo:IAO_0000115>
+        <obo:IAO_0000118>SCFA</obo:IAO_0000118>
+        <obo:IAO_0000118>SCFAs</obo:IAO_0000118>
+        <obo:IAO_0000118>short-chain fatty acids</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>pubmed:16633129; pubmed:16870803; pubmed:20148677; pubmed:18203540</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">short-chain fatty acid</rdfs:label>
+    </owl:Class>
     
 
 
@@ -635,7 +656,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -746,7 +767,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -963,7 +984,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -989,7 +1010,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1002,7 +1023,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1677,7 +1698,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1728,7 +1749,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_848">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203492"/>
-        <rdfs:label xml:lang="en">Fusobacterium</rdfs:label>
     </owl:Class>
     
 
@@ -1739,7 +1759,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1769,7 +1789,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -26819,6 +26839,49 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000471">
+        <obo:IAO_0000115>the mean species diversity in sites or habitats at a local scale</obo:IAO_0000115>
+        <obo:IAO_0000118>α-diversity</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Alpha_diversity</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/PCO_0000074</obo:IAO_0100001>
+        <rdfs:label xml:lang="en">obsolete alpha diversity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000472">
+        <obo:IAO_0000115>the ratio between regional and local species diversity</obo:IAO_0000115>
+        <obo:IAO_0000118>true beta diversity</obo:IAO_0000118>
+        <obo:IAO_0000118>β-diversity</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Beta_diversity</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/PCO_0000075</obo:IAO_0100001>
+        <rdfs:label xml:lang="en">obsolete beta diversity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHMI_0000473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000473">
+        <obo:IAO_0000115>the total species diversity in a landscape</obo:IAO_0000115>
+        <obo:IAO_0000118>γ-diversity</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Gamma_diversity</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/PCO_0000076</obo:IAO_0100001>
+        <rdfs:label xml:lang="en">obsolete gamma diversity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHMI_0000474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000474">
@@ -27229,10 +27292,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHMI_0000671">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
         <rdfs:label xml:lang="en">SCFA-producing bacteria</rdfs:label>
@@ -27243,20 +27311,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0004907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004907"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ohmi/dev/purl.obolibrary.org/obo/CHEBI_26666">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115>An aliphatic monocarboxylic acid with a chain length of less than C&lt;small&gt;&lt;sub&gt;6&lt;/sub&gt;&lt;/small&gt;. If any non-hydrocarbon substituent is present, the compound is not normally regarded as a short-chain fatty acid.</obo:IAO_0000115>
-        <obo:IAO_0000118>SCFA</obo:IAO_0000118>
-        <obo:IAO_0000118>SCFAs</obo:IAO_0000118>
-        <obo:IAO_0000118>short-chain fatty acids</obo:IAO_0000118>
-        <oboInOwl:hasDbXref>pubmed:16633129; pubmed:16870803; pubmed:20148677; pubmed:18203540</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">short-chain fatty acid</rdfs:label>
-    </owl:Class>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
